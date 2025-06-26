@@ -1,0 +1,3 @@
+== APPENDIX E: WIS2 Notification Message
+
+https://wmo-im.github.io/wis2-notification-message/standard/wis2-notification-message-STABLE.html

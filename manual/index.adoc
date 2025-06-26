@@ -1,0 +1,60 @@
+:title: Manual on the WMO Information System Volume II (APPROVED) - WMO Information System 2.0
+:titletext: {title}
+:version: 1.0.0
+:date: {docdate}
+:copyright: Copyright © 2024 World Meteorological Organization (WMO)
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc:
+:toc-placement!:
+:toclevels: 3
+:sectanchors:
+= {title}
+
+<<<
+[cols = "<",frame = "none",grid = "none"]
+|===
+|{set:cellbgcolor:#FFFFFF}
+|[big]*World Meteorological Organization*
+|Date: {date}
+|Version: {version}
+|Document status: APPROVED
+|Document location: https://wmo-im.github.io/wis2-manual/manual/wis2-manual-APPROVED.html
+|WMO publication location: https://library.wmo.int/idurl/4/68731
+|Standing Committee on Information Management and Technology (SC-IMT)footnote:[https://community.wmo.int/governance/commission-membership/commission-observation-infrastructures-and-information-systems-infcom/commission-infrastructure-officers/infcom-management-group/standing-committee-information-management-and-technology-sc-imt]
+|Commission for Observation, Infrastructure and Information Systems (INFCOM)footnote:[https://community.wmo.int/governance/commission-membership/infcom]
+|{copyright}
+|===
+
+<<<
+toc::[]
+<<<
+
+include::sections/introduction.adoc[]
+
+include::sections/terms-and-definitions.adoc[]
+
+include::sections/part1.adoc[]
+
+include::sections/part2.adoc[]
+
+include::sections/part3.adoc[]
+
+include::sections/part4.adoc[]
+
+include::sections/part5.adoc[]
+
+include::sections/part6.adoc[]
+
+include::sections/appendix-a.adoc[]
+
+include::sections/appendix-b.adoc[]
+
+include::sections/appendix-c.adoc[]
+
+include::sections/appendix-d.adoc[]
+
+include::sections/appendix-e.adoc[]
+
+include::sections/appendix-f.adoc[]
