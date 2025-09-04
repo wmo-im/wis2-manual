@@ -1,1 +1,50 @@
 == Terms and definitions
+*Application Programming Interface (API).* A clearly defined set of methods by which software components can interact. APIs may exist for web services and software development toolkits.
+
+*Area of responsibility (AoR).* A defined region which is assigned to a Global Information System Centre (GISC) for support and coordination.
+
+*Data Collection or Production Centre (DCPC).* A designated centre for the regional management and production of data and metadata via a WIS Node.
+
+*Data consumer (role).* An actor that uses data for business needs.
+
+*Data publisher (role).* An actor that makes data available for discovery, access or visualization.
+
+*Data owner (role).* An actor that is responsible for the life cycle management of a given dataset.
+
+*Dataset.* A collection of data with similar and consistent characteristics and attributes (type, subject/topic, ownership, access/usage policy, update frequency, etc.). A dataset may be persisted as one or more files, objects, or database records. Examples of datasets include real-time surface weather data from an observing network, numerical weather prediction models, or a series of satellite data capturing consistent variables over scheduled intervals. See the _Guide to the WMO Information System_ (WMO-No. 1061), Volume II for guidance on the scope of datasets.
+
+*Discovery metadata.* A limited set of information about the dataset for discovery purposes, including identification, citations, spatial and temporal extents, distribution mechanisms, and license and access constraints.
+
+*Discovery metadata record.* A resource containing the discovery metadata describing a specific dataset.
+
+*Global Broker.* A Global Service that provides real-time notifications of WIS data availability.
+
+*Global Cache.* A Global Service that provides highly available access to WIS data via the Internet.
+
+*Global Discovery Catalogue.* A Global Service that provides discovery and search services for WIS data.
+
+*Global Information System Centre (GISC).* A designated centre for data sharing, training, support, and the provision of Global Services.
+
+*Global Monitor.* A Global Service that provides monitoring and performance information of data made available on WIS.
+
+*Global Services, Global Service components.* The suite of services that provide the core capabilities of WIS.
+
+*Granularity.* The level of detail in a dataset.
+
+*Message Broker.* A service that provides publish and subscribe capabilities in support of real-time notifications.
+
+*Message Queue.* The functionality that allows for asynchronous and inter-process communications and operations.
+
+*National Centre (NC).* A designated centre for the national management and production of data and metadata via a WIS Node.
+
+*Notification, notification message.* A structured payload advertising the availability of new, updated, or removed data.
+
+*Real time, near real time.* For the purposes of Earth system monitoring and prediction, timeliness is measured as the interval between the time an observation is made and the time it is received in a processing centre. Real-time data have a timeliness on the order of minutes and never greater than a few hours, depending on the type of observation. Near-real-time data have a timeliness of more than 12 hours to several days.
+
+*Subscription, subscriber.* A Message Broker client interested in receiving notifications of new, updated or removed data.
+
+*Uniform Resource Identifier (URI).* See https://datatracker.ietf.org/doc/html/rfc3986[RFC 3986&#44; Uniform Resource Identifier (URI): Generic Syntax].
+
+*Uniform Resource Locator (URL).* A URL is a subtype of URI – see https://datatracker.ietf.org/doc/html/rfc3986#section-1.1.3[RFC 3986&#44; Uniform Resource Identifier (URI): Generic Syntax&#44; 1.1.3. URI&#44; URL&#44; and URN].
+
+*WIS Node.* The core capabilities provided by NCs and DCPCs in providing data and discovery metadata to WIS.
