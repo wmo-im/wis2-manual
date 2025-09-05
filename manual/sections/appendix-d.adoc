@@ -1,0 +1,3 @@
+== APPENDIX D: WIS2 TOPIC HIERARCHY
+
+https://wmo-im.github.io/wis2-topic-hierarchy/standard/wis2-topic-hierarchy-STABLE.html#_wis2_topic_hierarchy

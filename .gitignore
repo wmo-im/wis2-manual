@@ -1,0 +1,4 @@
+.asciidoctor/
+manual/*.docx
+manual/*.html
+manual/*.pdf

@@ -1,0 +1,19 @@
+== Introduction
+The _Manual on the WMO Information System_ (WMO-No. 1060) is designed to ensure that the data, information and communication practices, procedures and specifications that WMO Members employ in the operation of the WMO Information System (WIS) are adequately uniform and standard.
+
+The present Manual is Annex VII to the https://library.wmo.int/idurl/4/35722[_Technical Regulations_] (WMO-No. 49), Volume I, which states, in Part II, that WIS is established and shall be operated in accordance with the practices, procedures and specifications described in the Manual.
+
+The WMO Information System cuts across all WMO-related disciplines. It intersects many WMO practices, procedures and specifications that are primarily defined in specialized publications, including the https://library.wmo.int/idurl/4/35703[_Manual on the WMO Integrated Processing and Prediction System_] (formerly the _Manual on the Global Data-processing and Forecasting System_) (WMO-No. 485) and the https://library.wmo.int/idurl/4/55063[_Manual on the WMO Integrated Global Observing System_] (WMO-No. 1160).
+
+As part of the Technical Regulations, the present Manual sets out standard and recommended practices and procedures. The General Provisions, included in the _Technical Regulations_ (WMO-No. 49), Volume I, define the meaning of the phrase “standard and recommended practices and procedures”.
+
+[.small]
+Note: The procedures for amending the present Manual can be found in the https://library.wmo.int/idurl/4/56841[_Rules of Procedure for Technical Commissions_] (WMO-No. 1240).
+
+In 2017, the Executive Council at its sixty-ninth session endorsed the WMO Information System 2.0 (WIS 2.0) strategy, which outlines the activities involved in moving towards the next generation of WIS, with an enhanced focus on supporting global agendas, covering all WMO activities and domains, reducing costs, and facilitating the activities of National Meteorological and Hydrological Services (NMHSs).
+
+In 2019, the World Meteorological Congress at its eighteenth session endorsed the WIS 2.0 Implementation Approach and authorized the Executive Council to make decisions on WIS 2.0 during its development.
+
+In 2021, the Executive Council at its seventy-third session endorsed the WIS 2.0 implementation plan, authorizing the development of the WIS 2.0 Technical Regulations.
+
+In 2023, the Executive Council at its seventy-sixth session endorsed the publication of the first edition of Volume II of the _Manual on the WMO Information System_ (WMO-No. 1060), containing the Technical Regulations for WIS 2.0. Throughout the present volume of the Manual, “WIS” should be understood to mean “WIS 2.0”.

@@ -1,0 +1,139 @@
+== APPENDIX A: WIS 2.0 principles and benefits
+
+The WMO review of emerging data issues cites web services as one of the technologies that:
+
+"present new operating concepts that will improve operational efficiency, information sharing and service delivery, and enable users to [more effectively] exploit data".foot[.small]
+Note:[https://library.wmo.int/idurl/4/56904[_WMO Guidelines on Emerging Data Issues_] (WMO‑No. 1239)]
+
+The World Wide Web Consortium (W3C) states that:
+
+"The Web is the World’s most successful vendor neutral distributed information system, enabling people to access applications and services right across the World from their smart phones, tablets, laptops and other computing devices. […] The Web of data [...] ranges from small amounts of data to vast datasets,[...][which are either] open to all or restricted to a few. Data can be consumed by Web pages, downloaded for local processing, or accessed via network APIs that support remote processing."foot[.small]
+Note:[See Raggett, D. _W3C Study of Practices and Tooling for Web Data Standardisation_; World Wide Web Consortium (W3C), 2017. https://www.w3.org/2017/12/odi-study/#introduction.]
+
+The Web is founded on three pillars:
+
+(1) Addressing resources (web pages, data, metadata, APIs, etc.) using URIs; 
+
+(2) Open data standards; and 
+
+(3) Open standard network protocols.
+
+The provision of digital resources (e.g. data, information, products) using the Web does not automatically imply that those resources are freely available to all without restrictions on their use. Web technologies allow for authentication and authorization where necessary: resource providers retain control of who can access published resources, and they can force users to accept a license specifying the terms and conditions under which those resources can be used before allowing them access.
+
+Ten technical changes to WIS (the WIS 2.0 principles) and the associated benefits are outlined below.
+
+*Principle 1:* WIS 2.0 adopts web technologies and leverages industry best practices and open standards.foot[.small]
+Note:[Particularly open standards from the Internet Engineering Task Force (IETF), W3C, the Open Geospatial Consortium (OGC).]
+
+BENEFIT:
+
+• The use of widely adopted practices and open standards will enable a large population of users to conveniently interact with WIS 2.0 to discover, access, and use authoritative weather, water and climate data.
+
+[.small]
+Note: Many NMHSs already embrace web architecture to meet their business needs.
+
+*Principle 2:* WIS 2.0 uses URLs to identify resources (i.e., web pages, data, metadata, APIs).foot[.small]
+Note:[For more information on identifying resources, refer to W3C Technical Architecture Group. _Architecture of the World Wide Web Volume One, 2. Identification_; World Wide Web Consortium (W3C), 2004. https://www.w3.org/TR/webarch/#identification.]
+
+BENEFIT:
+
+• URLs uniquely identify a resource and describe the primary mechanism for retrieving or interacting with it (i.e. the network ‘location’ and the communications protocol to be used).
+
+*Principle 3:* WIS 2.0 prioritizes the use of public telecommunication networks (for example, the Internet) when publishing digital resources.
+
+BENEFITS:
+
+• Publishing digital resources on the Internet enables the meteorological community to retrieve or interact with those resources – it is unlikely that most of the community would be permitted to join managed networks such as Area Meteorological Data Communications Networks (AMDCNs) employed by NMHSs for data exchange with guaranteed service levels.
+
+• Internet connections are significantly cheaper than the same bandwidth delivered through a managed network.
+
+[.small]
+Note: The WMO Integrated Global Data Dissemination Service (IGDDS) remains an important component of WIS, providing data distribution where there is no Internet connectivity using Digital Video Broadcast by Satellite (DVB-S) broadcasts.
+
+The first generation of WIS was primarily concerned with datafoot[.small]
+Note:[The term ‘data’ is used loosely here to cover everything from products to information to data.] as traditionally exchanged via the GTS. A major issue with this data-centric approach is that often it is unclear to users how they might access (download or otherwise interact with) data that are of interest to them. In line with industry practice, WIS 2.0 recognizes that users, whether humans or software systems, will always interact with data published using WIS through some form of web service. Web services are used for a broad range of functions – to download data for local use, to request routine delivery of data, to view or display data, and so forth.
+
+*Principle 4:* WIS 2.0 requires the provision of web service(s) to access or interact with digital resources (for example, data, information, products) published using WIS.
+
+BENEFITS:
+
+• Web services support ‘machine-actionability’ (the capacity of software systems to access, interoperate, and reuse data with little or no human intervention) – as the volume, complexity and velocity (creation speed) of data have increased, human reliance on computational support to deal with those data has also increased.
+
+• NMHSs develop their capacity to build and operate web services, allowing them to extract more value from their data holdings through delivery of higher value services to users.
+
+[.small]
+Note: Based on the standards and conventions commonly used in their target user community (or communities), WMO programmes may identify additional technical specifications to which participating centres should conform in addition to the specifications in the present Manual.
+
+When designing their web service offerings, NCs and DCPCs publishing ‘big data’ into WIS should consider the capability of their users to work with those data. The World Meteorological Congress, at its seventeenth session, noted that most Members were ill-prepared for the predicted explosion in data volumes. Many Members are already unable to effectively use the data published and made available today. Data volumes are rapidly increasing to sizes that require a significant investment in technical infrastructure to manage and use those data. It is also often impractical to move such large volumes of data between collaborating organizations fast enough to meet operational requirements.
+
+Web services may be used to provide a network API to process or simplify complex or high-volume data to better match the needs of the user or to create a product. These services may range in complexity from simple query APIs that allow the user to extract only a geographic subset of data corresponding to the user’s area of interest through to remote execution of a local area weather prediction model according to the user’s specification and visualization of the model output. What both of these examples have in common is that the data are processed using the data provider’s infrastructure to create a result or product that is small enough to be conveniently downloaded and used. Where the data processing is complex, intensive or requires significant user-specific configuration, NCs and DCPCs should consider the use of cloud technologies to underpin their data processing services.
+
+*Principle 5:* WIS 2.0 encourages NCs and DCPCs to provide ‘data reduction’ services via WIS that process ‘big data’ to create results or products that are small enough to be conveniently downloaded and used by users with minimal technical infrastructure.
+
+BENEFIT:
+
+• Using ‘data reduction’ web services to process high-volume, complex data remotely, Members’ agencies and institutions can deliver high-value, high-quality services to their governments and citizens, helping them to meet their national mandates more effectively and without the need to invest in and operate their own data management infrastructure.foot[.small]
+Note:[The provision of data processing services in this way supports the WMO principles that no Member should be left behind and that no Member stands alone – through cooperation, all Members should have access to the necessary capability to work with the predicted increase in data volumes.]
+
+Real-time delivery of data and products in support of the World Weather Watch programme remains a core requirement for WIS. Data exchange methods permitted on the GTSfoot[.small]
+Note:[File Transfer Protocol (FTP) and Secure File Transfer Protocol (SFTP); see the https://library.wmo.int/idurl/4/35800[_Manual on the Global Telecommunication System_] (WMO-No. 386), Attachment II-15.] require manual intervention in response to each user request for real-time data delivery, for example, to set up and configure a new data delivery path. This practice will not scale to meet the demand for real-time data from across the meteorological community.
+
+Modern messaging protocols, such as those that underpin social media platforms, solve this problem by automating how the relationship between the data provider and the consumer is established. Data providers create a channel (‘Message Queue’) and categorize which data are published to that channel. Data consumers determine which channels contain data of interest and, assuming they have the necessary access rights, subscribe to them. Once a subscription to a channel is established, data published to that channel are then automatically sent to the subscriber. This is known as the publish-subscribe messaging pattern (‘pubsub’). With such modern messaging protocols, there is no manual configuration burden on data providers to add new subscribers.
+
+[.small]
+Note: These modern messaging protocols may also be used to send notifications to subscribers, for example, to alert subscribers that new data or products are available for them to access or download at their convenience.
+
+*Principle 6:* WIS 2.0 adds open standard messaging protocols that use the publish-subscribe message pattern to the list of data exchange mechanisms approved for use within WIS and GTS.
+
+BENEFIT:
+
+• Low effort for data providers to distribute data in real time to large numbers of consumers.
+
+*Principle 7:* WIS 2.0 requires all services that provide real-time distribution of messages (containing data or notifications about data availability) to cache/store the messages for a minimum of 24 hours and allow users to request cached messages for download.
+
+BENEFIT:
+
+• Software systems that consume real-time data or notifications can recover from failure by requesting the delivery of messages that were missed while the system was offline.
+
+Notes:
+
+1. From a WIS 2.0 perspective, open standard message protocols using the publish-subscribe pattern are considered to be web services.
+2. Digital resources may be made available through multiple web services. For example, an NC may publish synoptic reports via both download (e.g. a user queries the service to access data – “pull”) and real-time delivery (e.g. a user subscribes to the service and data is sent when available – “push”).
+3. Many Message Switching Systems (MSS) already use the channels concept to organize the distribution of data. MSS could be amended to support these new data exchange methods, thereby minimizing disruption to the core business of NMHSs (internal, national and international data distribution).
+
+During its lifetime, the GTS – a core component of WIS – has seen continual evolution, notably, the establishment of managed regional networks or Area Meteorological Data Communication Networks (AMDCNs) using high-performance managed networks and the Internet. Within such networks, all nodes are visible to each other; there is no longer any need to manually route data through an intermediate chain of nodes to reach an eventual destination. Instead, data routing is delegated to underlying network infrastructure that is able to avoid the use of network segments suffering from poor performance and is thus able to determine the optimal (i.e. quickest) path from the origin to the destination.
+
+The “store and forward” data dissemination pattern, routing data through an intermediate chain of nodes, remains central to GTS operations. Each node on the GTS operates a 'message switch' to control data flow based on the static configuration of the routing tables and the unique identifier (header) of each data package (bulletin). Routing tables and bulletin headers are rendered obsolete in modern telecommunication networks.
+
+[.small]
+Note: Many NMHSs already meet bilateral data sharing arrangements using direct file transfer, avoiding the need for a routing table entry and effectively bypassing the GTS altogether (albeit often using the same underpinning telecommunication network infrastructure).
+
+*Principle 8:* WIS 2.0 adopts direct data exchange between the provider and the consumer and phases out the use of routing tables and bulletin headers.
+
+BENEFITS:
+
+• Faster transmission of real-time data by avoiding the latency introduced by message switches at intermediate GTS nodes.
+
+• Simplified message switching operations for all Members because routing table maintenance is no longer required.
+
+• Faster setup of new data sharing arrangements as there is no need to wait for intermediate nodes to update their routing table configuration.
+
+With the elevation of web services to a primary concern of WIS 2.0, the WIS Catalogue and the WMO Core Metadata specification have been updated.
+
+*Principle 9:* WIS 2.0 provides a catalogue containing metadata that describe both data and the service(s) provided to access those data.
+
+BENEFIT:
+
+• Users will be able to easily find the data in WIS that interest them, locate the most convenient web service with which to access those data, and determine how to best use that web service to meet their needs.
+
+WIS 2.0 enables data and web services to be discovered via commercial search engines, thereby enhancing the discoverability of authoritative weather, water and climate data.
+
+*Principle 10:* WIS 2.0 encourages data providers to publish metadata describing their data and web services in a way that can be indexed by commercial search engines.
+
+BENEFIT:
+
+• Indexing by commercial search engines will help users discover data and associated services using their preferred search enginefoot[.small]
+Note:[As an example of how Google uses schema.org structured markup to enable users to find datasets, see Castelvecchi, D. Google Unveils Search Engine for Open Data. _Nature_ *2018*, _561_ (7722), 161–162. https://doi.org/10.1038/d41586-018-06201-x.] rather than having to find and use a WIS portal.
+
+[.small]
+Note: The Global Discovery Catalogue will provide the necessary functionality to support indexing WIS discovery metadata by commercial search engines.

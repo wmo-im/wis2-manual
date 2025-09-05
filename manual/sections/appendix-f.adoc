@@ -1,0 +1,3 @@
+== APPENDIX F: WMO CORE METADATA PROFILE (VERSION 2)
+
+https://wmo-im.github.io/wcmp2/standard/wcmp2-STABLE.html#_wmo_core_metadata_profile_version_2

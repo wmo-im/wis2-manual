@@ -1,0 +1,269 @@
+== APPENDIX B: WMO INFORMATION SYSTEM COMPETENCIES
+
+*1. INTRODUCTION*
+
+1.1 A variety of skilled personnel, including project managers, engineers, technicians and information technology staff may provide WIS services within an NMHS or a related service. Third party organizations, such as universities, international and regional institutions and centres, private sector companies and other providers, may also supply data, products and information for WIS services.
+
+1.2 This document sets out a competency framework for personnel involved in the provision of WIS services. It is not necessary for each individual staff member to have the full set of competencies; rather, within specific application conditions (see 2 below), which are different for each organization, it is expected that an institution providing WIS services will have staff members somewhere within the organization who together demonstrate all the competencies at the institution’s infrastructural capacity level. The performance and knowledge requirements that support the competencies should be customized based on the particular context of an organization. However, the general criteria and requirements provided here apply in most circumstances.
+
+*2. APPLICATION CONDITIONS*
+
+(a) The organizational context, priorities and stakeholder requirements;
+
+(b) The way in which internal and external personnel are used to provide WIS services;
+
+(c) The available resources and capabilities (financial, human and technological resources, and facilities) and organizational structures, policies and procedures;
+
+(d) National and institutional legislation, rules and procedures.
+
+*3. COMPETENCIES*
+
+Seven competencies across four basic functional areas have been defined as follows:
+
+*Infrastructure*
+
+1. Manage the physical infrastructure;
+
+2. Manage the operational applications.
+
+*Data*
+
+3. Manage and share data;
+
+4. Manage data discovery.
+
+*External interactions*
+
+5. Manage interactions among WIS centres;
+
+6. Manage external user interactions.
+
+*Overall service*
+
+7. Manage the operational service.
+
+*COMPETENCY 1: MANAGE THE PHYSICAL INFRASTRUCTURE*
+
+*Competency description*
+
+Prepare, plan, design, procure, implement and operate the physical infrastructure, networks and applications required to support the WIS centre.
+
+*Performance components*
+
+_Management of information technology operations_
+
+1a. Maintain the system in optimal operational condition by setting and meeting service levels in areas including:
+
+• Configuration;
+
+• Preventative and corrective maintenance and servicing;
+
+• Equipment replacement or upgrades;
+
+• Networking and processing capacity;
+
+• System monitoring and reporting procedure, and corrective actions;
+
+1b. Provide contingency planning, operation backup and restoration;
+
+_Management of facilities_
+
+1c. Manage the security of the physical site;
+
+1d. Manage the environmental control of the physical site.
+
+*Knowledge and skill requirements*
+
+• General ICT skills;
+
+• Operation, configuration and maintenance of equipment and applications;
+
+• Recognized information technology service management frameworks;
+
+• Current technologies and emerging trends;
+
+• Service level agreements.
+
+*COMPETENCY 2: MANAGE THE OPERATIONAL APPLICATIONS*
+
+*Competency description*
+
+Prepare, plan, design, procure, implement and operate the applications required to support WIS functions.
+
+*Performance components*
+
+2a. Meet service levels by maintaining applications in optimal operational condition by:
+
+• Configuring applications;
+
+• Monitoring and responding to the behaviour of applications;
+
+• Carrying out preventative and corrective maintenance;
+
+• Replacing or upgrading applications;
+
+2b. Provide contingency planning and application backup and restoration;
+
+2c. Ensure data integrity and completeness in the event of system failure;
+
+2d. Ensure system security.
+
+*Knowledge and skill requirements*
+
+• General ICT skills;
+
+• Operation, configuration and maintenance of applications;
+
+• Recognized information technology service management frameworks;
+
+• Current technologies and emerging trends;
+
+• WIS functions and requirements;
+
+• WIS security policies.
+
+*COMPETENCY 3: MANAGE AND SHARE DATA*
+
+*Competency description*
+
+Manage the collection, processing, storage and sharing of data through scheduled and on-demand services.
+
+*Performance components*
+
+3a. Ensure that data are collected and shared as per the data policy;
+
+3b. Provide access to data (publish data) as per the data policy;
+
+3c. Publish and subscribe to notifications about data availability;
+
+3d. Encode, decode, validate and package data;
+
+3e. Manage the compilation of datasets;
+
+3f. Manage connectivity.
+
+*Knowledge and skill requirements*
+
+• System and network monitoring and viewing tools;
+
+• Data formats and Message Queue protocols;
+
+• Licensing and data policies.
+
+*COMPETENCY 4: MANAGE DATA DISCOVERY*
+
+*Competency description*
+
+Create and maintain discovery metadata records describing data and services and publish them to the Global Discovery Catalogue.
+
+*Performance components*
+
+4a. Create and maintain discovery metadata records describing data and services;
+
+4b. Add, update, replace or delete metadata records within the catalogue;
+
+4c. Provide access to discovery metadata records;
+
+4d. Publish and subscribe to notifications about discovery metadata availability;
+
+4e. Ensure that all data and service offerings from a WIS centre have complete, valid and meaningful discovery metadata records uploaded to the catalogue.
+
+*Knowledge and skill requirements*
+
+• Discovery metadata concepts and formats (WMO Core Metadata Profile);
+
+• Metadata entry and management tools;
+
+• Message Queue protocols;
+
+• Policies;
+
+• Written English.
+
+*COMPETENCY 5: MANAGE INTERACTION AMONG WIS CENTRES*
+
+*Competency description*
+
+Manage relationships and compliance between WIS centres.
+
+*Performance components*
+
+5a. Exchange information with other centres on operational matters;
+
+5b. Facilitate the registration of new WIS centres;
+
+5c. Facilitate the registration of new datasets;
+
+5d. Subscribe to notifications from other WIS centres about data availability;
+
+5e. Create and respond to WIS service messages.
+
+*Knowledge and skill requirements*
+
+• Knowledge of current exchanges and requirements for the notification of operational changes;
+
+• Procedures and practices for the registration of WIS centres and datasets;
+
+• Message Broker concepts;
+
+• Service level agreements;
+
+• Written English.
+
+*COMPETENCY 6: MANAGE EXTERNAL USER INTERACTIONS*
+
+*Competency description*
+
+Ensure users, including data publishers and data consumers (users), can publish and access data and products through WIS.
+
+*Performance components*
+
+6a. Register data consumers where needed and maintain a service agreement;
+
+6b. Set and implement data and service access criteria;
+
+6c. Provide systems and support for data consumers to access data and services;
+
+6d. Manage user relations to ensure a high satisfaction level.
+
+*Knowledge and skill requirements*
+
+• Data policies;
+
+• WIS Global Services;
+
+• WIS registration and monitoring tools and policies;
+
+• User support documentation and help files;
+
+• Written English.
+
+*COMPETENCY 7: MANAGE THE OPERATIONAL SERVICE*
+
+*Competency description*
+
+Ensure the quality and continuity of the service.
+
+*Performance components*
+
+7a. Coordinate all WIS functions and activities of the centre;
+
+7b. Ensure and demonstrate compliance with regulations and policies;
+
+7c. Monitor and meet quality and service performance standards;
+
+7d. Ensure service continuity through risk management, planning and the implementation of service contingency, backup and restoration, and ensure data continuity in the event of system failure;
+
+7e. Plan and coordinate the delivery of new functionalities.
+
+*Knowledge and skill requirements*
+
+• General management skills;
+
+• Overview of local and external WIS operations and associated service agreements;
+
+• WIS regulations and policies;
+
+• Functional specifications;
+
+• Written English.
