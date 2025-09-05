@@ -1,12 +1,12 @@
-== PART II. Designation procedures and WIS Centres 
+== PART II. DESIGNATION PROCEDURES AND WIS CENTRES 
 
-2.1 General 
+*2.1 GENERAL* 
 
 2.1.1 The establishment and operation of WIS depend on WMO Members and partner organizations taking on the functional roles of GISCs, DCPCs and NCs. Procedures for designating a WIS centre rely on the agreed WIS functional architecture and the WIS compliance specifications. 
 
 2.1.2 *As required by the _Technical Regulations_ (WMO-No. 49), Volume I, Part II, 1.2.3, Congress and the Executive Council shall consider the designation of GISCs and DCPCs based on the recommendations of the Commission for Observation, Infrastructure and Information Systems (INFCOM). The development of INFCOM recommendations includes consultation and coordination with the Commission for Weather, Climate, Hydrological, Marine and Related Environmental Services and Applications (SERCOM) and the regional associations, as appropriate.* 
 
-2.2 *Procedure for designating a National Centre* 
+*2.2 PROCEDURE FOR DESIGNATING A NATIONAL CENTRE* 
 
 2.2.1 *Background* 
 
@@ -22,7 +22,7 @@
 
 2.2.3.1 *The NCs designated by Members shall be included in the list of WIS centres in Appendix C to this Manual. Each NC entry shall include the name of the associated GISC.* 
 
-2.3 *Procedure for designating a Data Collection or Production Centre*  
+*2.3 PROCEDURE FOR DESIGNATING A DATA COLLECTION OR PRODUCTION CENTRE*  
 
 2.3.1 *Background*  
 
@@ -54,7 +54,7 @@
 
 2.3.5.1 The list of DCPCs approved by Congress or the Executive Council is included in Appendix C to this Manual. Each DCPC entry includes the name of the associated GISC. 
 
-2.4 *Procedure for designating a Global Information System Centre*  
+*2.4 PROCEDURE FOR DESIGNATING A GLOBAL INFORMATION SYSTEM CENTRE*  
 
 2.4.1 *Procedure*  
 
@@ -101,7 +101,7 @@
 
 2.4.5.1 The list of GISCs approved by Congress or the Executive Council is included in Appendix C of this Manual. 
 
-2.5 *Performance review of WIS centres*  
+*2.5 PERFORMANCE REVIEW OF WIS CENTRES*  
 
 2.5.1 *Background*  
 

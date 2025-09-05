@@ -1,4 +1,5 @@
-== Terms and definitions
+== TERMS AND DEFINITIONS
+
 *Application Programming Interface (API).* A clearly defined set of methods by which software components can interact. APIs may exist for web services and software development toolkits.
 
 *Area of responsibility (AoR).* A defined region which is assigned to a Global Information System Centre (GISC) for support and coordination.

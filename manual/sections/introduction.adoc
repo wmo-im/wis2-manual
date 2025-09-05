@@ -7,6 +7,7 @@ The WMO Information System cuts across all WMO-related disciplines. It intersect
 
 As part of the Technical Regulations, the present Manual sets out standard and recommended practices and procedures. The General Provisions, included in the _Technical Regulations_ (WMO-No. 49), Volume I, define the meaning of the phrase “standard and recommended practices and procedures”.
 
+[.small]
 Note: The procedures for amending the present Manual can be found in the https://library.wmo.int/idurl/4/56841[_Rules of Procedure for Technical Commissions_] (WMO-No. 1240).
 
 In 2017, the Executive Council at its sixty-ninth session endorsed the WMO Information System 2.0 (WIS 2.0) strategy, which outlines the activities involved in moving towards the next generation of WIS, with an enhanced focus on supporting global agendas, covering all WMO activities and domains, reducing costs, and facilitating the activities of National Meteorological and Hydrological Services (NMHSs).

@@ -1,4 +1,4 @@
-== PART IV. WIS technical specifications
+== PART IV. WIS TECHNICAL SPECIFICATIONS
 
 *4.1 GENERAL*
 
@@ -39,6 +39,7 @@
 
 4.2.4 Discovery metadata should only be amended by the data publisher that generated them.
 
+[.small]
 Note: As an exception, a Global Discovery Catalogue may amend the discovery metadata records that it publishes to include details of how to subscribe to notifications about data availability from Global Brokers.
 
 4.2.5 See also 3.3.3 (Describe data with discovery metadata), 3.4.4 (Operate a WIS node), 3.5.4 (Performance management), 3.7.6 (Functional requirements of a Global Discovery Catalogue), 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata), and 4.6 (WIS-TechSpec-5: Operating a Global Discovery Catalogue).
