@@ -1,1 +1,137 @@
 == PART IV. WIS technical specifications
+
+*4.1 GENERAL*
+
+4.1.1 The following six technical specifications (WIS-TechSpecs) define the interfaces to the foundational WIS functions:
+
+• WIS-TechSpec-1: Managing discovery metadata;
+• WIS-TechSpec-2: Publishing data and discovery metadata;
+• WIS-TechSpec-3: Operating a Global Broker;
+• WIS-TechSpec-4: Operating a Global Cache;
+• WIS-TechSpec-5: Operating a Global Discovery Catalogue;
+• WIS-TechSpec-6: Managing operations of the WIS.
+
+4.1.2 *NCs shall support three of the technical specifications: WIS-TechSpec-1, WIS-TechSpec-2, and WIS-TechSpec-6. An NC can arrange through bilateral agreements for another NC, a DCPC or a GISC to perform functions on its behalf.*
+
+4.1.3 *DCPCs shall support three of the technical specifications: WIS-TechSpec-1, WIS-TechSpec-2, and WIS-TechSpec-6.*
+
+4.1.4 *GISCs shall support WIS centres in their area of responsibility in meeting their obligations to support WIS-TechSpec-1, WIS-TechSpec-2, and WIS-TechSpec-6.*
+
+4.1.5 *GISCs shall support one of the technical specifications: WIS-TechSpec-6.*
+
+4.1.6 *WIS centres operating a Global Broker shall support one of the technical specifications: WIS-TechSpec-3.*
+
+4.1.7 *WIS centres operating a Global Cache shall support one of the technical specifications: WIS-TechSpec-4.*
+
+4.1.8 *WIS centres operating a Global Discovery Catalogue shall support one of the technical specifications: WIS-TechSpec-5.*
+
+4.1.9 *WIS centres operating a Global Monitor shall support one of the technical specifications: WIS-TechSpec-6.*
+
+4.1.10 Any DCPC or NC is welcome to implement interfaces beyond the minimum required. Accordingly, the technical specification is mandatory wherever application of the interface is applied.
+
+*4.2 WIS-TECHSPEC-1: MANAGING DISCOVERY METADATA*
+
+4.2.1 *A data publisher shall provide up-to-date discovery metadata describing each dataset it makes available via WIS, including indicating when a dataset is no longer available.*
+
+4.2.2 *Discovery metadata records describing datasets published via WIS shall comply with the WMO Core Metadata Profile version 2 (WCMP2), as specified in Part V of the present Manual.*
+
+4.2.3 *Discovery metadata shall be provided in advance of publication of the associated data.*
+
+4.2.4 Discovery metadata should only be amended by the data publisher that generated them.
+
+Note: As an exception, a Global Discovery Catalogue may amend the discovery metadata records that it publishes to include details of how to subscribe to notifications about data availability from Global Brokers.
+
+4.2.5 See also 3.3.3 (Describe data with discovery metadata), 3.4.4 (Operate a WIS node), 3.5.4 (Performance management), 3.7.6 (Functional requirements of a Global Discovery Catalogue), 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata), and 4.6 (WIS-TechSpec-5: Operating a Global Discovery Catalogue).
+
+*4.3 WIS-TECHSPEC-2: PUBLISHING DATA AND DISCOVERY METADATA*
+
+4.3.1 *Data and discovery metadata published via WIS shall be represented in the manner prescribed by the relevant Technical Regulations.*
+
+4.3.2 *Data and discovery metadata published via WIS shall be accessible via a URL using at least one of the protocols specified in the _Guide to WIS,_ Volume II.*
+
+4.3.3 *URLs provided for accessing core data, as defined in Resolution 1 (Cg-Ext(2021)), and discovery metadata shall be directly resolvable, that is, data or discovery metadata may be downloaded simply by resolving the given URL without further action, such as populating elements of an API.*
+
+4.3.4 Data and discovery metadata published via WIS may be accessible via an interactive, self-describing, web-based API. Where a web-based API is provided to access core data and discovery metadata, the API complements the mandatory access mechanism using a directly resolvable URL.
+
+4.3.5 *Notifications indicating the availability and access URL of new or updated data or discovery metadata shall be published to a Message Broker using the format and protocol specified in Appendix E.*
+
+4.3.6 *Notifications indicating the removal of a dataset from WIS shall be published to a Message Broker using the format and protocol specified in Appendix E.*
+
+4.3.7 See also 3.6.2 (Provide access to data and discovery metadata), 4.2 (WIS-TechSpec-1: Managing discovery metadata), 4.4 (WIS-TechSpec-3: Operating a Global Broker), and 4.5 (WIS-TechSpec-4: Operating a Global Cache).
+
+*4.4 WIS-TECHSPEC-3: OPERATING A GLOBAL BROKER*
+
+4.4.1 *A Global Broker shall operate a highly available Message Broker using the format and protocol specified in the _Guide to WIS,_ Volume II.*
+
+4.4.2 *At least one Global Broker shall subscribe to notifications published from each WIS node and Global Cache according to the standardized topic structure. The topic structure and process to allocate WIS nodes and Global Caches to Global Brokers are described in Appendix D.*
+
+4.4.3 *A Global Broker shall subscribe to notifications from other Global Brokers to provide for the redundant and reliable transmission of notifications via WIS. Interconnections between Global Brokers are described in the _Guide to WIS,_ Volume II.*
+
+4.4.4 *A Global Broker shall republish notifications from WIS nodes and Global Services as specified in the _Guide to WIS,_ Volume II.*
+
+4.4.5 *A Global Broker shall republish notifications only once irrespective of how many times it receives each notification.*
+
+4.4.6 *A Global Broker shall not republish a malformed/non-compliant notification if it would interfere with the correct operation of WIS. If a Global Broker receives such a notification, the WIS centre from where the malformed/non-compliant notification originated shall be alerted as specified in the _Guide to WIS,_ Volume II.*
+
+4.4.7 See also 3.7.4 (Functional requirements of a Global Broker), 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata), 4.5 (WIS-TechSpec-4: Operating a Global Cache) and 4.7 (WIS-TechSpec-6: Managing operations of the WIS).
+
+*4.5 WIS-TECHSPEC-4: OPERATING A GLOBAL CACHE*
+
+4.5.1 *A Global Cache shall operate as a highly available storage and download service for:*
+
+*(i) Core data, as defined in Resolution 1 (Cg-Ext(2021)), where programme requirements require sharing in real time or near real time; and*
+*(ii) Discovery metadata records.*
+
+4.5.2 *A Global Cache shall download core data and discovery metadata from WIS nodes and other Global Caches to provide for reliable, low-latency access to those resources via WIS.*
+
+4.5.3 *A Global Cache shall subscribe to at least one Global Broker for notifications concerning core data and discovery metadata, as specified in the _Guide to WIS,_ Volume II.*
+
+4.5.4 *Based on its received notifications, a Global Cache shall download core data from WIS nodes or other Global Caches and store them for a duration compatible with the real-time or near-real-time schedule of the data and not less than 24 hours.*
+
+4.5.5 *Based on its received notifications, a Global Cache shall download discovery metadata records from WIS nodes or other Global Caches and store them for a minimum duration of 24 hours.*
+
+4.5.6 *Data and discovery metadata available for download from a Global Cache shall be accessible via a URL using at least one of the protocols specified in the _Guide to WIS,_ Volume II.*
+
+4.5.7 *A Global Cache shall publish notifications to a Message Broker indicating the availability of data and discovery metadata resources. Notifications shall include the URL for downloading resources from the Global Cache and shall use the format and protocol specified in the _Guide to WIS,_ Volume II.*
+
+4.5.8 See also 3.7.5 (Functional requirements of a Global Cache), 4.4 (WIS-TechSpec-3: Operating a Global Broker), 4.6 (WIS-TechSpec-5: Operating a Global Discovery Catalogue), and https://www.ietf.org/rfc/rfc3986.txt[RFC 3986&#44; Uniform Resource Identifier (URI): Generic Syntax].
+
+*4.6 WIS-TECHSPEC-5: OPERATING A GLOBAL DISCOVERY CATALOGUE*
+
+4.6.1 *A Global Discovery Catalogue shall provide a web-based API, as specified in the _Guide to WIS,_ Volume II, for users to search for and discover WIS resources.*
+
+4.6.2 *A Global Discovery Catalogue shall be populated from discovery metadata provided by data publishers.*
+
+4.6.3 *A Global Discovery Catalogue shall subscribe to at least one Global Broker for notifications concerning new, updated, or deleted discovery metadata records, as specified in the _Guide to WIS,_ Volume II.*
+
+4.6.4 *A Global Discovery Catalogue shall download new or updated discovery metadata records from a Global Cache for ingest, validation and publication.*
+
+4.6.5 *A Global Discovery Catalogue shall not publish a malformed/non-compliant discovery metadata record. If a Global Discovery Catalogue receives such a record, the WIS centre from which the record originated shall be alerted as specified in the _Guide to WIS,_ Volume II.*
+
+4.6.6 *A Global Discovery Catalogue shall remove a discovery metadata record when it receives a notification to do so from the original data publisher.*
+
+4.6.7 A Global Discovery Catalogue may amend discovery metadata records to enable discovery and access to datasets via Global Services.
+
+4.6.8 *A Global Discovery Catalogue shall be able to re-populate its discovery metadata in the event of system incidents.*
+
+4.6.9 *A Global Discovery Catalogue shall perform quality assessments on discovery metadata records as specified in the _Guide to WIS,_ Volume II.*
+
+4.6.10 *A Global Discovery Catalogue shall create an archive of all valid discovery metadata records at least once per day. This archive resource shall be openly accessible.*
+
+4.6.11 *A Global Discovery Catalogue shall publish notifications to a Message Broker indicating the availability of a discovery metadata archive resource. Notifications shall include the URL for downloading the archive resource from the Global Discovery Catalogue.*
+
+4.6.12 See also 3.7.6 (Functional requirements of a Global Discovery Catalogue), 4.2 (WIS-TechSpec-1: Managing discovery metadata), 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata), 4.4 (WIS-TechSpec-3: Operating a Global Broker), 4.5 (WIS-TechSpec-4: Operating a Global Cache), and 4.7 (WIS-TechSpec-6: Managing operations of the WIS).
+
+*4.7 WIS-TECHSPEC-6: MANAGING OPERATIONS OF THE WIS*
+
+4.7.1 *Operators of WIS nodes and Global Services shall contribute to the monitoring of WIS by providing metrics as specified in the _Guide to WIS,_ Volume II.*
+
+4.7.2 *A Global Monitor shall collect metrics from WIS nodes and Global Services, as specified in the _Guide to WIS,_ Volume II.*
+
+4.7.3 *A Global Monitor shall provide a portal with visualization of WIS performance.*
+
+4.7.4 *GISCs, with the support of Global Services, shall coordinate the incident management process described in the _Guide to WIS,_ Volume II, in order to satisfy the required service level.*
+
+4.7.5 *WIS centres shall participate in the incident management process described in the _Guide to WIS,_ Volume II.*
+
+4.7.6 See also 3.5.4 (Performance management), 3.6.3 (Monitor the performance of a WIS node), 3.7.3 (Performance management), and 3.7.7 (Functional requirement of a Global Monitor).
