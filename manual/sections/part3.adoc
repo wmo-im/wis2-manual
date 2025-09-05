@@ -1,1 +1,277 @@
 == PART III. Functions of WIS
+
+3.1 *List of WIS functions*
+
+3.1.1 WIS centres collectively support the major functions listed below:
+
+(a) Collect, share, and archive data;
+(b) Compile and manage datasets;
+(c) Create discovery metadata;
+(d) Manage access to data and services;
+(e) Maintain and expose a catalogue of data and services;
+(f) Monitor data availability, and
+(g) Manage system performance.
+
+Note: Access to data and services may be restricted in order to implement data policies and protect the integrity of WIS.
+
+3.2 *Functional architecture of WIS*
+
+3.2.1 There are three main perspectives when considering the function of WIS:
+
+(a) Data provision;
+(b) Data consumption;
+(c) Global coordination.
+
+3.2.2 A data publisher (NC or DCPC) provides access to a dataset (for example, by publishing data files to a web server or hosting an interactive web service/API). A dataset may consist of one or more files, objects, or database records. Access to a dataset may be restricted in accordance with the data policy specified by the data owner.
+
+3.2.3 A data publisher manages the quality of the datasets it provides to ensure that the data meet the expectations of the data consumers.
+
+3.2.4 A data publisher maintains discovery metadata about the datasets it provides. Each dataset is described by a discovery metadata record providing sufficient information for data consumers to determine whether the dataset meets their needs, where the dataset originated, how they might access the data, and whether there are any restrictions on its use. The discovery metadata record also identifies the points of contact.
+
+3.2.5 A data publisher provides notifications about updates to the datasets it provides and the associated discovery metadata – including notification that a dataset is no longer available in WIS. For example, a data publisher would provide a notification to inform users of the availability of a new observation in a SYNOP dataset, of the availability of a new numerical weather prediction (NWP) model run, and so forth.
+
+3.2.6 The components used by data publishers to provide data and associated discovery metadata are collectively referred to as a “WIS node”.
+
+3.2.7 A Global Broker distributes notifications from data publishers, providing data consumers with highly available access to notifications and other WIS infrastructure components. Multiple Global Broker instances are needed for the effective operation of WIS.
+
+3.2.8 A Global Cache copies, stores, and provides highly available access to discovery metadata records and core data for real-time or near-real-time exchange. Multiple Global Cache instances are needed for the effective operation of WIS. Data are available from a Global Cache for a duration compatible with the real-time or near-real-time schedule of the data and not less than 24 hours.
+
+Note: Core data is defined in Resolution 1 (Cg-Ext(2021)).
+
+3.2.9 A Global Discovery Catalogue copies and stores discovery metadata records from all data publishers and enables data consumers to browse or search for data that meet their needs. A single Global Discovery Catalogue instance is sufficient for the effective operation of WIS, but there may be multiple instances.
+
+3.2.10 Search engines may index discovery metadata records provided to a Global Discovery Catalogue.
+
+3.2.11 Data consumers find data that meet their needs using either a Global Discovery Catalogue or search engines. The discovery metadata for a dataset indicate how to access the data and/or how to subscribe to notifications about the dataset.
+
+3.2.12 Data consumers may subscribe, via Global Brokers, to notifications about datasets and metadata. Upon receipt of a notification, a data consumer determines what action to take, for example, to download the new data identified in the notification.
+
+3.2.13 Data consumers may access data from Global Caches or directly from a WIS node. Data consumers should access real-time and near-real-time core data via Global Caches.
+
+3.2.14 Global Service components (Global Broker, Global Cache, and Global Discovery Catalogue) provide metrics about system performance and data availability. WIS nodes may also provide such metrics. Global Monitors collect these metrics and provide a view of current WIS performance and historical trends.
+
+3.2.15 GISCs ensure the effective operation of WIS. Collectively, GISCs ensure that WIS meets the needs of all WMO programmes, activity areas, and regional associations – including optimizing the distribution of Global Service components, managing threats to the performance of WIS, and responding to incidents to restore system performance. Individually, a GISC supports data publishers and data consumers in its AoR, driving the adoption of good practices and resolving data sharing problems.
+
+Note: The _Guide to WIS_, Volume II provides additional information on the functions of WIS and how these functions may be implemented.
+
+3.3 *Functional requirements of a National Centre*
+
+3.3.1 Collect and manage data
+
+3.3.1.1 *As appropriate to its role, an NC shall collect, store, and manage data as defined in Resolution 1 (Cg-Ext(2021)).*
+
+Note: Please refer to the _Guide to WIS_, Volume II for further information on Information Management.
+
+3.3.2 Support production of programme-related data
+
+3.3.2.1 *As appropriate to its role, an NC shall support the production and management of datasets.*
+
+3.3.3 Describe data with discovery metadata
+
+3.3.3.1 *An NC shall create discovery metadata about the data it manages and ensure that these discovery metadata remain up to date.*
+
+3.3.3.2 See also 4.2 (WIS-TechSpec-1: Managing discovery metadata).
+
+3.3.4 Operate a WIS node
+
+3.3.4.1 *As appropriate to its role and in accordance with Resolution 1 (Cg-Ext(2021)), an NC shall provide access to data and the associated discovery metadata.*
+
+3.3.4.2 See also 3.6 (Functional requirements of a WIS node).
+
+3.4 Functional requirements of a Data Collection or Production Centre
+
+3.4.1 Collect and manage programme-related data
+
+3.4.1.1 *As appropriate to its role, a DCPC shall collect, store, and manage data as defined in Resolution 1 (Cg-Ext(2021)).*
+
+Note: Please refer to the _Guide to WIS_, Volume II for further information on information management.
+
+3.4.2 Support production of programme-related data
+
+3.4.2.1 *As appropriate to its role, a DCPC shall support the production and management of regional or specialized datasets.*
+
+3.4.3 Describe data with discovery metadata
+
+3.4.3.1 *A DCPC shall create discovery metadata about the data it manages and ensure that these discovery metadata remain up to date.*
+
+3.4.3.2 See also 4.2 (WIS-TechSpec-1: Managing discovery metadata).
+
+3.4.4 Operate a WIS node
+
+3.4.4.1 *As appropriate to its role and in accordance with Resolution 1 (Cg-Ext(2021)), a DCPC shall provide access to data and the associated discovery metadata.*
+
+3.4.4.2 See also 3.6 (Functional requirements of a WIS node).
+
+3.5 *Functional requirements of a Global Information System Centre*
+
+3.5.1 Coordinate data sharing within the area of responsibility of the Global Information System Centre
+
+3.5.1.1 *Each GISC shall coordinate with centres in its AoR to provide the capabilities required to fulfil the functional requirements of WIS.*
+
+3.5.1.2 *Each GISC shall assess compliance with data policies in its AoR, identifying remedial actions, as necessary.*
+
+3.5.1.3 Each GISC should support data consumers in its AoR to find and access the data needed for their operations.
+
+3.5.1.4 A GISC should provide web portals or other value-added services to promote the visibility of, and status information about, Global Services, data, and other WIS components available to WIS centres in its AoR.
+
+3.5.1.5 See also 3.3 (Functional requirements of an NC) and 3.4 (Functional requirements of a DCPC).
+
+3.5.2 Capacity building within the area of responsibility of the Global Information System Centre
+
+3.5.2.1 *Each GISC shall provide training and support to enable National Meteorological and Hydrological Services (NMHSs) in its AoR to fulfil the functional requirements of WIS, to provide data (as specified in Resolution 1 (Cg-Ext(2021))), to effectively exploit data shared via WIS, and to meet the needs of national stakeholders.*
+
+3.5.2.2 See also 3.3 (Functional requirements of an NC) and 3.4 (Functional requirements of a DCPC).
+
+3.5.3 Provision of Global Service components
+
+3.5.3.1 See 3.7.2 (Provision of Global Service components).
+
+Note: GISCs are not required to operate all Global Service components. Collectively, and in accordance with the recommendations of the Standing Committee on Information Management and Technology (SC-IMT), all GISCs work together to provide enough Global Service instances for the effective operation of WIS.
+
+3.5.4 Performance management
+
+3.5.4.1 *Each GISC shall participate in managing the performance of WIS nodes in its AoR. This includes monitoring the collection and distribution of data (as specified in Resolution 1 (Cg-Ext(2021))) and supporting WIS centres in its AoR to improve performance and remedy non-compliance or poor practice.*
+
+3.5.4.2 *Each GISC shall routinely report information concerning the availability of data and the status and performance of WIS centres in its AoR to other GISCs and the WMO Secretariat.*
+
+3.5.4.3 *Each GISC shall, according to the schedule agreed among GISCs, take responsibility for monitoring the global operational performance of WIS and, with the support of the WMO Secretariat, manage the response to any operational incidents arising.*
+
+3.5.4.4 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS).
+
+Note: More information on expected service levels and other performance indicators is provided in the _Guide to WIS_, Volume II.
+
+Note: More information on the incident response process is provided in the https://library.wmo.int/idurl/4/28988[_Guide to the WMO Information System_] (WMO-No. 1061), Volume I.
+
+3.6 *Functional requirements of a WIS node*
+
+3.6.1 General
+
+3.6.1.1 A WIS node is the component that enables an NC or a DCPC to publish its data and discovery metadata via WIS.
+
+3.6.1.2 See also 3.3 (Functional requirements of an NC) and 3.4 (Functional requirements of a DCPC).
+
+3.6.2 Provide access to data and discovery metadata
+
+3.6.2.1 *A WIS node shall provide access to data in accordance with Resolution 1 (Cg-Ext(2021)).*
+
+3.6.2.2 *A WIS node shall allow one or more Global Caches to access and download the core data it publishes for real-time and near-real-time exchange. Global Caches provide highly available access to copies of these resources.*
+
+3.6.2.3 A WIS node may restrict access to its core data, relying on Global Caches to provide access to data consumers.
+
+3.6.2.4 A WIS node may provide access to data using a web-based API.
+
+3.6.2.5 *A WIS node shall provide access to discovery metadata describing the data it makes available and how those data can be accessed. Discovery metadata from a WIS node are added to the Global Discovery Catalogue to create a consolidated view of the data available from all WIS nodes.*
+
+3.6.2.6 *A WIS node shall have the capability to publish notifications via a Message Broker.*
+
+3.6.2.7 *A WIS node shall publish notifications via its Message Broker about updates to the data and discovery metadata it provides – including the availability of new data, changes to discovery metadata, and the removal of a dataset from WIS.*
+
+3.6.2.8 *A WIS node shall use a standardized topic structure when publishing notifications.*
+
+Note: More information on the standardized topic structure is provided in Appendix D.
+
+3.6.2.9 *A WIS node shall allow one or more Global Brokers to subscribe to notifications published via its Message Broker. Global Brokers provide highly available distribution of notifications published by a WIS node.*
+
+3.6.2.10 See also 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata).
+
+Note: More information on the function and implementation of a WIS node is provided in the _Guide to WIS,_ Volume II.
+
+3.6.3 Monitor the performance of a WIS node
+
+3.6.3.1 *Each WIS node shall contribute to monitoring the performance of WIS.*
+
+3.6.3.2 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS).
+
+3.7 *Functional requirements of Global Services*
+
+3.7.1 General
+
+3.7.1.1 Global Services provide the capability needed by all participants in WIS. As such, it is essential that they be available when needed and offer a level of performance that meets user expectations. *A Global Service operator shall ensure that service levels are met.*
+
+3.7.1.2 According to the needs of the programme or community it serves, any WIS centre may provide web portals and other value-added services that leverage Global Services.
+
+3.7.2 Provision of Global Service components
+
+3.7.2.1 A WIS centre may provide one or more Global Service components (Global Broker, Global Cache, Global Discovery Catalogue, Global Monitor).
+
+3.7.3 Performance management
+
+3.7.3.1 *A WIS centre shall manage the performance of the Global Service components it provides, taking remedial action as necessary to ensure their effective operation.*
+
+3.7.3.2 *Each Global Service instance shall contribute to monitoring the performance of WIS.*
+
+3.7.3.3 To ensure that a Global Service can meet its service level expectations, the operator may restrict access during periods of high demand in accordance with its fair usage policy.
+
+3.7.3.4 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS)
+
+Note: More information on expected service levels, performance indicators, and fair usage policies is provided in the _Guide to WIS,_ Volume II.
+
+3.7.4 Functional requirements of a Global Broker
+
+3.7.4.1 *A Global Broker shall provide a highly available Message Broker for distributing notifications in near real time to subscribers.*
+
+3.7.4.2 *A Global Broker shall subscribe to notifications from WIS centres and Global Services.*
+
+3.7.4.3 *A Global Broker shall republish notifications from WIS nodes and Global Caches.*
+
+3.7.4.4 *A Global Broker shall republish notifications from other Global Brokers to ensure the redundant and reliable transmission of notifications.*
+
+3.7.4.5 *A Global Broker shall detect and suppress duplicate notifications to ensure that each notification is republished only once.*
+
+3.7.4.6 See also 4.4 (WIS-TechSpec-3: Operating a Global Broker).
+
+Note: More information on the function and implementation of a Global Broker is provided in the _Guide to WIS,_ Volume II.
+
+3.7.5 Functional requirements of a Global Cache
+
+3.7.5.1 *A Global Cache shall provide a highly available storage and download service for accessing discovery metadata records and core data for real-time or near-real-time exchange.*
+
+Note: Core data is defined in Resolution 1 (Cg-Ext(2021)).
+
+3.7.5.2 *A Global Cache shall operate a Message Broker.*
+
+3.7.5.3 *A Global Cache shall subscribe to notifications about the availability of discovery metadata records and core data for real-time or near-real-time exchange. Duplicate notifications are discarded.*
+
+3.7.5.4 *Based on the notifications it receives, a Global Cache shall download and store a copy of discovery metadata records and core data from WIS nodes and other Global Caches.*
+
+3.7.5.5 *A Global Cache shall provide highly available access to the copies of discovery metadata records and core data it stores.*
+
+3.7.5.6 *A Global Cache shall retain a copy of the discovery metadata records and core data it stores for a duration compatible with the real-time or near-real-time schedule of the data and not less than 24 hours.*
+
+3.7.5.7 *A Global Cache shall publish notifications via its Message Broker about copies of the discovery metadata records and core data it makes available. A Global Cache shall use a standardized topic structure when publishing notifications.*
+
+3.7.5.8 See also 4.5 (WIS-TechSpec-4: Operating a Global Cache).
+
+Note: More information on the function and implementation of a Global Cache is provided in the _Guide to WIS,_ Volume II.
+
+3.7.6 Functional requirements of a Global Discovery Catalogue
+
+3.7.6.1 *A Global Discovery Catalogue shall provide a web-based API, enabling data consumers to browse and search metadata for the data published via WIS, review summary information for datasets, and discover actionable links to where they can further interact with those datasets (download data, subscribe to updates, access more detailed metadata, etc.).*
+
+3.7.6.2 *A Global Discovery Catalogue shall subscribe to notifications concerning the addition, updating, or deletion of discovery metadata records.*
+
+3.7.6.3 *On receipt of a notification about new or updated discovery metadata, a Global Discovery Catalogue shall download and validate a copy of the discovery metadata record before inserting the record into the catalogue.*
+
+3.7.6.4 A Global Discovery Catalogue may amend discovery metadata records to provide details on how to subscribe via Global Brokers to updates about the associated dataset.
+
+3.7.6.5 On receipt of a notification about deleted discovery metadata records, the Global Discovery Catalogue shall remove the identified records from the catalogue.
+
+3.7.6.6 *A Global Discovery Catalogue shall provide a mechanism for search engines to crawl and index the discovery metadata it holds.*
+
+3.7.6.7 *A Global Discovery Catalogue shall assess the quality of the discovery metadata it holds and provide recommendations for improvement that can be implemented by the originating WIS centre with support from its GISC.*
+
+3.7.6.8 *A Global Discovery Catalogue shall publish an archive resource once per day, containing all discovery metadata records valid at that time.*
+
+3.7.6.9 See also 4.6 (WIS-TechSpec-5: Operating a Global Discovery Catalogue).
+
+Note: More information on the function and implementation of a Global Discovery Catalogue is provided in the _Guide to WIS,_ Volume II.
+
+3.7.7 Functional requirements of a Global Monitor
+
+3.7.7.1 A Global Monitor gathers system performance, data availability, and other metrics from all WIS components (WIS node, Global Broker, Global Cache, Global Discovery Catalogue).
+
+3.7.7.2 *A Global Monitor shall provide a performance dashboard indicating the current status of WIS and historical performance trends tracked against performance indicators. This performance dashboard is used to help determine acute and systemic performance issues within WIS.*
+
+3.7.7.3 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS).
+
+Note: More information on the function and implementation of a Global Monitor is provided in the _Guide to WIS,_ Volume II.
