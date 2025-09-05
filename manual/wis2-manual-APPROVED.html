@@ -1,0 +1,2475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="copyright" content="Copyright © 2024 World Meteorological Organization (WMO)">
+<title>Manual on the WMO Information System Volume II (APPROVED) - WMO Information System 2.0</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+</head>
+<body class="book">
+<div id="header">
+<h1>Manual on the WMO Information System Volume II (APPROVED) - WMO Information System 2.0</h1>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div style="page-break-after: always;"></div>
+<table class="tableblock frame-none grid-none stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong class="big">World Meteorological Organization</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2025-09-05</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 1.0.0</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Document status: APPROVED</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Document location: <a href="https://wmo-im.github.io/wis2-manual/manual/wis2-manual-APPROVED.html" class="bare">https://wmo-im.github.io/wis2-manual/manual/wis2-manual-APPROVED.html</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">WMO publication location: <a href="https://library.wmo.int/idurl/4/68731" class="bare">https://library.wmo.int/idurl/4/68731</a></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Standing Committee on Information Management and Technology (SC-IMT)<sup class="footnote">[<a id="_footnoteref_1" class="footnote" href="#_footnotedef_1" title="View footnote.">1</a>]</sup></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Commission for Observation, Infrastructure and Information Systems (INFCOM)<sup class="footnote">[<a id="_footnoteref_2" class="footnote" href="#_footnotedef_2" title="View footnote.">2</a>]</sup></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Copyright © 2024 World Meteorological Organization (WMO)</p></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<div id="toc" class="toc">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_introduction">Introduction</a></li>
+<li><a href="#_terms_and_definitions">TERMS AND DEFINITIONS</a></li>
+<li><a href="#_part_1_organization_and_responsibilities">PART 1. ORGANIZATION AND RESPONSIBILITIES</a></li>
+<li><a href="#_part_ii_designation_procedures_and_wis_centres">PART II. DESIGNATION PROCEDURES AND WIS CENTRES</a></li>
+<li><a href="#_part_iii_functions_of_wis">PART III. FUNCTIONS OF WIS</a></li>
+<li><a href="#_part_iv_wis_technical_specifications">PART IV. WIS TECHNICAL SPECIFICATIONS</a></li>
+<li><a href="#_part_v_wis_discovery_metadata">PART V. WIS DISCOVERY METADATA</a></li>
+<li><a href="#_part_vi_information_management">PART VI. INFORMATION MANAGEMENT</a></li>
+<li><a href="#_appendix_a_wis_2_0_principles_and_benefits">APPENDIX A: WIS 2.0 principles and benefits</a></li>
+<li><a href="#_appendix_b_wmo_information_system_competencies">APPENDIX B: WMO INFORMATION SYSTEM COMPETENCIES</a></li>
+<li><a href="#_appendix_c_approved_wis_2_0_centres">APPENDIX C: APPROVED WIS 2.0 CENTRES</a></li>
+<li><a href="#_appendix_d_wis2_topic_hierarchy">APPENDIX D: WIS2 TOPIC HIERARCHY</a></li>
+<li><a href="#_appendix_e_wis2_notification_message">APPENDIX E: WIS2 NOTIFICATION MESSAGE</a></li>
+<li><a href="#_appendix_f_wmo_core_metadata_profile_version_2">APPENDIX F: WMO CORE METADATA PROFILE (VERSION 2)</a></li>
+</ul>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_introduction"><a class="anchor" href="#_introduction"></a>Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The <em>Manual on the WMO Information System</em> (WMO-No. 1060) is designed to ensure that the data, information and communication practices, procedures and specifications that WMO Members employ in the operation of the WMO Information System (WIS) are adequately uniform and standard.</p>
+</div>
+<div class="paragraph">
+<p>The present Manual is Annex VII to the <a href="https://library.wmo.int/idurl/4/35722"><em>Technical Regulations</em></a> (WMO-No. 49), Volume I, which states, in Part II, that WIS is established and shall be operated in accordance with the practices, procedures and specifications described in the Manual.</p>
+</div>
+<div class="paragraph">
+<p>The WMO Information System cuts across all WMO-related disciplines. It intersects many WMO practices, procedures and specifications that are primarily defined in specialized publications, including the <a href="https://library.wmo.int/idurl/4/35703"><em>Manual on the WMO Integrated Processing and Prediction System</em></a> (formerly the <em>Manual on the Global Data-processing and Forecasting System</em>) (WMO-No. 485) and the <a href="https://library.wmo.int/idurl/4/55063"><em>Manual on the WMO Integrated Global Observing System</em></a> (WMO-No. 1160).</p>
+</div>
+<div class="paragraph">
+<p>As part of the Technical Regulations, the present Manual sets out standard and recommended practices and procedures. The General Provisions, included in the <em>Technical Regulations</em> (WMO-No. 49), Volume I, define the meaning of the phrase “standard and recommended practices and procedures”.</p>
+</div>
+<div class="paragraph small">
+<p>Note: The procedures for amending the present Manual can be found in the <a href="https://library.wmo.int/idurl/4/56841"><em>Rules of Procedure for Technical Commissions</em></a> (WMO-No. 1240).</p>
+</div>
+<div class="paragraph">
+<p>In 2017, the Executive Council at its sixty-ninth session endorsed the WMO Information System 2.0 (WIS 2.0) strategy, which outlines the activities involved in moving towards the next generation of WIS, with an enhanced focus on supporting global agendas, covering all WMO activities and domains, reducing costs, and facilitating the activities of National Meteorological and Hydrological Services (NMHSs).</p>
+</div>
+<div class="paragraph">
+<p>In 2019, the World Meteorological Congress at its eighteenth session endorsed the WIS 2.0 Implementation Approach and authorized the Executive Council to make decisions on WIS 2.0 during its development.</p>
+</div>
+<div class="paragraph">
+<p>In 2021, the Executive Council at its seventy-third session endorsed the WIS 2.0 implementation plan, authorizing the development of the WIS 2.0 Technical Regulations.</p>
+</div>
+<div class="paragraph">
+<p>In 2023, the Executive Council at its seventy-sixth session endorsed the publication of the first edition of Volume II of the <em>Manual on the WMO Information System</em> (WMO-No. 1060), containing the Technical Regulations for WIS 2.0. Throughout the present volume of the Manual, “WIS” should be understood to mean “WIS 2.0”.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_terms_and_definitions"><a class="anchor" href="#_terms_and_definitions"></a>TERMS AND DEFINITIONS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Application Programming Interface (API).</strong> A clearly defined set of methods by which software components can interact. APIs may exist for web services and software development toolkits.</p>
+</div>
+<div class="paragraph">
+<p><strong>Area of responsibility (AoR).</strong> A defined region which is assigned to a Global Information System Centre (GISC) for support and coordination.</p>
+</div>
+<div class="paragraph">
+<p><strong>Data Collection or Production Centre (DCPC).</strong> A designated centre for the regional management and production of data and metadata via a WIS Node.</p>
+</div>
+<div class="paragraph">
+<p><strong>Data consumer (role).</strong> An actor that uses data for business needs.</p>
+</div>
+<div class="paragraph">
+<p><strong>Data publisher (role).</strong> An actor that makes data available for discovery, access or visualization.</p>
+</div>
+<div class="paragraph">
+<p><strong>Data owner (role).</strong> An actor that is responsible for the life cycle management of a given dataset.</p>
+</div>
+<div class="paragraph">
+<p><strong>Dataset.</strong> A collection of data with similar and consistent characteristics and attributes (type, subject/topic, ownership, access/usage policy, update frequency, etc.). A dataset may be persisted as one or more files, objects, or database records. Examples of datasets include real-time surface weather data from an observing network, numerical weather prediction models, or a series of satellite data capturing consistent variables over scheduled intervals. See the <em>Guide to the WMO Information System</em> (WMO-No. 1061), Volume II for guidance on the scope of datasets.</p>
+</div>
+<div class="paragraph">
+<p><strong>Discovery metadata.</strong> A limited set of information about the dataset for discovery purposes, including identification, citations, spatial and temporal extents, distribution mechanisms, and license and access constraints.</p>
+</div>
+<div class="paragraph">
+<p><strong>Discovery metadata record.</strong> A resource containing the discovery metadata describing a specific dataset.</p>
+</div>
+<div class="paragraph">
+<p><strong>Global Broker.</strong> A Global Service that provides real-time notifications of WIS data availability.</p>
+</div>
+<div class="paragraph">
+<p><strong>Global Cache.</strong> A Global Service that provides highly available access to WIS data via the Internet.</p>
+</div>
+<div class="paragraph">
+<p><strong>Global Discovery Catalogue.</strong> A Global Service that provides discovery and search services for WIS data.</p>
+</div>
+<div class="paragraph">
+<p><strong>Global Information System Centre (GISC).</strong> A designated centre for data sharing, training, support, and the provision of Global Services.</p>
+</div>
+<div class="paragraph">
+<p><strong>Global Monitor.</strong> A Global Service that provides monitoring and performance information of data made available on WIS.</p>
+</div>
+<div class="paragraph">
+<p><strong>Global Services, Global Service components.</strong> The suite of services that provide the core capabilities of WIS.</p>
+</div>
+<div class="paragraph">
+<p><strong>Granularity.</strong> The level of detail in a dataset.</p>
+</div>
+<div class="paragraph">
+<p><strong>Message Broker.</strong> A service that provides publish and subscribe capabilities in support of real-time notifications.</p>
+</div>
+<div class="paragraph">
+<p><strong>Message Queue.</strong> The functionality that allows for asynchronous and inter-process communications and operations.</p>
+</div>
+<div class="paragraph">
+<p><strong>National Centre (NC).</strong> A designated centre for the national management and production of data and metadata via a WIS Node.</p>
+</div>
+<div class="paragraph">
+<p><strong>Notification, notification message.</strong> A structured payload advertising the availability of new, updated, or removed data.</p>
+</div>
+<div class="paragraph">
+<p><strong>Real time, near real time.</strong> For the purposes of Earth system monitoring and prediction, timeliness is measured as the interval between the time an observation is made and the time it is received in a processing centre. Real-time data have a timeliness on the order of minutes and never greater than a few hours, depending on the type of observation. Near-real-time data have a timeliness of more than 12 hours to several days.</p>
+</div>
+<div class="paragraph">
+<p><strong>Subscription, subscriber.</strong> A Message Broker client interested in receiving notifications of new, updated or removed data.</p>
+</div>
+<div class="paragraph">
+<p><strong>Uniform Resource Identifier (URI).</strong> See <a href="https://datatracker.ietf.org/doc/html/rfc3986">RFC 3986&#44; Uniform Resource Identifier (URI): Generic Syntax</a>.</p>
+</div>
+<div class="paragraph">
+<p><strong>Uniform Resource Locator (URL).</strong> A URL is a subtype of URI – see <a href="https://datatracker.ietf.org/doc/html/rfc3986#section-1.1.3">RFC 3986&#44; Uniform Resource Identifier (URI): Generic Syntax&#44; 1.1.3. URI&#44; URL&#44; and URN</a>.</p>
+</div>
+<div class="paragraph">
+<p><strong>WIS Node.</strong> The core capabilities provided by NCs and DCPCs in providing data and discovery metadata to WIS.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_part_1_organization_and_responsibilities"><a class="anchor" href="#_part_1_organization_and_responsibilities"></a>PART 1. ORGANIZATION AND RESPONSIBILITIES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>1.1 PRINCIPLES OF WIS 2.0</strong></p>
+</div>
+<div class="paragraph">
+<p>1.1.1 The transition from the first generation of WIS (circa 2007–2024) and the Global Telecommunication System (GTS) to the second-generation of WIS (“WIS 2.0”) will take several years and allow for updates of systems in alignment with Members’ plans.</p>
+</div>
+<div class="paragraph">
+<p>1.1.2 WIS 2.0 is designed in accordance with the following principles:</p>
+</div>
+<div class="paragraph">
+<p>(1) WIS 2.0 adopts web technology and leverages industry best practices and open standards;</p>
+</div>
+<div class="paragraph">
+<p>(2) WIS 2.0 uses Uniform Resource Locators (URLs) to identify resources (web pages, data, metadata, application programming interfaces (APIs), and so forth);</p>
+</div>
+<div class="paragraph">
+<p>(3) WIS 2.0 prioritizes the use of public telecommunication networks (for example, the Internet) when publishing digital resources;</p>
+</div>
+<div class="paragraph">
+<p>(4) WIS 2.0 requires the provision of web services to access or interact with digital resources (for example, data, information, products) published using WIS;</p>
+</div>
+<div class="paragraph">
+<p>(5) WIS 2.0 encourages National Centres (NCs) and Data Collection or Production Centres (DCPCs) to provide ‘data reduction’ services via WIS that process ‘big data’ to create results or products that are small enough to be conveniently downloaded and used by users with minimal technical infrastructure;</p>
+</div>
+<div class="paragraph">
+<p>(6) WIS 2.0 adds open standard messaging protocols that use the publish-subscribe message pattern to the list of data exchange mechanisms approved for use within WIS and GTS;</p>
+</div>
+<div class="paragraph">
+<p>(7) WIS 2.0 requires all services that provide real-time distribution of messages (containing data or notifications about data availability) to cache/store the messages for a minimum of 24 hours and allow users to request cached messages for download;</p>
+</div>
+<div class="paragraph">
+<p>(8) WIS 2.0 adopts direct data exchange between the provider and the consumer and phases out the use of routing tables and bulletin headers;</p>
+</div>
+<div class="paragraph">
+<p>(9) WIS 2.0 provides a catalogue containing metadata that describe both data and the service(s) provided to access those data;</p>
+</div>
+<div class="paragraph">
+<p>(10) WIS 2.0 encourages data providers to publish metadata describing their data and web services in a way that can be indexed by commercial search engines.</p>
+</div>
+<div class="paragraph small">
+<p>Note: The WIS 2.0 principles are further elaborated in Appendix A to this Manual.</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the technical specifications of WIS 2.0 can be found in the <em>Guide to the WMO Information System</em> (WMO-No. 1061), Volume II (hereinafter <em>Guide to WIS,</em> Volume II).</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the transition plan for WIS 2.0 can be found in the <em><a href="https://library.wmo.int/idurl/4/69050">Provisions for the Transition from the WMO Information System (WIS) 1.0 and Global Telecommunications System to WIS 2.0</a></em> (WMO-No. 1323).</p>
+</div>
+<div class="paragraph">
+<p><strong>1.2 ORGANIZATION OF WIS</strong></p>
+</div>
+<div class="paragraph">
+<p>1.2.1 <strong>In keeping with the <em>Technical Regulations</em> (WMO-No. 49), Volume I, Part II, 1.2.2, centres operated by WMO Members and their collaborating organizations shall be categorized as one of the three types of WIS centres forming the core infrastructure of WIS:</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>(a) Global Information System Centres (GISCs);</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>(b) Data Collection or Production Centres (DCPCs);</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>(c) National Centres (NCs).</strong></p>
+</div>
+<div class="paragraph">
+<p>1.2.2 NCs and DCPCs are responsible for publishing data and discovery metadata using a component referred to as a WIS node.</p>
+</div>
+<div class="paragraph">
+<p>1.2.3 GISCs are responsible for supporting WIS centres in their area of responsibility (AoR) and ensuring the effective operation of WIS.</p>
+</div>
+<div class="paragraph">
+<p>1.2.4 WIS Centres may operate one or more Global Services that collectively ensure the discovery of and access to data within all regions.</p>
+</div>
+<div class="paragraph">
+<p>1.2.5 <strong>Each Permanent Representative with WMO shall be responsible for authorizing users of WIS. The right to manage the authorization process may be delegated.</strong></p>
+</div>
+<div class="paragraph">
+<p>1.2.6 The functions of WIS centres (GISCs, DCPCs, NCs), WIS nodes, and Global Services are detailed in Part III of the present Manual: Functions of WIS.</p>
+</div>
+<div class="paragraph">
+<p><strong>1.3 COMPLIANCE WITH REQUIRED WIS FUNCTIONS</strong></p>
+</div>
+<div class="paragraph">
+<p>1.3.1 <strong>WIS centres shall comply with required WIS functions. Parts III and IV of the present Manual contain instructions on practices, procedures, and specifications for WIS functions.</strong></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>    [.small]
+Note: Supplementary information concerning practices, procedures, and specifications for WIS functions is provided in the _Guide to WIS,_ Volume II.</pre>
+</div>
+</div>
+<div class="paragraph">
+<p><strong>1.4 INTERACTION AND COLLABORATION AMONG WIS CENTRES</strong></p>
+</div>
+<div class="paragraph">
+<p>1.4.1 <strong>GISCs shall collectively ensure that there are sufficient instances of Global Services available to data consumers in all regions to ensure efficient and highly available data discovery and access to data provided by all WIS centres.</strong></p>
+</div>
+<div class="paragraph">
+<p>1.4.2 <strong>GISCs shall collaborate with other GISCs to optimize and coordinate WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>1.4.3 <strong>GISCs shall support NCs and DCPCs in their area of responsibility to effectively participate in WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>1.4.4 <strong>A WIS centre operating a Global Cache shall provide access to locally stored copies of core data for real-time or near-real-time exchange and discovery metadata published by all NCs and DCPCs.</strong></p>
+</div>
+<div class="paragraph small">
+<p>Note: Core data are defined in Resolution 1 (Cg-Ext(2021)) – WMO Unified Policy for the International Exchange of Earth System Data (<a href="https://library.wmo.int/idviewer/57850/9"><em>World Meteorological Congress: Abridged Final Report of the Extraordinary Session</em></a> (WMO-No. 1281)) (hereinafter, Resolution 1 (Cg-Ext(2021))).</p>
+</div>
+<div class="paragraph">
+<p>1.4.5 <strong>A WIS centre operating a Global Broker shall enable subscriptions to notifications about the availability of data and discovery metadata published by all WIS centres. A Global Broker subscribes to and republishes notifications from NCs, DCPCs, Global Caches, and other Global Brokers.</strong></p>
+</div>
+<div class="paragraph">
+<p>1.4.6 <strong>A WIS centre operating a Global Discovery Catalogue shall enable the discovery of data published by all WIS centres. A Global Discovery Catalogue harvests discovery metadata from NCs and DCPCs.</strong></p>
+</div>
+<div class="paragraph">
+<p>1.4.7 <strong>A WIS centre operating a Global Monitor shall collect performance and/or data availability metrics from NCs, DCPCs, and other GISCs.</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>1.5 ROBUSTNESS AND RELIABILITY OF COMPONENTS</strong></p>
+</div>
+<div class="paragraph">
+<p>1.5.1 <strong>Highly robust and reliable components are essential to the operation of WIS. Performance indicators shall be evaluated in the designation procedure for WIS centres. This evaluation shall ascertain, among other things, whether data published via WIS fully satisfy the requirements for security, authenticity, and reliability.</strong></p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on expected service levels and performance indicators is provided in the <em>Guide to WIS</em>, Volume II.</p>
+</div>
+<div class="paragraph">
+<p><strong>1.6 COMPETENCIES OF PERSONNEL</strong></p>
+</div>
+<div class="paragraph">
+<p>As recommended by the <em>Technical Regulations</em> (WMO-No. 49), Volume I, Part V: Qualifications and competencies of personnel involved in the provision of meteorological (weather and climate) and hydrological services, centres should ensure that they have access to an adequate number of people who have the required levels of the WIS competencies therein defined.</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the competencies needed to operate a WIS centre is provided in Appendix B to the present Manual. Guidance on developing these competencies is available in the <em>Guide to WIS</em>, Volume II.</p>
+</div>
+<div class="paragraph">
+<p><strong>1.7 WMO DOCUMENTS RELEVANT TO WIS</strong></p>
+</div>
+<div class="paragraph">
+<p>1.7.1 The following WMO documents are relevant to WIS:</p>
+</div>
+<div class="paragraph">
+<p>(a) <a href="https://library.wmo.int/idurl/4/48992"><em>Basic Documents No. 1</em></a> (WMO-No. 15);</p>
+</div>
+<div class="paragraph">
+<p>(b) <a href="https://library.wmo.int/idurl/4/35722"><em>Technical Regulations</em></a> (WMO-No. 49);</p>
+</div>
+<div class="paragraph">
+<p>(c) Resolution 1 (Cg-Ext(2021)) – WMO Unified Policy for the International Exchange of Earth System Data (<a href="https://library.wmo.int/idviewer/57850/9"><em>World Meteorological Congress: Abridged Final Report of the Extraordinary Session</em></a> (WMO-No. 1281));</p>
+</div>
+<div class="paragraph">
+<p>(d) <a href="https://library.wmo.int/idurl/4/35625"><em>Manual on Codes</em></a> (WMO-No. 306);</p>
+</div>
+<div class="paragraph">
+<p>(e) <a href="https://library.wmo.int/idurl/4/35703"><em>Manual on the WMO Integrated Processing and Prediction System</em></a> (formerly the <em>Manual on the Global Data-processing and Forecasting System</em>) (WMO-No. 485);</p>
+</div>
+<div class="paragraph">
+<p>(f) <a href="https://library.wmo.int/idurl/4/55063"><em>Manual on the WMO Integrated Global Observing System</em></a> (WMO-No. 1160).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_part_ii_designation_procedures_and_wis_centres"><a class="anchor" href="#_part_ii_designation_procedures_and_wis_centres"></a>PART II. DESIGNATION PROCEDURES AND WIS CENTRES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>2.1 GENERAL</strong></p>
+</div>
+<div class="paragraph">
+<p>2.1.1 The establishment and operation of WIS depend on WMO Members and partner organizations taking on the functional roles of GISCs, DCPCs and NCs. Procedures for designating a WIS centre rely on the agreed WIS functional architecture and the WIS compliance specifications.</p>
+</div>
+<div class="paragraph">
+<p>2.1.2 <strong>As required by the <em>Technical Regulations</em> (WMO-No. 49), Volume I, Part II, 1.2.3, Congress and the Executive Council shall consider the designation of GISCs and DCPCs based on the recommendations of the Commission for Observation, Infrastructure and Information Systems (INFCOM). The development of INFCOM recommendations includes consultation and coordination with the Commission for Weather, Climate, Hydrological, Marine and Related Environmental Services and Applications (SERCOM) and the regional associations, as appropriate.</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>2.2 PROCEDURE FOR DESIGNATING A NATIONAL CENTRE</strong></p>
+</div>
+<div class="paragraph">
+<p>2.2.1 <strong>Background</strong></p>
+</div>
+<div class="paragraph">
+<p>2.2.1.1 <strong>As required by the <em>Technical Regulations</em> (WMO-No. 49), Volume I, Part II, 1.2.8, each NC shall use WIS to provide data and products that are consistent with its programme responsibilities. These data and products shall be provided with associated metadata in accordance with WIS practices, procedures and specifications. Each NC shall participate, as appropriate, in the relevant monitoring of the performance of WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.2.2 <strong>Procedure</strong></p>
+</div>
+<div class="paragraph">
+<p>2.2.2.1 <strong>Each WMO Member shall notify WMO of the current name and location of each of its centres that is to be designated as an NC. INFCOM, with the involvement of the relevant regional associations and the assistance of the WMO Secretariat, shall ensure that each centre so designated has the support of a GISC, a DCPC or another NC.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.2.2.2 <strong>Each NC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 centre and added to the list in Appendix C.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.2.3 <strong>Designated National Centres</strong></p>
+</div>
+<div class="paragraph">
+<p>2.2.3.1 <strong>The NCs designated by Members shall be included in the list of WIS centres in Appendix C to this Manual. Each NC entry shall include the name of the associated GISC.</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>2.3 PROCEDURE FOR DESIGNATING A DATA COLLECTION OR PRODUCTION CENTRE</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.1 <strong>Background</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.1.1 <strong>WMO has determined that all WMO and related international programmes shall be served by WIS. Each established centre shall therefore implement the required WIS functions. INFCOM shall recommend how these centres are categorized as DCPCs within WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.2 <strong>Procedure</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.2.1 <strong>The procedure for designating a DCPC shall consist of three steps:</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>(1) Service offer by a potential DCPC;</strong>
+<strong>(2) Demonstration of DCPC capabilities;</strong>
+<strong>(3) Designation as a DCPC.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.2.2 <strong>Each DCPC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 DCPC centre and added to the list in Appendix C.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.3 <strong>Service offer by a potential Data Collection or Production Centre</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.3.1 Required DCPC functions should be fulfilled by a centre that has been established under a WMO programme or a related international programme and/or under a regional association. <strong>Accordingly, the relevant technical commission and/or regional association shall consider the service offers made by Members for potential DCPCs and shall endorse candidate DCPCs.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.3.2 <strong>The service offer of candidate DCPCs shall then be submitted to INFCOM, which shall analyse the compliance of the candidate with the required DCPC functions and specifications and formulate a recommendation.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.4 <strong>Demonstration of Data Collection or Production Centre capabilities</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.4.1 <strong>The Member offering a DCPC shall be invited to demonstrate to INFCOM the ability of the proposed centre to provide WIS services in compliance with DCPC functions and responsibilities, including communication with the Global Services. Compliance shall be demonstrated, where applicable, with respect to the real-time functions of data sharing, provision of relevant, up-to-date discovery metadata, coordination functions with the associated GISC, adherence to WIS standards, and relevant data exchange policies and access rights.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.4.2 <strong>After the candidate DCPC has successfully demonstrated its capabilities, INFCOM shall recommend to Congress or the Executive Council that the candidate centre be approved.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.5 <strong>Designated Data Collection or Production Centres</strong></p>
+</div>
+<div class="paragraph">
+<p>2.3.5.1 The list of DCPCs approved by Congress or the Executive Council is included in Appendix C to this Manual. Each DCPC entry includes the name of the associated GISC.</p>
+</div>
+<div class="paragraph">
+<p><strong>2.4 PROCEDURE FOR DESIGNATING A GLOBAL INFORMATION SYSTEM CENTRE</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.1 <strong>Procedure</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.1.1 <strong>The procedure for the designation of a GISC shall consist of four steps:</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>(1) Statement of WIS requirements;</strong>
+<strong>(2) Service offer by a Member for a potential GISC;</strong>
+<strong>(3) Demonstration of GISC capabilities;</strong>
+<strong>(4) Designation of the GISC.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.2 <strong>Statement of WIS requirements</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.2.1 <strong>The WMO technical commissions and other bodies representing the participating programmes, including regional bodies, shall state their requirements for WIS services and review them periodically. The list of all relevant requirements shall be compiled and regularly reviewed by INFCOM and reported to the Executive Council.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.3 <strong>Service offer by a Member for a potential Global Information System Centre</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.3.1 <strong>A WMO Member may apply for a centre to be designated as one of the GISCs forming the core infrastructure of WIS. The service offer by the Member shall include:</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>(a) A statement of compliance with the required WIS functions;</strong>
+<strong>(b) A proposal regarding the AoR for WIS services;</strong>
+<strong>(c) A formal commitment by the Permanent Representative of the Member that such services shall be provided on a routine basis and sustained over time.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.3.2 <strong>The service offer shall be addressed to WMO. INFCOM, in consultation with the regional association(s) concerned, shall analyse the proposed service offer with regard to the WIS requirements and compliance with GISC functions and specifications and shall formulate a recommendation.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.4 <strong>Demonstration of Global Information System Centre capabilities</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.4.1 <strong>The Member offering a GISC shall demonstrate to INFCOM the capability of the proposed centre to provide WIS services of the requisite reliability and quality to accredited users. Compliance shall be demonstrated with respect to the following:</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>(a) Coordination of data sharing within its AoR;</strong>
+<strong>(b) Provision of training, support and other capacity building activities to WIS centres within its AoR;</strong>
+<strong>(c) Supporting continual improvement in the quality of the discovery metadata published by WIS centres within its AoR;</strong>
+<strong>(d) Provision of any Global Services included in the service offer;</strong>
+<strong>(e) Monitoring system performance and data availability in its AoR;</strong>
+<strong>(f) Coordinating the global operational performance of WIS;</strong>
+<strong>(g) Incident management.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.4.2 <strong>A formal commitment to implement the GISC and a time schedule for providing GISC services in accordance with the offer shall be given by the Permanent Representative of the Member proposing to operate the candidate GISC.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.4.3 <strong>Upon demonstration of the capabilities of the candidate GISC, INFCOM shall submit its recommendation on the designation of the centre as a GISC to Congress or the Executive Council.</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.4.4 See also 3.5 (Functional requirements of a GISC).</p>
+</div>
+<div class="paragraph">
+<p>2.4.5 <strong>Designated Global Information System Centres</strong></p>
+</div>
+<div class="paragraph">
+<p>2.4.5.1 The list of GISCs approved by Congress or the Executive Council is included in Appendix C of this Manual.</p>
+</div>
+<div class="paragraph">
+<p><strong>2.5 PERFORMANCE REVIEW OF WIS CENTRES</strong></p>
+</div>
+<div class="paragraph">
+<p>2.5.1 <strong>Background</strong></p>
+</div>
+<div class="paragraph">
+<p>2.5.1.1 The ongoing performance of WIS relies on the continued compliance of WIS centres with agreed standards and practices. To this end, GISCs, DCPCs and NCs should have a performance review of their compliance with WIS standards and practices.</p>
+</div>
+<div class="paragraph">
+<p>2.5.2 <strong>Responsibility</strong></p>
+</div>
+<div class="paragraph">
+<p>2.5.2.1 Members are responsible for ensuring that their centres remain compliant with WIS standards and practices. INFCOM will oversee and support the performance review process with the aim of confirming a centre’s compliance on a regular basis.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_part_iii_functions_of_wis"><a class="anchor" href="#_part_iii_functions_of_wis"></a>PART III. FUNCTIONS OF WIS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>3.1 LIST OF WIS FUNCTIONS</strong></p>
+</div>
+<div class="paragraph">
+<p>3.1.1 WIS centres collectively support the major functions listed below:</p>
+</div>
+<div class="paragraph">
+<p>(a) Collect, share, and archive data;</p>
+</div>
+<div class="paragraph">
+<p>(b) Compile and manage datasets;</p>
+</div>
+<div class="paragraph">
+<p>(c) Create discovery metadata;</p>
+</div>
+<div class="paragraph">
+<p>(d) Manage access to data and services;</p>
+</div>
+<div class="paragraph">
+<p>(e) Maintain and expose a catalogue of data and services;</p>
+</div>
+<div class="paragraph">
+<p>(f) Monitor data availability, and</p>
+</div>
+<div class="paragraph">
+<p>(g) Manage system performance.</p>
+</div>
+<div class="paragraph small">
+<p>Note: Access to data and services may be restricted in order to implement data policies and protect the integrity of WIS.</p>
+</div>
+<div class="paragraph">
+<p><strong>3.2 FUNCTIONAL ARCHITECTURE OF WIS</strong></p>
+</div>
+<div class="paragraph">
+<p>3.2.1 There are three main perspectives when considering the function of WIS:</p>
+</div>
+<div class="paragraph">
+<p>(a) Data provision;</p>
+</div>
+<div class="paragraph">
+<p>(b) Data consumption;</p>
+</div>
+<div class="paragraph">
+<p>(c) Global coordination.</p>
+</div>
+<div class="paragraph">
+<p>3.2.2 A data publisher (NC or DCPC) provides access to a dataset (for example, by publishing data files to a web server or hosting an interactive web service/API). A dataset may consist of one or more files, objects, or database records. Access to a dataset may be restricted in accordance with the data policy specified by the data owner.</p>
+</div>
+<div class="paragraph">
+<p>3.2.3 A data publisher manages the quality of the datasets it provides to ensure that the data meet the expectations of the data consumers.</p>
+</div>
+<div class="paragraph">
+<p>3.2.4 A data publisher maintains discovery metadata about the datasets it provides. Each dataset is described by a discovery metadata record providing sufficient information for data consumers to determine whether the dataset meets their needs, where the dataset originated, how they might access the data, and whether there are any restrictions on its use. The discovery metadata record also identifies the points of contact.</p>
+</div>
+<div class="paragraph">
+<p>3.2.5 A data publisher provides notifications about updates to the datasets it provides and the associated discovery metadata – including notification that a dataset is no longer available in WIS. For example, a data publisher would provide a notification to inform users of the availability of a new observation in a SYNOP dataset, of the availability of a new numerical weather prediction (NWP) model run, and so forth.</p>
+</div>
+<div class="paragraph">
+<p>3.2.6 The components used by data publishers to provide data and associated discovery metadata are collectively referred to as a “WIS node”.</p>
+</div>
+<div class="paragraph">
+<p>3.2.7 A Global Broker distributes notifications from data publishers, providing data consumers with highly available access to notifications and other WIS infrastructure components. Multiple Global Broker instances are needed for the effective operation of WIS.</p>
+</div>
+<div class="paragraph">
+<p>3.2.8 A Global Cache copies, stores, and provides highly available access to discovery metadata records and core data for real-time or near-real-time exchange. Multiple Global Cache instances are needed for the effective operation of WIS. Data are available from a Global Cache for a duration compatible with the real-time or near-real-time schedule of the data and not less than 24 hours.</p>
+</div>
+<div class="paragraph small">
+<p>Note: Core data is defined in Resolution 1 (Cg-Ext(2021)).</p>
+</div>
+<div class="paragraph">
+<p>3.2.9 A Global Discovery Catalogue copies and stores discovery metadata records from all data publishers and enables data consumers to browse or search for data that meet their needs. A single Global Discovery Catalogue instance is sufficient for the effective operation of WIS, but there may be multiple instances.</p>
+</div>
+<div class="paragraph">
+<p>3.2.10 Search engines may index discovery metadata records provided to a Global Discovery Catalogue.</p>
+</div>
+<div class="paragraph">
+<p>3.2.11 Data consumers find data that meet their needs using either a Global Discovery Catalogue or search engines. The discovery metadata for a dataset indicate how to access the data and/or how to subscribe to notifications about the dataset.</p>
+</div>
+<div class="paragraph">
+<p>3.2.12 Data consumers may subscribe, via Global Brokers, to notifications about datasets and metadata. Upon receipt of a notification, a data consumer determines what action to take, for example, to download the new data identified in the notification.</p>
+</div>
+<div class="paragraph">
+<p>3.2.13 Data consumers may access data from Global Caches or directly from a WIS node. Data consumers should access real-time and near-real-time core data via Global Caches.</p>
+</div>
+<div class="paragraph">
+<p>3.2.14 Global Service components (Global Broker, Global Cache, and Global Discovery Catalogue) provide metrics about system performance and data availability. WIS nodes may also provide such metrics. Global Monitors collect these metrics and provide a view of current WIS performance and historical trends.</p>
+</div>
+<div class="paragraph">
+<p>3.2.15 GISCs ensure the effective operation of WIS. Collectively, GISCs ensure that WIS meets the needs of all WMO programmes, activity areas, and regional associations – including optimizing the distribution of Global Service components, managing threats to the performance of WIS, and responding to incidents to restore system performance. Individually, a GISC supports data publishers and data consumers in its AoR, driving the adoption of good practices and resolving data sharing problems.</p>
+</div>
+<div class="paragraph small">
+<p>Note: The <em>Guide to WIS</em>, Volume II provides additional information on the functions of WIS and how these functions may be implemented.</p>
+</div>
+<div class="paragraph">
+<p><strong>3.3 FUNCTIONAL REQUIREMENTS OF A NATIONAL CENTRE</strong></p>
+</div>
+<div class="paragraph">
+<p>3.3.1 Collect and manage data</p>
+</div>
+<div class="paragraph">
+<p>3.3.1.1 <strong>As appropriate to its role, an NC shall collect, store, and manage data as defined in Resolution 1 (Cg-Ext(2021)).</strong></p>
+</div>
+<div class="paragraph small">
+<p>Note: Please refer to the <em>Guide to WIS</em>, Volume II for further information on Information Management.</p>
+</div>
+<div class="paragraph">
+<p>3.3.2 Support production of programme-related data</p>
+</div>
+<div class="paragraph">
+<p>3.3.2.1 <strong>As appropriate to its role, an NC shall support the production and management of datasets.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.3.3 Describe data with discovery metadata</p>
+</div>
+<div class="paragraph">
+<p>3.3.3.1 <strong>An NC shall create discovery metadata about the data it manages and ensure that these discovery metadata remain up to date.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.3.3.2 See also 4.2 (WIS-TechSpec-1: Managing discovery metadata).</p>
+</div>
+<div class="paragraph">
+<p>3.3.4 Operate a WIS node</p>
+</div>
+<div class="paragraph">
+<p>3.3.4.1 <strong>As appropriate to its role and in accordance with Resolution 1 (Cg-Ext(2021)), an NC shall provide access to data and the associated discovery metadata.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.3.4.2 See also 3.6 (Functional requirements of a WIS node).</p>
+</div>
+<div class="paragraph">
+<p><strong>3.4 FUNCTIONAL REQUIREMENTS OF A DATA COLLECTION OR PRODUCTION CENTRE</strong></p>
+</div>
+<div class="paragraph">
+<p>3.4.1 Collect and manage programme-related data</p>
+</div>
+<div class="paragraph">
+<p>3.4.1.1 <strong>As appropriate to its role, a DCPC shall collect, store, and manage data as defined in Resolution 1 (Cg-Ext(2021)).</strong></p>
+</div>
+<div class="paragraph small">
+<p>Note: Please refer to the <em>Guide to WIS</em>, Volume II for further information on information management.</p>
+</div>
+<div class="paragraph">
+<p>3.4.2 Support production of programme-related data</p>
+</div>
+<div class="paragraph">
+<p>3.4.2.1 <strong>As appropriate to its role, a DCPC shall support the production and management of regional or specialized datasets.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.4.3 Describe data with discovery metadata</p>
+</div>
+<div class="paragraph">
+<p>3.4.3.1 <strong>A DCPC shall create discovery metadata about the data it manages and ensure that these discovery metadata remain up to date.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.4.3.2 See also 4.2 (WIS-TechSpec-1: Managing discovery metadata).</p>
+</div>
+<div class="paragraph">
+<p>3.4.4 Operate a WIS node</p>
+</div>
+<div class="paragraph">
+<p>3.4.4.1 <strong>As appropriate to its role and in accordance with Resolution 1 (Cg-Ext(2021)), a DCPC shall provide access to data and the associated discovery metadata.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.4.4.2 See also 3.6 (Functional requirements of a WIS node).</p>
+</div>
+<div class="paragraph">
+<p><strong>3.5 FUNCTIONAL REQUIREMENTS OF A GLOBAL INFORMATION SYSTEM CENTRE</strong></p>
+</div>
+<div class="paragraph">
+<p>3.5.1 Coordinate data sharing within the area of responsibility of the Global Information System Centre</p>
+</div>
+<div class="paragraph">
+<p>3.5.1.1 <strong>Each GISC shall coordinate with centres in its AoR to provide the capabilities required to fulfil the functional requirements of WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.5.1.2 <strong>Each GISC shall assess compliance with data policies in its AoR, identifying remedial actions, as necessary.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.5.1.3 Each GISC should support data consumers in its AoR to find and access the data needed for their operations.</p>
+</div>
+<div class="paragraph">
+<p>3.5.1.4 A GISC should provide web portals or other value-added services to promote the visibility of, and status information about, Global Services, data, and other WIS components available to WIS centres in its AoR.</p>
+</div>
+<div class="paragraph">
+<p>3.5.1.5 See also 3.3 (Functional requirements of an NC) and 3.4 (Functional requirements of a DCPC).</p>
+</div>
+<div class="paragraph">
+<p>3.5.2 Capacity building within the area of responsibility of the Global Information System Centre</p>
+</div>
+<div class="paragraph">
+<p>3.5.2.1 <strong>Each GISC shall provide training and support to enable National Meteorological and Hydrological Services (NMHSs) in its AoR to fulfil the functional requirements of WIS, to provide data (as specified in Resolution 1 (Cg-Ext(2021))), to effectively exploit data shared via WIS, and to meet the needs of national stakeholders.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.5.2.2 See also 3.3 (Functional requirements of an NC) and 3.4 (Functional requirements of a DCPC).</p>
+</div>
+<div class="paragraph">
+<p>3.5.3 Provision of Global Service components</p>
+</div>
+<div class="paragraph">
+<p>3.5.3.1 See 3.7.2 (Provision of Global Service components).</p>
+</div>
+<div class="paragraph small">
+<p>Note: GISCs are not required to operate all Global Service components. Collectively, and in accordance with the recommendations of the Standing Committee on Information Management and Technology (SC-IMT), all GISCs work together to provide enough Global Service instances for the effective operation of WIS.</p>
+</div>
+<div class="paragraph">
+<p>3.5.4 Performance management</p>
+</div>
+<div class="paragraph">
+<p>3.5.4.1 <strong>Each GISC shall participate in managing the performance of WIS nodes in its AoR. This includes monitoring the collection and distribution of data (as specified in Resolution 1 (Cg-Ext(2021))) and supporting WIS centres in its AoR to improve performance and remedy non-compliance or poor practice.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.5.4.2 <strong>Each GISC shall routinely report information concerning the availability of data and the status and performance of WIS centres in its AoR to other GISCs and the WMO Secretariat.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.5.4.3 <strong>Each GISC shall, according to the schedule agreed among GISCs, take responsibility for monitoring the global operational performance of WIS and, with the support of the WMO Secretariat, manage the response to any operational incidents arising.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.5.4.4 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS).</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on expected service levels and other performance indicators is provided in the <em>Guide to WIS</em>, Volume II.</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the incident response process is provided in the <a href="https://library.wmo.int/idurl/4/28988"><em>Guide to the WMO Information System</em></a> (WMO-No. 1061), Volume I.</p>
+</div>
+<div class="paragraph">
+<p><strong>3.6 FUNCTIONAL REQUIREMENTS OF A WIS NODE</strong></p>
+</div>
+<div class="paragraph">
+<p>3.6.1 General</p>
+</div>
+<div class="paragraph">
+<p>3.6.1.1 A WIS node is the component that enables an NC or a DCPC to publish its data and discovery metadata via WIS.</p>
+</div>
+<div class="paragraph">
+<p>3.6.1.2 See also 3.3 (Functional requirements of an NC) and 3.4 (Functional requirements of a DCPC).</p>
+</div>
+<div class="paragraph">
+<p>3.6.2 Provide access to data and discovery metadata</p>
+</div>
+<div class="paragraph">
+<p>3.6.2.1 <strong>A WIS node shall provide access to data in accordance with Resolution 1 (Cg-Ext(2021)).</strong></p>
+</div>
+<div class="paragraph">
+<p>3.6.2.2 <strong>A WIS node shall allow one or more Global Caches to access and download the core data it publishes for real-time and near-real-time exchange. Global Caches provide highly available access to copies of these resources.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.6.2.3 A WIS node may restrict access to its core data, relying on Global Caches to provide access to data consumers.</p>
+</div>
+<div class="paragraph">
+<p>3.6.2.4 A WIS node may provide access to data using a web-based API.</p>
+</div>
+<div class="paragraph">
+<p>3.6.2.5 <strong>A WIS node shall provide access to discovery metadata describing the data it makes available and how those data can be accessed. Discovery metadata from a WIS node are added to the Global Discovery Catalogue to create a consolidated view of the data available from all WIS nodes.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.6.2.6 <strong>A WIS node shall have the capability to publish notifications via a Message Broker.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.6.2.7 <strong>A WIS node shall publish notifications via its Message Broker about updates to the data and discovery metadata it provides – including the availability of new data, changes to discovery metadata, and the removal of a dataset from WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.6.2.8 <strong>A WIS node shall use a standardized topic structure when publishing notifications.</strong></p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the standardized topic structure is provided in Appendix D.</p>
+</div>
+<div class="paragraph">
+<p>3.6.2.9 <strong>A WIS node shall allow one or more Global Brokers to subscribe to notifications published via its Message Broker. Global Brokers provide highly available distribution of notifications published by a WIS node.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.6.2.10 See also 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata).</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the function and implementation of a WIS node is provided in the <em>Guide to WIS,</em> Volume II.</p>
+</div>
+<div class="paragraph">
+<p>3.6.3 Monitor the performance of a WIS node</p>
+</div>
+<div class="paragraph">
+<p>3.6.3.1 <strong>Each WIS node shall contribute to monitoring the performance of WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.6.3.2 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS).</p>
+</div>
+<div class="paragraph">
+<p><strong>3.7 FUNCTIONAL REQUIREMENTS OF GLOBAL SERVICES</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.1 General</p>
+</div>
+<div class="paragraph">
+<p>3.7.1.1 Global Services provide the capability needed by all participants in WIS. As such, it is essential that they be available when needed and offer a level of performance that meets user expectations. <strong>A Global Service operator shall ensure that service levels are met.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.1.2 According to the needs of the programme or community it serves, any WIS centre may provide web portals and other value-added services that leverage Global Services.</p>
+</div>
+<div class="paragraph">
+<p>3.7.2 Provision of Global Service components</p>
+</div>
+<div class="paragraph">
+<p>3.7.2.1 A WIS centre may provide one or more Global Service components (Global Broker, Global Cache, Global Discovery Catalogue, Global Monitor).</p>
+</div>
+<div class="paragraph">
+<p>3.7.3 Performance management</p>
+</div>
+<div class="paragraph">
+<p>3.7.3.1 <strong>A WIS centre shall manage the performance of the Global Service components it provides, taking remedial action as necessary to ensure their effective operation.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.3.2 <strong>Each Global Service instance shall contribute to monitoring the performance of WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.3.3 To ensure that a Global Service can meet its service level expectations, the operator may restrict access during periods of high demand in accordance with its fair usage policy.</p>
+</div>
+<div class="paragraph">
+<p>3.7.3.4 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS)</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on expected service levels, performance indicators, and fair usage policies is provided in the <em>Guide to WIS,</em> Volume II.</p>
+</div>
+<div class="paragraph">
+<p>3.7.4 Functional requirements of a Global Broker</p>
+</div>
+<div class="paragraph">
+<p>3.7.4.1 <strong>A Global Broker shall provide a highly available Message Broker for distributing notifications in near real time to subscribers.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.4.2 <strong>A Global Broker shall subscribe to notifications from WIS centres and Global Services.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.4.3 <strong>A Global Broker shall republish notifications from WIS nodes and Global Caches.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.4.4 <strong>A Global Broker shall republish notifications from other Global Brokers to ensure the redundant and reliable transmission of notifications.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.4.5 <strong>A Global Broker shall detect and suppress duplicate notifications to ensure that each notification is republished only once.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.4.6 See also 4.4 (WIS-TechSpec-3: Operating a Global Broker).</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the function and implementation of a Global Broker is provided in the <em>Guide to WIS,</em> Volume II.</p>
+</div>
+<div class="paragraph">
+<p>3.7.5 Functional requirements of a Global Cache</p>
+</div>
+<div class="paragraph">
+<p>3.7.5.1 <strong>A Global Cache shall provide a highly available storage and download service for accessing discovery metadata records and core data for real-time or near-real-time exchange.</strong></p>
+</div>
+<div class="paragraph small">
+<p>Note: Core data is defined in Resolution 1 (Cg-Ext(2021)).</p>
+</div>
+<div class="paragraph">
+<p>3.7.5.2 <strong>A Global Cache shall operate a Message Broker.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.5.3 <strong>A Global Cache shall subscribe to notifications about the availability of discovery metadata records and core data for real-time or near-real-time exchange. Duplicate notifications are discarded.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.5.4 <strong>Based on the notifications it receives, a Global Cache shall download and store a copy of discovery metadata records and core data from WIS nodes and other Global Caches.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.5.5 <strong>A Global Cache shall provide highly available access to the copies of discovery metadata records and core data it stores.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.5.6 <strong>A Global Cache shall retain a copy of the discovery metadata records and core data it stores for a duration compatible with the real-time or near-real-time schedule of the data and not less than 24 hours.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.5.7 <strong>A Global Cache shall publish notifications via its Message Broker about copies of the discovery metadata records and core data it makes available. A Global Cache shall use a standardized topic structure when publishing notifications.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.5.8 See also 4.5 (WIS-TechSpec-4: Operating a Global Cache).</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the function and implementation of a Global Cache is provided in the <em>Guide to WIS,</em> Volume II.</p>
+</div>
+<div class="paragraph">
+<p>3.7.6 Functional requirements of a Global Discovery Catalogue</p>
+</div>
+<div class="paragraph">
+<p>3.7.6.1 <strong>A Global Discovery Catalogue shall provide a web-based API, enabling data consumers to browse and search metadata for the data published via WIS, review summary information for datasets, and discover actionable links to where they can further interact with those datasets (download data, subscribe to updates, access more detailed metadata, etc.).</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.6.2 <strong>A Global Discovery Catalogue shall subscribe to notifications concerning the addition, updating, or deletion of discovery metadata records.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.6.3 <strong>On receipt of a notification about new or updated discovery metadata, a Global Discovery Catalogue shall download and validate a copy of the discovery metadata record before inserting the record into the catalogue.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.6.4 A Global Discovery Catalogue may amend discovery metadata records to provide details on how to subscribe via Global Brokers to updates about the associated dataset.</p>
+</div>
+<div class="paragraph">
+<p>3.7.6.5 On receipt of a notification about deleted discovery metadata records, the Global Discovery Catalogue shall remove the identified records from the catalogue.</p>
+</div>
+<div class="paragraph">
+<p>3.7.6.6 <strong>A Global Discovery Catalogue shall provide a mechanism for search engines to crawl and index the discovery metadata it holds.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.6.7 <strong>A Global Discovery Catalogue shall assess the quality of the discovery metadata it holds and provide recommendations for improvement that can be implemented by the originating WIS centre with support from its GISC.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.6.8 <strong>A Global Discovery Catalogue shall publish an archive resource once per day, containing all discovery metadata records valid at that time.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.6.9 See also 4.6 (WIS-TechSpec-5: Operating a Global Discovery Catalogue).</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the function and implementation of a Global Discovery Catalogue is provided in the <em>Guide to WIS,</em> Volume II.</p>
+</div>
+<div class="paragraph">
+<p>3.7.7 Functional requirements of a Global Monitor</p>
+</div>
+<div class="paragraph">
+<p>3.7.7.1 A Global Monitor gathers system performance, data availability, and other metrics from all WIS components (WIS node, Global Broker, Global Cache, Global Discovery Catalogue).</p>
+</div>
+<div class="paragraph">
+<p>3.7.7.2 <strong>A Global Monitor shall provide a performance dashboard indicating the current status of WIS and historical performance trends tracked against performance indicators. This performance dashboard is used to help determine acute and systemic performance issues within WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>3.7.7.3 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS).</p>
+</div>
+<div class="paragraph small">
+<p>Note: More information on the function and implementation of a Global Monitor is provided in the <em>Guide to WIS,</em> Volume II.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_part_iv_wis_technical_specifications"><a class="anchor" href="#_part_iv_wis_technical_specifications"></a>PART IV. WIS TECHNICAL SPECIFICATIONS</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>4.1 GENERAL</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.1 The following six technical specifications (WIS-TechSpecs) define the interfaces to the foundational WIS functions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>WIS-TechSpec-1: Managing discovery metadata;</p>
+</li>
+<li>
+<p>WIS-TechSpec-2: Publishing data and discovery metadata;</p>
+</li>
+<li>
+<p>WIS-TechSpec-3: Operating a Global Broker;</p>
+</li>
+<li>
+<p>WIS-TechSpec-4: Operating a Global Cache;</p>
+</li>
+<li>
+<p>WIS-TechSpec-5: Operating a Global Discovery Catalogue;</p>
+</li>
+<li>
+<p>WIS-TechSpec-6: Managing operations of the WIS.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>4.1.2 <strong>NCs shall support three of the technical specifications: WIS-TechSpec-1, WIS-TechSpec-2, and WIS-TechSpec-6. An NC can arrange through bilateral agreements for another NC, a DCPC or a GISC to perform functions on its behalf.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.3 <strong>DCPCs shall support three of the technical specifications: WIS-TechSpec-1, WIS-TechSpec-2, and WIS-TechSpec-6.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.4 <strong>GISCs shall support WIS centres in their area of responsibility in meeting their obligations to support WIS-TechSpec-1, WIS-TechSpec-2, and WIS-TechSpec-6.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.5 <strong>GISCs shall support one of the technical specifications: WIS-TechSpec-6.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.6 <strong>WIS centres operating a Global Broker shall support one of the technical specifications: WIS-TechSpec-3.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.7 <strong>WIS centres operating a Global Cache shall support one of the technical specifications: WIS-TechSpec-4.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.8 <strong>WIS centres operating a Global Discovery Catalogue shall support one of the technical specifications: WIS-TechSpec-5.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.9 <strong>WIS centres operating a Global Monitor shall support one of the technical specifications: WIS-TechSpec-6.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.1.10 Any DCPC or NC is welcome to implement interfaces beyond the minimum required. Accordingly, the technical specification is mandatory wherever application of the interface is applied.</p>
+</div>
+<div class="paragraph">
+<p><strong>4.2 WIS-TECHSPEC-1: MANAGING DISCOVERY METADATA</strong></p>
+</div>
+<div class="paragraph">
+<p>4.2.1 <strong>A data publisher shall provide up-to-date discovery metadata describing each dataset it makes available via WIS, including indicating when a dataset is no longer available.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.2.2 <strong>Discovery metadata records describing datasets published via WIS shall comply with the WMO Core Metadata Profile version 2 (WCMP2), as specified in Part V of the present Manual.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.2.3 <strong>Discovery metadata shall be provided in advance of publication of the associated data.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.2.4 Discovery metadata should only be amended by the data publisher that generated them.</p>
+</div>
+<div class="paragraph small">
+<p>Note: As an exception, a Global Discovery Catalogue may amend the discovery metadata records that it publishes to include details of how to subscribe to notifications about data availability from Global Brokers.</p>
+</div>
+<div class="paragraph">
+<p>4.2.5 See also 3.3.3 (Describe data with discovery metadata), 3.4.4 (Operate a WIS node), 3.5.4 (Performance management), 3.7.6 (Functional requirements of a Global Discovery Catalogue), 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata), and 4.6 (WIS-TechSpec-5: Operating a Global Discovery Catalogue).</p>
+</div>
+<div class="paragraph">
+<p><strong>4.3 WIS-TECHSPEC-2: PUBLISHING DATA AND DISCOVERY METADATA</strong></p>
+</div>
+<div class="paragraph">
+<p>4.3.1 <strong>Data and discovery metadata published via WIS shall be represented in the manner prescribed by the relevant Technical Regulations.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.3.2 <strong>Data and discovery metadata published via WIS shall be accessible via a URL using at least one of the protocols specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.3.3 <strong>URLs provided for accessing core data, as defined in Resolution 1 (Cg-Ext(2021)), and discovery metadata shall be directly resolvable, that is, data or discovery metadata may be downloaded simply by resolving the given URL without further action, such as populating elements of an API.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.3.4 Data and discovery metadata published via WIS may be accessible via an interactive, self-describing, web-based API. Where a web-based API is provided to access core data and discovery metadata, the API complements the mandatory access mechanism using a directly resolvable URL.</p>
+</div>
+<div class="paragraph">
+<p>4.3.5 <strong>Notifications indicating the availability and access URL of new or updated data or discovery metadata shall be published to a Message Broker using the format and protocol specified in Appendix E.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.3.6 <strong>Notifications indicating the removal of a dataset from WIS shall be published to a Message Broker using the format and protocol specified in Appendix E.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.3.7 See also 3.6.2 (Provide access to data and discovery metadata), 4.2 (WIS-TechSpec-1: Managing discovery metadata), 4.4 (WIS-TechSpec-3: Operating a Global Broker), and 4.5 (WIS-TechSpec-4: Operating a Global Cache).</p>
+</div>
+<div class="paragraph">
+<p><strong>4.4 WIS-TECHSPEC-3: OPERATING A GLOBAL BROKER</strong></p>
+</div>
+<div class="paragraph">
+<p>4.4.1 <strong>A Global Broker shall operate a highly available Message Broker using the format and protocol specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.4.2 <strong>At least one Global Broker shall subscribe to notifications published from each WIS node and Global Cache according to the standardized topic structure. The topic structure and process to allocate WIS nodes and Global Caches to Global Brokers are described in Appendix D.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.4.3 <strong>A Global Broker shall subscribe to notifications from other Global Brokers to provide for the redundant and reliable transmission of notifications via WIS. Interconnections between Global Brokers are described in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.4.4 <strong>A Global Broker shall republish notifications from WIS nodes and Global Services as specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.4.5 <strong>A Global Broker shall republish notifications only once irrespective of how many times it receives each notification.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.4.6 <strong>A Global Broker shall not republish a malformed/non-compliant notification if it would interfere with the correct operation of WIS. If a Global Broker receives such a notification, the WIS centre from where the malformed/non-compliant notification originated shall be alerted as specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.4.7 See also 3.7.4 (Functional requirements of a Global Broker), 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata), 4.5 (WIS-TechSpec-4: Operating a Global Cache) and 4.7 (WIS-TechSpec-6: Managing operations of the WIS).</p>
+</div>
+<div class="paragraph">
+<p><strong>4.5 WIS-TECHSPEC-4: OPERATING A GLOBAL CACHE</strong></p>
+</div>
+<div class="paragraph">
+<p>4.5.1 <strong>A Global Cache shall operate as a highly available storage and download service for:</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>(i) Core data, as defined in Resolution 1 (Cg-Ext(2021)), where programme requirements require sharing in real time or near real time; and</strong>
+<strong>(ii) Discovery metadata records.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.5.2 <strong>A Global Cache shall download core data and discovery metadata from WIS nodes and other Global Caches to provide for reliable, low-latency access to those resources via WIS.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.5.3 <strong>A Global Cache shall subscribe to at least one Global Broker for notifications concerning core data and discovery metadata, as specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.5.4 <strong>Based on its received notifications, a Global Cache shall download core data from WIS nodes or other Global Caches and store them for a duration compatible with the real-time or near-real-time schedule of the data and not less than 24 hours.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.5.5 <strong>Based on its received notifications, a Global Cache shall download discovery metadata records from WIS nodes or other Global Caches and store them for a minimum duration of 24 hours.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.5.6 <strong>Data and discovery metadata available for download from a Global Cache shall be accessible via a URL using at least one of the protocols specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.5.7 <strong>A Global Cache shall publish notifications to a Message Broker indicating the availability of data and discovery metadata resources. Notifications shall include the URL for downloading resources from the Global Cache and shall use the format and protocol specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.5.8 See also 3.7.5 (Functional requirements of a Global Cache), 4.4 (WIS-TechSpec-3: Operating a Global Broker), 4.6 (WIS-TechSpec-5: Operating a Global Discovery Catalogue), and <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986&#44; Uniform Resource Identifier (URI): Generic Syntax</a>.</p>
+</div>
+<div class="paragraph">
+<p><strong>4.6 WIS-TECHSPEC-5: OPERATING A GLOBAL DISCOVERY CATALOGUE</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.1 <strong>A Global Discovery Catalogue shall provide a web-based API, as specified in the <em>Guide to WIS,</em> Volume II, for users to search for and discover WIS resources.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.2 <strong>A Global Discovery Catalogue shall be populated from discovery metadata provided by data publishers.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.3 <strong>A Global Discovery Catalogue shall subscribe to at least one Global Broker for notifications concerning new, updated, or deleted discovery metadata records, as specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.4 <strong>A Global Discovery Catalogue shall download new or updated discovery metadata records from a Global Cache for ingest, validation and publication.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.5 <strong>A Global Discovery Catalogue shall not publish a malformed/non-compliant discovery metadata record. If a Global Discovery Catalogue receives such a record, the WIS centre from which the record originated shall be alerted as specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.6 <strong>A Global Discovery Catalogue shall remove a discovery metadata record when it receives a notification to do so from the original data publisher.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.7 A Global Discovery Catalogue may amend discovery metadata records to enable discovery and access to datasets via Global Services.</p>
+</div>
+<div class="paragraph">
+<p>4.6.8 <strong>A Global Discovery Catalogue shall be able to re-populate its discovery metadata in the event of system incidents.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.9 <strong>A Global Discovery Catalogue shall perform quality assessments on discovery metadata records as specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.10 <strong>A Global Discovery Catalogue shall create an archive of all valid discovery metadata records at least once per day. This archive resource shall be openly accessible.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.11 <strong>A Global Discovery Catalogue shall publish notifications to a Message Broker indicating the availability of a discovery metadata archive resource. Notifications shall include the URL for downloading the archive resource from the Global Discovery Catalogue.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.6.12 See also 3.7.6 (Functional requirements of a Global Discovery Catalogue), 4.2 (WIS-TechSpec-1: Managing discovery metadata), 4.3 (WIS-TechSpec-2: Publishing data and discovery metadata), 4.4 (WIS-TechSpec-3: Operating a Global Broker), 4.5 (WIS-TechSpec-4: Operating a Global Cache), and 4.7 (WIS-TechSpec-6: Managing operations of the WIS).</p>
+</div>
+<div class="paragraph">
+<p><strong>4.7 WIS-TECHSPEC-6: MANAGING OPERATIONS OF THE WIS</strong></p>
+</div>
+<div class="paragraph">
+<p>4.7.1 <strong>Operators of WIS nodes and Global Services shall contribute to the monitoring of WIS by providing metrics as specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.7.2 <strong>A Global Monitor shall collect metrics from WIS nodes and Global Services, as specified in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.7.3 <strong>A Global Monitor shall provide a portal with visualization of WIS performance.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.7.4 <strong>GISCs, with the support of Global Services, shall coordinate the incident management process described in the <em>Guide to WIS,</em> Volume II, in order to satisfy the required service level.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.7.5 <strong>WIS centres shall participate in the incident management process described in the <em>Guide to WIS,</em> Volume II.</strong></p>
+</div>
+<div class="paragraph">
+<p>4.7.6 See also 3.5.4 (Performance management), 3.6.3 (Monitor the performance of a WIS node), 3.7.3 (Performance management), and 3.7.7 (Functional requirement of a Global Monitor).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_part_v_wis_discovery_metadata"><a class="anchor" href="#_part_v_wis_discovery_metadata"></a>PART V. WIS DISCOVERY METADATA</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>5.1 GENERAL</strong></p>
+</div>
+<div class="paragraph">
+<p>5.1.1 WIS discovery metadata records are provided by the data publisher and enable the discovery, evaluation and use of WIS datasets. WIS discovery metadata records provide a description of a dataset, including identification and spatiotemporal information, as well as direct, actionable linkages to associated data and services. They are also clearly classified and categorized in accordance with Resolution 1 (Cg-Ext(2021)) and the WIS topic hierarchy.</p>
+</div>
+<div class="paragraph">
+<p>5.1.2 The WMO Core Metadata Profile (version 2) for discovery metadata is specified in Appendix F.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_part_vi_information_management"><a class="anchor" href="#_part_vi_information_management"></a>PART VI. INFORMATION MANAGEMENT</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>6.1 MANAGING INFORMATION AND COMMUNICATION TECHNOLOGY OPERATIONS</strong></p>
+</div>
+<div class="paragraph">
+<p>6.1.1 <strong>All Members shall follow the guidance provided in the <em>Guide to WIS</em>, Volume II, and use appropriate information management processes to generate, share, use, archive and dispose of information supporting WMO and partner organization programmes.</strong></p>
+</div>
+<div class="paragraph">
+<p>6.1.2 <strong>Members shall manage their information and communication technology (ICT) to a standard consistent with the requirements of the services that depend on that ICT.</strong></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_appendix_a_wis_2_0_principles_and_benefits"><a class="anchor" href="#_appendix_a_wis_2_0_principles_and_benefits"></a>APPENDIX A: WIS 2.0 principles and benefits</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The WMO review of emerging data issues cites web services as one of the technologies that:</p>
+</div>
+<div class="paragraph">
+<p>"present new operating concepts that will improve operational efficiency, information sharing and service delivery, and enable users to [more effectively] exploit data".foot[.small]
+Note:[<a href="https://library.wmo.int/idurl/4/56904"><em>WMO Guidelines on Emerging Data Issues</em></a> (WMO‑No. 1239)]</p>
+</div>
+<div class="paragraph">
+<p>The World Wide Web Consortium (W3C) states that:</p>
+</div>
+<div class="paragraph">
+<p>"The Web is the World’s most successful vendor neutral distributed information system, enabling people to access applications and services right across the World from their smart phones, tablets, laptops and other computing devices. […] The Web of data [&#8230;&#8203;] ranges from small amounts of data to vast datasets,[&#8230;&#8203;][which are either] open to all or restricted to a few. Data can be consumed by Web pages, downloaded for local processing, or accessed via network APIs that support remote processing."foot[.small]
+Note:[See Raggett, D. <em>W3C Study of Practices and Tooling for Web Data Standardisation</em>; World Wide Web Consortium (W3C), 2017. <a href="https://www.w3.org/2017/12/odi-study/#introduction" class="bare">https://www.w3.org/2017/12/odi-study/#introduction</a>.]</p>
+</div>
+<div class="paragraph">
+<p>The Web is founded on three pillars:</p>
+</div>
+<div class="paragraph">
+<p>(1) Addressing resources (web pages, data, metadata, APIs, etc.) using URIs;</p>
+</div>
+<div class="paragraph">
+<p>(2) Open data standards; and</p>
+</div>
+<div class="paragraph">
+<p>(3) Open standard network protocols.</p>
+</div>
+<div class="paragraph">
+<p>The provision of digital resources (e.g. data, information, products) using the Web does not automatically imply that those resources are freely available to all without restrictions on their use. Web technologies allow for authentication and authorization where necessary: resource providers retain control of who can access published resources, and they can force users to accept a license specifying the terms and conditions under which those resources can be used before allowing them access.</p>
+</div>
+<div class="paragraph">
+<p>Ten technical changes to WIS (the WIS 2.0 principles) and the associated benefits are outlined below.</p>
+</div>
+<div class="paragraph">
+<p><strong>Principle 1:</strong> WIS 2.0 adopts web technologies and leverages industry best practices and open standards.foot[.small]
+Note:[Particularly open standards from the Internet Engineering Task Force (IETF), W3C, the Open Geospatial Consortium (OGC).]</p>
+</div>
+<div class="paragraph">
+<p>BENEFIT:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The use of widely adopted practices and open standards will enable a large population of users to conveniently interact with WIS 2.0 to discover, access, and use authoritative weather, water and climate data.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph small">
+<p>Note: Many NMHSs already embrace web architecture to meet their business needs.</p>
+</div>
+<div class="paragraph">
+<p><strong>Principle 2:</strong> WIS 2.0 uses URLs to identify resources (i.e., web pages, data, metadata, APIs).foot[.small]
+Note:[For more information on identifying resources, refer to W3C Technical Architecture Group. <em>Architecture of the World Wide Web Volume One, 2. Identification</em>; World Wide Web Consortium (W3C), 2004. <a href="https://www.w3.org/TR/webarch/#identification" class="bare">https://www.w3.org/TR/webarch/#identification</a>.]</p>
+</div>
+<div class="paragraph">
+<p>BENEFIT:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>URLs uniquely identify a resource and describe the primary mechanism for retrieving or interacting with it (i.e. the network ‘location’ and the communications protocol to be used).</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Principle 3:</strong> WIS 2.0 prioritizes the use of public telecommunication networks (for example, the Internet) when publishing digital resources.</p>
+</div>
+<div class="paragraph">
+<p>BENEFITS:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Publishing digital resources on the Internet enables the meteorological community to retrieve or interact with those resources – it is unlikely that most of the community would be permitted to join managed networks such as Area Meteorological Data Communications Networks (AMDCNs) employed by NMHSs for data exchange with guaranteed service levels.</p>
+</li>
+<li>
+<p>Internet connections are significantly cheaper than the same bandwidth delivered through a managed network.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph small">
+<p>Note: The WMO Integrated Global Data Dissemination Service (IGDDS) remains an important component of WIS, providing data distribution where there is no Internet connectivity using Digital Video Broadcast by Satellite (DVB-S) broadcasts.</p>
+</div>
+<div class="paragraph">
+<p>The first generation of WIS was primarily concerned with datafoot[.small]
+Note:[The term ‘data’ is used loosely here to cover everything from products to information to data.] as traditionally exchanged via the GTS. A major issue with this data-centric approach is that often it is unclear to users how they might access (download or otherwise interact with) data that are of interest to them. In line with industry practice, WIS 2.0 recognizes that users, whether humans or software systems, will always interact with data published using WIS through some form of web service. Web services are used for a broad range of functions – to download data for local use, to request routine delivery of data, to view or display data, and so forth.</p>
+</div>
+<div class="paragraph">
+<p><strong>Principle 4:</strong> WIS 2.0 requires the provision of web service(s) to access or interact with digital resources (for example, data, information, products) published using WIS.</p>
+</div>
+<div class="paragraph">
+<p>BENEFITS:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Web services support ‘machine-actionability’ (the capacity of software systems to access, interoperate, and reuse data with little or no human intervention) – as the volume, complexity and velocity (creation speed) of data have increased, human reliance on computational support to deal with those data has also increased.</p>
+</li>
+<li>
+<p>NMHSs develop their capacity to build and operate web services, allowing them to extract more value from their data holdings through delivery of higher value services to users.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph small">
+<p>Note: Based on the standards and conventions commonly used in their target user community (or communities), WMO programmes may identify additional technical specifications to which participating centres should conform in addition to the specifications in the present Manual.</p>
+</div>
+<div class="paragraph">
+<p>When designing their web service offerings, NCs and DCPCs publishing ‘big data’ into WIS should consider the capability of their users to work with those data. The World Meteorological Congress, at its seventeenth session, noted that most Members were ill-prepared for the predicted explosion in data volumes. Many Members are already unable to effectively use the data published and made available today. Data volumes are rapidly increasing to sizes that require a significant investment in technical infrastructure to manage and use those data. It is also often impractical to move such large volumes of data between collaborating organizations fast enough to meet operational requirements.</p>
+</div>
+<div class="paragraph">
+<p>Web services may be used to provide a network API to process or simplify complex or high-volume data to better match the needs of the user or to create a product. These services may range in complexity from simple query APIs that allow the user to extract only a geographic subset of data corresponding to the user’s area of interest through to remote execution of a local area weather prediction model according to the user’s specification and visualization of the model output. What both of these examples have in common is that the data are processed using the data provider’s infrastructure to create a result or product that is small enough to be conveniently downloaded and used. Where the data processing is complex, intensive or requires significant user-specific configuration, NCs and DCPCs should consider the use of cloud technologies to underpin their data processing services.</p>
+</div>
+<div class="paragraph">
+<p><strong>Principle 5:</strong> WIS 2.0 encourages NCs and DCPCs to provide ‘data reduction’ services via WIS that process ‘big data’ to create results or products that are small enough to be conveniently downloaded and used by users with minimal technical infrastructure.</p>
+</div>
+<div class="paragraph">
+<p>BENEFIT:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Using ‘data reduction’ web services to process high-volume, complex data remotely, Members’ agencies and institutions can deliver high-value, high-quality services to their governments and citizens, helping them to meet their national mandates more effectively and without the need to invest in and operate their own data management infrastructure.foot[.small]
+Note:[The provision of data processing services in this way supports the WMO principles that no Member should be left behind and that no Member stands alone – through cooperation, all Members should have access to the necessary capability to work with the predicted increase in data volumes.]</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Real-time delivery of data and products in support of the World Weather Watch programme remains a core requirement for WIS. Data exchange methods permitted on the GTSfoot[.small]
+Note:[File Transfer Protocol (FTP) and Secure File Transfer Protocol (SFTP); see the <a href="https://library.wmo.int/idurl/4/35800"><em>Manual on the Global Telecommunication System</em></a> (WMO-No. 386), Attachment II-15.] require manual intervention in response to each user request for real-time data delivery, for example, to set up and configure a new data delivery path. This practice will not scale to meet the demand for real-time data from across the meteorological community.</p>
+</div>
+<div class="paragraph">
+<p>Modern messaging protocols, such as those that underpin social media platforms, solve this problem by automating how the relationship between the data provider and the consumer is established. Data providers create a channel (‘Message Queue’) and categorize which data are published to that channel. Data consumers determine which channels contain data of interest and, assuming they have the necessary access rights, subscribe to them. Once a subscription to a channel is established, data published to that channel are then automatically sent to the subscriber. This is known as the publish-subscribe messaging pattern (‘pubsub’). With such modern messaging protocols, there is no manual configuration burden on data providers to add new subscribers.</p>
+</div>
+<div class="paragraph small">
+<p>Note: These modern messaging protocols may also be used to send notifications to subscribers, for example, to alert subscribers that new data or products are available for them to access or download at their convenience.</p>
+</div>
+<div class="paragraph">
+<p><strong>Principle 6:</strong> WIS 2.0 adds open standard messaging protocols that use the publish-subscribe message pattern to the list of data exchange mechanisms approved for use within WIS and GTS.</p>
+</div>
+<div class="paragraph">
+<p>BENEFIT:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Low effort for data providers to distribute data in real time to large numbers of consumers.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>Principle 7:</strong> WIS 2.0 requires all services that provide real-time distribution of messages (containing data or notifications about data availability) to cache/store the messages for a minimum of 24 hours and allow users to request cached messages for download.</p>
+</div>
+<div class="paragraph">
+<p>BENEFIT:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Software systems that consume real-time data or notifications can recover from failure by requesting the delivery of messages that were missed while the system was offline.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Notes:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>From a WIS 2.0 perspective, open standard message protocols using the publish-subscribe pattern are considered to be web services.</p>
+</li>
+<li>
+<p>Digital resources may be made available through multiple web services. For example, an NC may publish synoptic reports via both download (e.g. a user queries the service to access data – “pull”) and real-time delivery (e.g. a user subscribes to the service and data is sent when available – “push”).</p>
+</li>
+<li>
+<p>Many Message Switching Systems (MSS) already use the channels concept to organize the distribution of data. MSS could be amended to support these new data exchange methods, thereby minimizing disruption to the core business of NMHSs (internal, national and international data distribution).</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>During its lifetime, the GTS – a core component of WIS – has seen continual evolution, notably, the establishment of managed regional networks or Area Meteorological Data Communication Networks (AMDCNs) using high-performance managed networks and the Internet. Within such networks, all nodes are visible to each other; there is no longer any need to manually route data through an intermediate chain of nodes to reach an eventual destination. Instead, data routing is delegated to underlying network infrastructure that is able to avoid the use of network segments suffering from poor performance and is thus able to determine the optimal (i.e. quickest) path from the origin to the destination.</p>
+</div>
+<div class="paragraph">
+<p>The “store and forward” data dissemination pattern, routing data through an intermediate chain of nodes, remains central to GTS operations. Each node on the GTS operates a 'message switch' to control data flow based on the static configuration of the routing tables and the unique identifier (header) of each data package (bulletin). Routing tables and bulletin headers are rendered obsolete in modern telecommunication networks.</p>
+</div>
+<div class="paragraph small">
+<p>Note: Many NMHSs already meet bilateral data sharing arrangements using direct file transfer, avoiding the need for a routing table entry and effectively bypassing the GTS altogether (albeit often using the same underpinning telecommunication network infrastructure).</p>
+</div>
+<div class="paragraph">
+<p><strong>Principle 8:</strong> WIS 2.0 adopts direct data exchange between the provider and the consumer and phases out the use of routing tables and bulletin headers.</p>
+</div>
+<div class="paragraph">
+<p>BENEFITS:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Faster transmission of real-time data by avoiding the latency introduced by message switches at intermediate GTS nodes.</p>
+</li>
+<li>
+<p>Simplified message switching operations for all Members because routing table maintenance is no longer required.</p>
+</li>
+<li>
+<p>Faster setup of new data sharing arrangements as there is no need to wait for intermediate nodes to update their routing table configuration.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>With the elevation of web services to a primary concern of WIS 2.0, the WIS Catalogue and the WMO Core Metadata specification have been updated.</p>
+</div>
+<div class="paragraph">
+<p><strong>Principle 9:</strong> WIS 2.0 provides a catalogue containing metadata that describe both data and the service(s) provided to access those data.</p>
+</div>
+<div class="paragraph">
+<p>BENEFIT:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Users will be able to easily find the data in WIS that interest them, locate the most convenient web service with which to access those data, and determine how to best use that web service to meet their needs.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>WIS 2.0 enables data and web services to be discovered via commercial search engines, thereby enhancing the discoverability of authoritative weather, water and climate data.</p>
+</div>
+<div class="paragraph">
+<p><strong>Principle 10:</strong> WIS 2.0 encourages data providers to publish metadata describing their data and web services in a way that can be indexed by commercial search engines.</p>
+</div>
+<div class="paragraph">
+<p>BENEFIT:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Indexing by commercial search engines will help users discover data and associated services using their preferred search enginefoot[.small]
+Note:[As an example of how Google uses schema.org structured markup to enable users to find datasets, see Castelvecchi, D. Google Unveils Search Engine for Open Data. <em>Nature</em> <strong>2018</strong>, <em>561</em> (7722), 161–162. <a href="https://doi.org/10.1038/d41586-018-06201-x" class="bare">https://doi.org/10.1038/d41586-018-06201-x</a>.] rather than having to find and use a WIS portal.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph small">
+<p>Note: The Global Discovery Catalogue will provide the necessary functionality to support indexing WIS discovery metadata by commercial search engines.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_appendix_b_wmo_information_system_competencies"><a class="anchor" href="#_appendix_b_wmo_information_system_competencies"></a>APPENDIX B: WMO INFORMATION SYSTEM COMPETENCIES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>1. INTRODUCTION</strong></p>
+</div>
+<div class="paragraph">
+<p>1.1 A variety of skilled personnel, including project managers, engineers, technicians and information technology staff may provide WIS services within an NMHS or a related service. Third party organizations, such as universities, international and regional institutions and centres, private sector companies and other providers, may also supply data, products and information for WIS services.</p>
+</div>
+<div class="paragraph">
+<p>1.2 This document sets out a competency framework for personnel involved in the provision of WIS services. It is not necessary for each individual staff member to have the full set of competencies; rather, within specific application conditions (see 2 below), which are different for each organization, it is expected that an institution providing WIS services will have staff members somewhere within the organization who together demonstrate all the competencies at the institution’s infrastructural capacity level. The performance and knowledge requirements that support the competencies should be customized based on the particular context of an organization. However, the general criteria and requirements provided here apply in most circumstances.</p>
+</div>
+<div class="paragraph">
+<p><strong>2. APPLICATION CONDITIONS</strong></p>
+</div>
+<div class="paragraph">
+<p>(a) The organizational context, priorities and stakeholder requirements;</p>
+</div>
+<div class="paragraph">
+<p>(b) The way in which internal and external personnel are used to provide WIS services;</p>
+</div>
+<div class="paragraph">
+<p>(c) The available resources and capabilities (financial, human and technological resources, and facilities) and organizational structures, policies and procedures;</p>
+</div>
+<div class="paragraph">
+<p>(d) National and institutional legislation, rules and procedures.</p>
+</div>
+<div class="paragraph">
+<p><strong>3. COMPETENCIES</strong></p>
+</div>
+<div class="paragraph">
+<p>Seven competencies across four basic functional areas have been defined as follows:</p>
+</div>
+<div class="paragraph">
+<p><strong>Infrastructure</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Manage the physical infrastructure;</p>
+</li>
+<li>
+<p>Manage the operational applications.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Data</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Manage and share data;</p>
+</li>
+<li>
+<p>Manage data discovery.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>External interactions</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Manage interactions among WIS centres;</p>
+</li>
+<li>
+<p>Manage external user interactions.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>Overall service</strong></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Manage the operational service.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><strong>COMPETENCY 1: MANAGE THE PHYSICAL INFRASTRUCTURE</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Competency description</strong></p>
+</div>
+<div class="paragraph">
+<p>Prepare, plan, design, procure, implement and operate the physical infrastructure, networks and applications required to support the WIS centre.</p>
+</div>
+<div class="paragraph">
+<p><strong>Performance components</strong></p>
+</div>
+<div class="paragraph">
+<p><em>Management of information technology operations</em></p>
+</div>
+<div class="paragraph">
+<p>1a. Maintain the system in optimal operational condition by setting and meeting service levels in areas including:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Configuration;</p>
+</li>
+<li>
+<p>Preventative and corrective maintenance and servicing;</p>
+</li>
+<li>
+<p>Equipment replacement or upgrades;</p>
+</li>
+<li>
+<p>Networking and processing capacity;</p>
+</li>
+<li>
+<p>System monitoring and reporting procedure, and corrective actions;</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>1b. Provide contingency planning, operation backup and restoration;</p>
+</div>
+<div class="paragraph">
+<p><em>Management of facilities</em></p>
+</div>
+<div class="paragraph">
+<p>1c. Manage the security of the physical site;</p>
+</div>
+<div class="paragraph">
+<p>1d. Manage the environmental control of the physical site.</p>
+</div>
+<div class="paragraph">
+<p><strong>Knowledge and skill requirements</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>General ICT skills;</p>
+</li>
+<li>
+<p>Operation, configuration and maintenance of equipment and applications;</p>
+</li>
+<li>
+<p>Recognized information technology service management frameworks;</p>
+</li>
+<li>
+<p>Current technologies and emerging trends;</p>
+</li>
+<li>
+<p>Service level agreements.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>COMPETENCY 2: MANAGE THE OPERATIONAL APPLICATIONS</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Competency description</strong></p>
+</div>
+<div class="paragraph">
+<p>Prepare, plan, design, procure, implement and operate the applications required to support WIS functions.</p>
+</div>
+<div class="paragraph">
+<p><strong>Performance components</strong></p>
+</div>
+<div class="paragraph">
+<p>2a. Meet service levels by maintaining applications in optimal operational condition by:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Configuring applications;</p>
+</li>
+<li>
+<p>Monitoring and responding to the behaviour of applications;</p>
+</li>
+<li>
+<p>Carrying out preventative and corrective maintenance;</p>
+</li>
+<li>
+<p>Replacing or upgrading applications;</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>2b. Provide contingency planning and application backup and restoration;</p>
+</div>
+<div class="paragraph">
+<p>2c. Ensure data integrity and completeness in the event of system failure;</p>
+</div>
+<div class="paragraph">
+<p>2d. Ensure system security.</p>
+</div>
+<div class="paragraph">
+<p><strong>Knowledge and skill requirements</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>General ICT skills;</p>
+</li>
+<li>
+<p>Operation, configuration and maintenance of applications;</p>
+</li>
+<li>
+<p>Recognized information technology service management frameworks;</p>
+</li>
+<li>
+<p>Current technologies and emerging trends;</p>
+</li>
+<li>
+<p>WIS functions and requirements;</p>
+</li>
+<li>
+<p>WIS security policies.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>COMPETENCY 3: MANAGE AND SHARE DATA</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Competency description</strong></p>
+</div>
+<div class="paragraph">
+<p>Manage the collection, processing, storage and sharing of data through scheduled and on-demand services.</p>
+</div>
+<div class="paragraph">
+<p><strong>Performance components</strong></p>
+</div>
+<div class="paragraph">
+<p>3a. Ensure that data are collected and shared as per the data policy;</p>
+</div>
+<div class="paragraph">
+<p>3b. Provide access to data (publish data) as per the data policy;</p>
+</div>
+<div class="paragraph">
+<p>3c. Publish and subscribe to notifications about data availability;</p>
+</div>
+<div class="paragraph">
+<p>3d. Encode, decode, validate and package data;</p>
+</div>
+<div class="paragraph">
+<p>3e. Manage the compilation of datasets;</p>
+</div>
+<div class="paragraph">
+<p>3f. Manage connectivity.</p>
+</div>
+<div class="paragraph">
+<p><strong>Knowledge and skill requirements</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>System and network monitoring and viewing tools;</p>
+</li>
+<li>
+<p>Data formats and Message Queue protocols;</p>
+</li>
+<li>
+<p>Licensing and data policies.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>COMPETENCY 4: MANAGE DATA DISCOVERY</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Competency description</strong></p>
+</div>
+<div class="paragraph">
+<p>Create and maintain discovery metadata records describing data and services and publish them to the Global Discovery Catalogue.</p>
+</div>
+<div class="paragraph">
+<p><strong>Performance components</strong></p>
+</div>
+<div class="paragraph">
+<p>4a. Create and maintain discovery metadata records describing data and services;</p>
+</div>
+<div class="paragraph">
+<p>4b. Add, update, replace or delete metadata records within the catalogue;</p>
+</div>
+<div class="paragraph">
+<p>4c. Provide access to discovery metadata records;</p>
+</div>
+<div class="paragraph">
+<p>4d. Publish and subscribe to notifications about discovery metadata availability;</p>
+</div>
+<div class="paragraph">
+<p>4e. Ensure that all data and service offerings from a WIS centre have complete, valid and meaningful discovery metadata records uploaded to the catalogue.</p>
+</div>
+<div class="paragraph">
+<p><strong>Knowledge and skill requirements</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Discovery metadata concepts and formats (WMO Core Metadata Profile);</p>
+</li>
+<li>
+<p>Metadata entry and management tools;</p>
+</li>
+<li>
+<p>Message Queue protocols;</p>
+</li>
+<li>
+<p>Policies;</p>
+</li>
+<li>
+<p>Written English.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>COMPETENCY 5: MANAGE INTERACTION AMONG WIS CENTRES</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Competency description</strong></p>
+</div>
+<div class="paragraph">
+<p>Manage relationships and compliance between WIS centres.</p>
+</div>
+<div class="paragraph">
+<p><strong>Performance components</strong></p>
+</div>
+<div class="paragraph">
+<p>5a. Exchange information with other centres on operational matters;</p>
+</div>
+<div class="paragraph">
+<p>5b. Facilitate the registration of new WIS centres;</p>
+</div>
+<div class="paragraph">
+<p>5c. Facilitate the registration of new datasets;</p>
+</div>
+<div class="paragraph">
+<p>5d. Subscribe to notifications from other WIS centres about data availability;</p>
+</div>
+<div class="paragraph">
+<p>5e. Create and respond to WIS service messages.</p>
+</div>
+<div class="paragraph">
+<p><strong>Knowledge and skill requirements</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Knowledge of current exchanges and requirements for the notification of operational changes;</p>
+</li>
+<li>
+<p>Procedures and practices for the registration of WIS centres and datasets;</p>
+</li>
+<li>
+<p>Message Broker concepts;</p>
+</li>
+<li>
+<p>Service level agreements;</p>
+</li>
+<li>
+<p>Written English.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>COMPETENCY 6: MANAGE EXTERNAL USER INTERACTIONS</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Competency description</strong></p>
+</div>
+<div class="paragraph">
+<p>Ensure users, including data publishers and data consumers (users), can publish and access data and products through WIS.</p>
+</div>
+<div class="paragraph">
+<p><strong>Performance components</strong></p>
+</div>
+<div class="paragraph">
+<p>6a. Register data consumers where needed and maintain a service agreement;</p>
+</div>
+<div class="paragraph">
+<p>6b. Set and implement data and service access criteria;</p>
+</div>
+<div class="paragraph">
+<p>6c. Provide systems and support for data consumers to access data and services;</p>
+</div>
+<div class="paragraph">
+<p>6d. Manage user relations to ensure a high satisfaction level.</p>
+</div>
+<div class="paragraph">
+<p><strong>Knowledge and skill requirements</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Data policies;</p>
+</li>
+<li>
+<p>WIS Global Services;</p>
+</li>
+<li>
+<p>WIS registration and monitoring tools and policies;</p>
+</li>
+<li>
+<p>User support documentation and help files;</p>
+</li>
+<li>
+<p>Written English.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong>COMPETENCY 7: MANAGE THE OPERATIONAL SERVICE</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Competency description</strong></p>
+</div>
+<div class="paragraph">
+<p>Ensure the quality and continuity of the service.</p>
+</div>
+<div class="paragraph">
+<p><strong>Performance components</strong></p>
+</div>
+<div class="paragraph">
+<p>7a. Coordinate all WIS functions and activities of the centre;</p>
+</div>
+<div class="paragraph">
+<p>7b. Ensure and demonstrate compliance with regulations and policies;</p>
+</div>
+<div class="paragraph">
+<p>7c. Monitor and meet quality and service performance standards;</p>
+</div>
+<div class="paragraph">
+<p>7d. Ensure service continuity through risk management, planning and the implementation of service contingency, backup and restoration, and ensure data continuity in the event of system failure;</p>
+</div>
+<div class="paragraph">
+<p>7e. Plan and coordinate the delivery of new functionalities.</p>
+</div>
+<div class="paragraph">
+<p><strong>Knowledge and skill requirements</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>General management skills;</p>
+</li>
+<li>
+<p>Overview of local and external WIS operations and associated service agreements;</p>
+</li>
+<li>
+<p>WIS regulations and policies;</p>
+</li>
+<li>
+<p>Functional specifications;</p>
+</li>
+<li>
+<p>Written English.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_appendix_c_approved_wis_2_0_centres"><a class="anchor" href="#_appendix_c_approved_wis_2_0_centres"></a>APPENDIX C: APPROVED WIS 2.0 CENTRES</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>1. GENERAL</strong></p>
+</div>
+<div class="paragraph">
+<p>1.1 The WIS centres previously approved by Congress or the Executive Council, included in the list in Appendix B of the <em>Manual on the WMO Information System</em> (WMO-No. 1060), Volume I, are candidate WIS 2.0 centres.</p>
+</div>
+<div class="paragraph">
+<p>1.2 <strong>WIS centres shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as WIS 2.0 centres and added to the list in the present Appendix.</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>2. GLOBAL INFORMATION SYSTEM CENTRES</strong></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 34%;">
+<col style="width: 33%;">
+<col style="width: 33%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">WMO Member</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Centre name</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Region</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>3. DATA COLLECTION OR PRODUCTION CENTRES</strong></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 18%;">
+<col style="width: 20%;">
+<col style="width: 12%;">
+<col style="width: 20%;">
+<col style="width: 10%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">WMO Member or contributing organization</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Centre name</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Centre location (region/city)</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Function</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Technical commission/ + programme</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">GISC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p><strong>4. NATIONAL CENTRES</strong></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 22%;">
+<col style="width: 18%;">
+<col style="width: 16%;">
+<col style="width: 19%;">
+<col style="width: 12%;">
+<col style="width: 13%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">WMO Member or contributing organization</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Centre name</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">WIS function</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Centre location (region)</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Principal GISC</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Constituent body</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_appendix_d_wis2_topic_hierarchy"><a class="anchor" href="#_appendix_d_wis2_topic_hierarchy"></a>APPENDIX D: WIS2 TOPIC HIERARCHY</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://wmo-im.github.io/wis2-topic-hierarchy/standard/wis2-topic-hierarchy-STABLE.html#_wis2_topic_hierarchy" class="bare">https://wmo-im.github.io/wis2-topic-hierarchy/standard/wis2-topic-hierarchy-STABLE.html#_wis2_topic_hierarchy</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_appendix_e_wis2_notification_message"><a class="anchor" href="#_appendix_e_wis2_notification_message"></a>APPENDIX E: WIS2 NOTIFICATION MESSAGE</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://wmo-im.github.io/wis2-notification-message/standard/wis2-notification-message-STABLE.html#_wis2_notification_message" class="bare">https://wmo-im.github.io/wis2-notification-message/standard/wis2-notification-message-STABLE.html#_wis2_notification_message</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_appendix_f_wmo_core_metadata_profile_version_2"><a class="anchor" href="#_appendix_f_wmo_core_metadata_profile_version_2"></a>APPENDIX F: WMO CORE METADATA PROFILE (VERSION 2)</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://wmo-im.github.io/wcmp2/standard/wcmp2-STABLE.html#_wmo_core_metadata_profile_version_2" class="bare">https://wmo-im.github.io/wcmp2/standard/wcmp2-STABLE.html#_wmo_core_metadata_profile_version_2</a></p>
+</div>
+</div>
+</div>
+</div>
+<div id="footnotes">
+<hr>
+<div class="footnote" id="_footnotedef_1">
+<a href="#_footnoteref_1">1</a>. <a href="https://community.wmo.int/governance/commission-membership/commission-observation-infrastructures-and-information-systems-infcom/commission-infrastructure-officers/infcom-management-group/standing-committee-information-management-and-technology-sc-imt" class="bare">https://community.wmo.int/governance/commission-membership/commission-observation-infrastructures-and-information-systems-infcom/commission-infrastructure-officers/infcom-management-group/standing-committee-information-management-and-technology-sc-imt</a>
+</div>
+<div class="footnote" id="_footnotedef_2">
+<a href="#_footnoteref_2">2</a>. <a href="https://community.wmo.int/governance/commission-membership/infcom" class="bare">https://community.wmo.int/governance/commission-membership/infcom</a>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2025-09-05 11:55:11 UTC
+</div>
+</div>
+</body>
+</html>
