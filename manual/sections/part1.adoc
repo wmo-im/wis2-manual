@@ -1,1 +1,112 @@
-== PART 1. Organization and responsibilities
+== PART 1. ORGANIZATION AND RESPONSIBILITIES
+
+*1.1 PRINCIPLES OF WIS 2.0*
+
+1.1.1 The transition from the first generation of WIS (circa 2007–2024) and the Global Telecommunication System (GTS) to the second-generation of WIS (“WIS 2.0”) will take several years and allow for updates of systems in alignment with Members’ plans.
+
+1.1.2 WIS 2.0 is designed in accordance with the following principles:
+
+(1) WIS 2.0 adopts web technology and leverages industry best practices and open standards;
+
+(2) WIS 2.0 uses Uniform Resource Locators (URLs) to identify resources (web pages, data, metadata, application programming interfaces (APIs), and so forth);
+
+(3) WIS 2.0 prioritizes the use of public telecommunication networks (for example, the Internet) when publishing digital resources;
+
+(4) WIS 2.0 requires the provision of web services to access or interact with digital resources (for example, data, information, products) published using WIS;
+
+(5) WIS 2.0 encourages National Centres (NCs) and Data Collection or Production Centres (DCPCs) to provide ‘data reduction’ services via WIS that process ‘big data’ to create results or products that are small enough to be conveniently downloaded and used by users with minimal technical infrastructure;
+
+(6) WIS 2.0 adds open standard messaging protocols that use the publish-subscribe message pattern to the list of data exchange mechanisms approved for use within WIS and GTS;
+
+(7) WIS 2.0 requires all services that provide real-time distribution of messages (containing data or notifications about data availability) to cache/store the messages for a minimum of 24 hours and allow users to request cached messages for download;
+
+(8) WIS 2.0 adopts direct data exchange between the provider and the consumer and phases out the use of routing tables and bulletin headers;
+
+(9) WIS 2.0 provides a catalogue containing metadata that describe both data and the service(s) provided to access those data;
+
+(10) WIS 2.0 encourages data providers to publish metadata describing their data and web services in a way that can be indexed by commercial search engines.
+
+[.small]
+Note: The WIS 2.0 principles are further elaborated in Appendix A to this Manual.
+
+[.small]
+Note: More information on the technical specifications of WIS 2.0 can be found in the _Guide to the WMO Information System_ (WMO-No. 1061), Volume II (hereinafter _Guide to WIS,_ Volume II).
+
+[.small]
+Note: More information on the transition plan for WIS 2.0 can be found in the _https://library.wmo.int/idurl/4/69050[Provisions for the Transition from the WMO Information System (WIS) 1.0 and Global Telecommunications System to WIS 2.0]_ (WMO-No. 1323).
+
+*1.2 ORGANIZATION OF WIS*
+
+1.2.1 *In keeping with the _Technical Regulations_ (WMO-No. 49), Volume I, Part II, 1.2.2, centres operated by WMO Members and their collaborating organizations shall be categorized as one of the three types of WIS centres forming the core infrastructure of WIS:*
+
+*(a) Global Information System Centres (GISCs);*
+
+*(b) Data Collection or Production Centres (DCPCs);*
+
+*(c) National Centres (NCs).*
+
+1.2.2 NCs and DCPCs are responsible for publishing data and discovery metadata using a component referred to as a WIS node.
+
+1.2.3 GISCs are responsible for supporting WIS centres in their area of responsibility (AoR) and ensuring the effective operation of WIS.
+
+1.2.4 WIS Centres may operate one or more Global Services that collectively ensure the discovery of and access to data within all regions. 
+
+1.2.5 *Each Permanent Representative with WMO shall be responsible for authorizing users of WIS. The right to manage the authorization process may be delegated.*
+
+1.2.6 The functions of WIS centres (GISCs, DCPCs, NCs), WIS nodes, and Global Services are detailed in Part III of the present Manual: Functions of WIS.
+
+*1.3 COMPLIANCE WITH REQUIRED WIS FUNCTIONS*
+
+1.3.1 *WIS centres shall comply with required WIS functions. Parts III and IV of the present Manual contain instructions on practices, procedures, and specifications for WIS functions.*
+
+    [.small]
+Note: Supplementary information concerning practices, procedures, and specifications for WIS functions is provided in the _Guide to WIS,_ Volume II.
+
+*1.4 INTERACTION AND COLLABORATION AMONG WIS CENTRES*
+
+1.4.1 *GISCs shall collectively ensure that there are sufficient instances of Global Services available to data consumers in all regions to ensure efficient and highly available data discovery and access to data provided by all WIS centres.* 
+
+1.4.2 *GISCs shall collaborate with other GISCs to optimize and coordinate WIS.* 
+
+1.4.3 *GISCs shall support NCs and DCPCs in their area of responsibility to effectively participate in WIS.* 
+
+1.4.4 *A WIS centre operating a Global Cache shall provide access to locally stored copies of core data for real-time or near-real-time exchange and discovery metadata published by all NCs and DCPCs.*
+
+[.small]
+Note: Core data are defined in Resolution 1 (Cg-Ext(2021)) – WMO Unified Policy for the International Exchange of Earth System Data (https://library.wmo.int/idviewer/57850/9[_World Meteorological Congress: Abridged Final Report of the Extraordinary Session_] (WMO-No. 1281)) (hereinafter, Resolution 1 (Cg-Ext(2021))).
+
+1.4.5 *A WIS centre operating a Global Broker shall enable subscriptions to notifications about the availability of data and discovery metadata published by all WIS centres. A Global Broker subscribes to and republishes notifications from NCs, DCPCs, Global Caches, and other Global Brokers.* 
+
+1.4.6 *A WIS centre operating a Global Discovery Catalogue shall enable the discovery of data published by all WIS centres. A Global Discovery Catalogue harvests discovery metadata from NCs and DCPCs.* 
+
+1.4.7 *A WIS centre operating a Global Monitor shall collect performance and/or data availability metrics from NCs, DCPCs, and other GISCs.*
+
+*1.5 ROBUSTNESS AND RELIABILITY OF COMPONENTS*
+
+1.5.1 *Highly robust and reliable components are essential to the operation of WIS. Performance indicators shall be evaluated in the designation procedure for WIS centres. This evaluation shall ascertain, among other things, whether data published via WIS fully satisfy the requirements for security, authenticity, and reliability.*
+
+[.small]
+Note: More information on expected service levels and performance indicators is provided in the _Guide to WIS_, Volume II.
+
+*1.6 COMPETENCIES OF PERSONNEL*
+
+As recommended by the _Technical Regulations_ (WMO-No. 49), Volume I, Part V: Qualifications and competencies of personnel involved in the provision of meteorological (weather and climate) and hydrological services, centres should ensure that they have access to an adequate number of people who have the required levels of the WIS competencies therein defined.
+
+[.small]
+Note: More information on the competencies needed to operate a WIS centre is provided in Appendix B to the present Manual. Guidance on developing these competencies is available in the _Guide to WIS_, Volume II.
+
+*1.7 WMO DOCUMENTS RELEVANT TO WIS*
+
+1.7.1 The following WMO documents are relevant to WIS:
+
+(a) https://library.wmo.int/idurl/4/48992[_Basic Documents No. 1_] (WMO-No. 15); 
+
+(b) https://library.wmo.int/idurl/4/35722[_Technical Regulations_] (WMO-No. 49); 
+
+(c) Resolution 1 (Cg-Ext(2021)) – WMO Unified Policy for the International Exchange of Earth System Data (https://library.wmo.int/idviewer/57850/9[_World Meteorological Congress: Abridged Final Report of the Extraordinary Session_] (WMO-No. 1281)); 
+
+(d) https://library.wmo.int/idurl/4/35625[_Manual on Codes_] (WMO-No. 306); 
+
+(e) https://library.wmo.int/idurl/4/35703[_Manual on the WMO Integrated Processing and Prediction System_] (formerly the _Manual on the Global Data-processing and Forecasting System_) (WMO-No. 485); 
+
+(f) https://library.wmo.int/idurl/4/55063[_Manual on the WMO Integrated Global Observing System_] (WMO-No. 1160).

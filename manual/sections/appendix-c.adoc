@@ -1,1 +1,31 @@
-== APPENDIX C: Approved WIS 2.0 Centres
+== APPENDIX C: APPROVED WIS 2.0 CENTRES
+
+*1. GENERAL*
+
+1.1 The WIS centres previously approved by Congress or the Executive Council, included in the list in Appendix B of the _Manual on the WMO Information System_ (WMO-No. 1060), Volume I, are candidate WIS 2.0 centres.
+
+1.2 *WIS centres shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as WIS 2.0 centres and added to the list in the present Appendix.*
+
+*2. GLOBAL INFORMATION SYSTEM CENTRES*
+
+[width="100%",cols="34%,33%,33%",options="header",]
+|===
+|WMO Member |Centre name |Region
+| | |
+|===
+
+*3. DATA COLLECTION OR PRODUCTION CENTRES*
+
+[width="100%",cols="20%,18%,20%,12%,20%,10%",options="header",]
+|===
+|WMO Member or contributing organization |Centre name |Centre location (region/city) |Function |Technical commission/ + programme |GISC 
+| | | | | |
+|===
+
+*4. NATIONAL CENTRES*
+
+[width="100%",cols="22%,18%,16%,19%,12%,13%",options="header",]
+|===
+|WMO Member or contributing organization |Centre name |WIS function |Centre location (region) |Principal GISC |Constituent body
+| | | | | |
+|===

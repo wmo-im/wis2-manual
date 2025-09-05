@@ -1,1 +1,112 @@
-== PART II. Designation procedures and WIS Centres
+== PART II. DESIGNATION PROCEDURES AND WIS CENTRES 
+
+*2.1 GENERAL* 
+
+2.1.1 The establishment and operation of WIS depend on WMO Members and partner organizations taking on the functional roles of GISCs, DCPCs and NCs. Procedures for designating a WIS centre rely on the agreed WIS functional architecture and the WIS compliance specifications. 
+
+2.1.2 *As required by the _Technical Regulations_ (WMO-No. 49), Volume I, Part II, 1.2.3, Congress and the Executive Council shall consider the designation of GISCs and DCPCs based on the recommendations of the Commission for Observation, Infrastructure and Information Systems (INFCOM). The development of INFCOM recommendations includes consultation and coordination with the Commission for Weather, Climate, Hydrological, Marine and Related Environmental Services and Applications (SERCOM) and the regional associations, as appropriate.* 
+
+*2.2 PROCEDURE FOR DESIGNATING A NATIONAL CENTRE* 
+
+2.2.1 *Background* 
+
+2.2.1.1 *As required by the _Technical Regulations_ (WMO-No. 49), Volume I, Part II, 1.2.8, each NC shall use WIS to provide data and products that are consistent with its programme responsibilities. These data and products shall be provided with associated metadata in accordance with WIS practices, procedures and specifications. Each NC shall participate, as appropriate, in the relevant monitoring of the performance of WIS.* 
+
+2.2.2 *Procedure* 
+
+2.2.2.1 *Each WMO Member shall notify WMO of the current name and location of each of its centres that is to be designated as an NC. INFCOM, with the involvement of the relevant regional associations and the assistance of the WMO Secretariat, shall ensure that each centre so designated has the support of a GISC, a DCPC or another NC.* 
+
+2.2.2.2 *Each NC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 centre and added to the list in Appendix C.* 
+
+2.2.3 *Designated National Centres* 
+
+2.2.3.1 *The NCs designated by Members shall be included in the list of WIS centres in Appendix C to this Manual. Each NC entry shall include the name of the associated GISC.* 
+
+*2.3 PROCEDURE FOR DESIGNATING A DATA COLLECTION OR PRODUCTION CENTRE*  
+
+2.3.1 *Background*  
+
+2.3.1.1 *WMO has determined that all WMO and related international programmes shall be served by WIS. Each established centre shall therefore implement the required WIS functions. INFCOM shall recommend how these centres are categorized as DCPCs within WIS.* 
+
+2.3.2 *Procedure* 
+
+2.3.2.1 *The procedure for designating a DCPC shall consist of three steps:* 
+ 
+*(1) Service offer by a potential DCPC;* 
+*(2) Demonstration of DCPC capabilities;* 
+*(3) Designation as a DCPC.* 
+
+2.3.2.2 *Each DCPC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 DCPC centre and added to the list in Appendix C.*  
+
+2.3.3 *Service offer by a potential Data Collection or Production Centre*  
+
+2.3.3.1 Required DCPC functions should be fulfilled by a centre that has been established under a WMO programme or a related international programme and/or under a regional association. *Accordingly, the relevant technical commission and/or regional association shall consider the service offers made by Members for potential DCPCs and shall endorse candidate DCPCs.*  
+
+2.3.3.2 *The service offer of candidate DCPCs shall then be submitted to INFCOM, which shall analyse the compliance of the candidate with the required DCPC functions and specifications and formulate a recommendation.* 
+
+2.3.4 *Demonstration of Data Collection or Production Centre capabilities* 
+
+2.3.4.1 *The Member offering a DCPC shall be invited to demonstrate to INFCOM the ability of the proposed centre to provide WIS services in compliance with DCPC functions and responsibilities, including communication with the Global Services. Compliance shall be demonstrated, where applicable, with respect to the real-time functions of data sharing, provision of relevant, up-to-date discovery metadata, coordination functions with the associated GISC, adherence to WIS standards, and relevant data exchange policies and access rights.* 
+
+2.3.4.2 *After the candidate DCPC has successfully demonstrated its capabilities, INFCOM shall recommend to Congress or the Executive Council that the candidate centre be approved.* 
+
+2.3.5 *Designated Data Collection or Production Centres* 
+
+2.3.5.1 The list of DCPCs approved by Congress or the Executive Council is included in Appendix C to this Manual. Each DCPC entry includes the name of the associated GISC. 
+
+*2.4 PROCEDURE FOR DESIGNATING A GLOBAL INFORMATION SYSTEM CENTRE*  
+
+2.4.1 *Procedure*  
+
+2.4.1.1 *The procedure for the designation of a GISC shall consist of four steps:*
+
+*(1) Statement of WIS requirements;* 
+*(2) Service offer by a Member for a potential GISC;* 
+*(3) Demonstration of GISC capabilities;* 
+*(4) Designation of the GISC.* 
+
+2.4.2 *Statement of WIS requirements* 
+
+2.4.2.1 *The WMO technical commissions and other bodies representing the participating programmes, including regional bodies, shall state their requirements for WIS services and review them periodically. The list of all relevant requirements shall be compiled and regularly reviewed by INFCOM and reported to the Executive Council.* 
+
+2.4.3 *Service offer by a Member for a potential Global Information System Centre* 
+
+2.4.3.1 *A WMO Member may apply for a centre to be designated as one of the GISCs forming the core infrastructure of WIS. The service offer by the Member shall include:* 
+ 
+*(a) A statement of compliance with the required WIS functions;* 
+*(b) A proposal regarding the AoR for WIS services;* 
+*(c) A formal commitment by the Permanent Representative of the Member that such services shall be provided on a routine basis and sustained over time.* 
+
+2.4.3.2 *The service offer shall be addressed to WMO. INFCOM, in consultation with the regional association(s) concerned, shall analyse the proposed service offer with regard to the WIS requirements and compliance with GISC functions and specifications and shall formulate a recommendation.* 
+
+2.4.4 *Demonstration of Global Information System Centre capabilities* 
+
+2.4.4.1 *The Member offering a GISC shall demonstrate to INFCOM the capability of the proposed centre to provide WIS services of the requisite reliability and quality to accredited users. Compliance shall be demonstrated with respect to the following:* 
+ 
+*(a) Coordination of data sharing within its AoR;* 
+*(b) Provision of training, support and other capacity building activities to WIS centres within its AoR;* 
+*(c) Supporting continual improvement in the quality of the discovery metadata published by WIS centres within its AoR;* 
+*(d) Provision of any Global Services included in the service offer;* 
+*(e) Monitoring system performance and data availability in its AoR;* 
+*(f) Coordinating the global operational performance of WIS;* 
+*(g) Incident management.*  
+
+2.4.4.2 *A formal commitment to implement the GISC and a time schedule for providing GISC services in accordance with the offer shall be given by the Permanent Representative of the Member proposing to operate the candidate GISC.*  
+
+2.4.4.3 *Upon demonstration of the capabilities of the candidate GISC, INFCOM shall submit its recommendation on the designation of the centre as a GISC to Congress or the Executive Council.*  
+
+2.4.4.4 See also 3.5 (Functional requirements of a GISC).  
+
+2.4.5 *Designated Global Information System Centres*  
+
+2.4.5.1 The list of GISCs approved by Congress or the Executive Council is included in Appendix C of this Manual. 
+
+*2.5 PERFORMANCE REVIEW OF WIS CENTRES*  
+
+2.5.1 *Background*  
+
+2.5.1.1 The ongoing performance of WIS relies on the continued compliance of WIS centres with agreed standards and practices. To this end, GISCs, DCPCs and NCs should have a performance review of their compliance with WIS standards and practices.  
+
+2.5.2 *Responsibility*  
+
+2.5.2.1 Members are responsible for ensuring that their centres remain compliant with WIS standards and practices. INFCOM will oversee and support the performance review process with the aim of confirming a centre’s compliance on a regular basis.
