@@ -27,7 +27,7 @@ jobs:
           && asciidoctor --trace -a stylesheet=css/wmo-asciidoc.css -o /tmp/wis2-manual/manual/${FILE_BASENAME}.html index.adoc \
           && asciidoctor --trace --backend docbook --out-file - index.adoc | pandoc --from docbook --to docx --output /tmp/wis2-manual/manual/${FILE_BASENAME}.docx \
           && asciidoctor --trace -r asciidoctor-pdf --trace -b pdf -o /tmp/wis2-manual/manual/${FILE_BASENAME}.pdf index.adoc \
-          && cp images/*.{jpg,png} /tmp/wis2-manual/manual/images \
+          && cp images/*.png /tmp/wis2-manual/manual/images \
           && cd ..
       - name: checkout gh-pages branch
         uses: actions/checkout@master
