@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@master
       - name: build documentation
         run: |
-          mkdir -p /tmp/wis2-manual/manual \
+          mkdir -p /tmp/wis2-manual/manual/images \
           && cd manual \
           && asciidoctor --trace -a stylesheet=css/wmo-asciidoc.css -o /tmp/wis2-manual/manual/${FILE_BASENAME}.html index.adoc \
           && asciidoctor --trace --backend docbook --out-file - index.adoc | pandoc --from docbook --to docx --output /tmp/wis2-manual/manual/${FILE_BASENAME}.docx \
