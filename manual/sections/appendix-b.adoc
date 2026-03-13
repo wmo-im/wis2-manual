@@ -22,25 +22,22 @@ Seven competencies across four basic functional areas have been defined as follo
 
 *Infrastructure*
 
-1. Manage the physical infrastructure;
-
-2. Manage the operational applications.
+. Manage the physical infrastructure;
+. Manage the operational applications.
 
 *Data*
-
-3. Manage and share data;
-
-4. Manage data discovery.
+[start=3]
+. Manage and share data;
+. Manage data discovery.
 
 *External interactions*
-
-5. Manage interactions among WIS centres;
-
-6. Manage external user interactions.
+[start=5]
+. Manage interactions among WIS centres;
+. Manage external user interactions.
 
 *Overall service*
-
-7. Manage the operational service.
+[start=7]
+. Manage the operational service.
 
 *COMPETENCY 1: MANAGE THE PHYSICAL INFRASTRUCTURE*
 
