@@ -1,0 +1,7 @@
+== APPENDIX G: REVISION HISTORY
+
+[cols="12,18,12,12,46",options="header"]
+|===
+|Date |Release |Proposed by | Primary clauses modified |Approved by
+|June 2024| 1.0.0 | SC-IMT | Initial approval for publication| EC-78
+|===

@@ -20,6 +20,7 @@
 |Date: {date}
 |Version: {version}
 |Document status: APPROVED
+|Revision history: see <<_appendix_g_revision_history,APPENDIX G>>
 |Document location: https://wmo-im.github.io/wis2-manual/manual/wis2-manual-APPROVED.html
 |WMO publication location: https://library.wmo.int/idurl/4/68731
 |Standing Committee on Information Management and Technology (SC-IMT)footnote:[https://community.wmo.int/governance/commission-membership/commission-observation-infrastructures-and-information-systems-infcom/commission-infrastructure-officers/infcom-management-group/standing-committee-information-management-and-technology-sc-imt]
@@ -58,3 +59,5 @@ include::sections/appendix-d.adoc[]
 include::sections/appendix-e.adoc[]
 
 include::sections/appendix-f.adoc[]
+
+include::sections/appendix-g.adoc[]
