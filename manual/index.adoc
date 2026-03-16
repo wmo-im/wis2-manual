@@ -1,6 +1,6 @@
-:title: Manual on the WMO Information System Volume II (APPROVED) - WMO Information System 2.0
+:title: Manual on the WMO Information System, Volume II  - WMO Information System 2.0 (WMO-No.1060) (APPROVED)
 :titletext: {title}
-:version: 1.0.0
+:version: 1.1.0
 :date: {docdate}
 :copyright: Copyright © 2024 World Meteorological Organization (WMO)
 :doctype: book
