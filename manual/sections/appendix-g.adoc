@@ -3,5 +3,6 @@
 [cols="12,18,12,12,46",options="header"]
 |===
 |Date |Release |Proposed by | Primary clauses modified |Approved by
-|June 2024| 1.0.0 | SC-IMT | Initial approval for publication| EC-78
+|May 2023  | 1.0.0 | INFCOM | Initial approval for publication (2023 edition)| Cg-19
+|June 2024 | 1.1.0 | INFCOM |Sections 2.5, 3.7, 4.5, 4.6, 4.7, Part VI: Update procedures, guidance or requirements for WIS Centres, Global Caches, Global Discovery Catalogues, managing operations of WIS, and information management. Add appendices D, E and F; WI2 Topic Hierarchy, WIS2 Notification Message and WCMP2. | EC-78
 |===
