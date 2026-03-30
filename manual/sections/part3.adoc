@@ -1,6 +1,6 @@
 == PART III. FUNCTIONS OF WIS
 
-*3.1 LIST OF WIS FUNCTIONS*
+=== *3.1 LIST OF WIS FUNCTIONS* ===
 
 3.1.1 WIS centres collectively support the major functions listed below:
 
@@ -21,7 +21,7 @@
 [.small]
 Note: Access to data and services may be restricted in order to implement data policies and protect the integrity of WIS.
 
-*3.2 FUNCTIONAL ARCHITECTURE OF WIS*
+=== *3.2 FUNCTIONAL ARCHITECTURE OF WIS* ===
 
 3.2.1 There are three main perspectives when considering the function of WIS:
 
@@ -65,7 +65,7 @@ Note: Core data is defined in Resolution 1 (Cg-Ext(2021)).
 [.small]
 Note: The _Guide to WIS_, Volume II provides additional information on the functions of WIS and how these functions may be implemented.
 
-*3.3 FUNCTIONAL REQUIREMENTS OF A NATIONAL CENTRE*
+=== *3.3 FUNCTIONAL REQUIREMENTS OF A NATIONAL CENTRE* ===
 
 3.3.1 Collect and manage data
 
@@ -90,7 +90,7 @@ Note: Please refer to the _Guide to WIS_, Volume II for further information on 
 
 3.3.4.2 See also 3.6 (Functional requirements of a WIS node).
 
-*3.4 FUNCTIONAL REQUIREMENTS OF A DATA COLLECTION OR PRODUCTION CENTRE*
+=== *3.4 FUNCTIONAL REQUIREMENTS OF A DATA COLLECTION OR PRODUCTION CENTRE* ===
 
 3.4.1 Collect and manage programme-related data
 
@@ -115,7 +115,7 @@ Note: Please refer to the _Guide to WIS_, Volume II for further information on 
 
 3.4.4.2 See also 3.6 (Functional requirements of a WIS node).
 
-*3.5 FUNCTIONAL REQUIREMENTS OF A GLOBAL INFORMATION SYSTEM CENTRE*
+=== *3.5 FUNCTIONAL REQUIREMENTS OF A GLOBAL INFORMATION SYSTEM CENTRE* ===
 
 3.5.1 Coordinate data sharing within the area of responsibility of the Global Information System Centre
 
@@ -158,7 +158,7 @@ Note: More information on expected service levels and other performance indicato
 [.small]
 Note: More information on the incident response process is provided in the https://library.wmo.int/idurl/4/28988[_Guide to the WMO Information System_] (WMO-No. 1061), Volume I.
 
-*3.6 FUNCTIONAL REQUIREMENTS OF A WIS NODE*
+=== *3.6 FUNCTIONAL REQUIREMENTS OF A WIS NODE* ===
 
 3.6.1 General
 
@@ -200,7 +200,7 @@ Note: More information on the function and implementation of a WIS node is provi
 
 3.6.3.2 See also 4.7 (WIS-TechSpec-6: Managing operations of the WIS).
 
-*3.7 FUNCTIONAL REQUIREMENTS OF GLOBAL SERVICES*
+=== *3.7 FUNCTIONAL REQUIREMENTS OF GLOBAL SERVICES* ===
 
 3.7.1 General
 
