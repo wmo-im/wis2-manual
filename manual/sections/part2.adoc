@@ -33,7 +33,7 @@
 2.3.2.1 *The procedure for designating a DCPC shall consist of three steps:* 
  
 *(1) Service offer by a potential DCPC;* 
-*(2) Demonstration of DCPC capabilities;* 
+*(2) Implementation of a WIS2 node and connection to the WIS2 network;* 
 *(3) Designation as a DCPC.* 
 
 2.3.2.2 *Each DCPC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 DCPC centre and added to the list in Appendix C.*  
@@ -44,9 +44,9 @@
 
 2.3.3.2 *The service offer of candidate DCPCs shall then be submitted to INFCOM, which shall analyse the compliance of the candidate with the required DCPC functions and specifications and formulate a recommendation.* 
 
-2.3.4 *Demonstration of Data Collection or Production Centre capabilities* 
+2.3.4 *Implementation of a WIS2 node and connection to the WIS2 network* 
 
-2.3.4.1 *The Member offering a DCPC shall be invited to demonstrate to INFCOM the ability of the proposed centre to provide WIS services in compliance with DCPC functions and responsibilities, including communication with the Global Services. Compliance shall be demonstrated, where applicable, with respect to the real-time functions of data sharing, provision of relevant, up-to-date discovery metadata, coordination functions with the associated GISC, adherence to WIS standards, and relevant data exchange policies and access rights.* 
+2.3.4.1 *The Member offering a DCPC shall register a WIS2 centre id and follow the procedure for implementing a WIS2 node. The compliance with the WIS2 specification are assessed by the principal GISC as described in the Guide to WIS2.* 
 
 2.3.4.2 *After the candidate DCPC has successfully demonstrated its capabilities, INFCOM shall recommend to Congress or the Executive Council that the candidate centre be approved.* 
 
