@@ -16,7 +16,7 @@
 
 2.2.2.1 *Each WMO Member shall notify WMO of the current name and location of each of its centres that is to be designated as an NC. INFCOM, with the involvement of the relevant regional associations and the assistance of the WMO Secretariat, shall ensure that each centre so designated has the support of a GISC, a DCPC or another NC.* 
 
-2.2.2.2 *Each NC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 centre.* 
+
 2.2.2.3 The Secretariat shall maintain and publish the list of designated NCs. Each NC entry includes the name of the associated GISC.
 
 2.2.3 *Designated National Centres* 
@@ -37,7 +37,6 @@
 *(2) Implementation of a WIS2 Node;*
 *(3) Designation as a DCPC.* 
 
-2.3.2.2 *Each DCPC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 DCPC centre and added to the list maintained and published by the Secretariat.*  
 
 2.3.3 *Service offer by a potential Data Collection or Production Centre*  
 
