@@ -48,9 +48,9 @@
 
 2.3.4.1 *The Member offering a DCPC shall register a WIS2 centre identifier and follow the procedure for implementing a WIS2 Node. Compliance with the WIS2 specification is assessed by the principal GISC as described in the Guide to WIS, Volume II.* 
 
-2.3.4.2 *After the candidate DCPC has successfully implemented a WIS2 Node, SC-IMT shall formulate a recommendation to the President of INFCOM for approval.* 
+2.3.4.2 *After the candidate DCPC has successfully implemented a WIS2 Node and demonstrated its ability to provide the required data and metadata in accordance with WIS2 requirements, SC-IMT shall formulate a recommendation to the President of INFCOM for approval.* 
 2.3.4.3 The president of INFCOM shall ensure the coordination and consultation necessary to confirm that the data are fit for purpose and authoritative and that the centre is able to share its data on WIS 
-2.3.4.4 Following completion of the coordination and consultation process referred to in 2.3.4.3, and having taken into account its outcome, the President of INFCOM may approve the candidate centre to operate as a DCPC.
+2.3.4.4 Following successful completion of the coordination and consultation process referred to in 2.3.4.3, the President of INFCOM will approve the candidate centre to operate as a DCPC.
 
 2.3.5 *Designated Data Collection or Production Centres* 
 
