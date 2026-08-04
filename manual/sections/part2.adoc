@@ -16,11 +16,11 @@
 
 2.2.2.1 *Each WMO Member shall notify WMO of the current name and location of each of its centres that is to be designated as an NC. INFCOM, with the involvement of the relevant regional associations and the assistance of the WMO Secretariat, shall ensure that each centre so designated has the support of a GISC, a DCPC or another NC.* 
 
-2.2.2.2 *Each NC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 centre and added to the list in Appendix C.* 
+2.2.2.2 *The Secretariat shall maintain and publish the list of designated NCs. Each NC entry includes the name of the associated GISC.*
 
 2.2.3 *Designated National Centres* 
 
-2.2.3.1 *The NCs designated by Members shall be included in the list of WIS centres in Appendix C to this Manual. Each NC entry shall include the name of the associated GISC.* 
+2.2.3.1 *The Secretariat shall maintain and publish the list of the NCs designated by Members. Each NC entry shall include the name of the associated GISC.*
 
 === *2.3 PROCEDURE FOR DESIGNATING A DATA COLLECTION OR PRODUCTION CENTRE* === 
 
@@ -33,26 +33,48 @@
 2.3.2.1 *The procedure for designating a DCPC shall consist of three steps:* 
  
 *(1) Service offer by a potential DCPC;* 
-*(2) Demonstration of DCPC capabilities;* 
+*(2) Implementation of a WIS2 Node* 
 *(3) Designation as a DCPC.* 
 
-2.3.2.2 *Each DCPC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 DCPC centre and added to the list in Appendix C.*  
+2.3.2.2 *A DCPC designated under the Manual on the WMO Information System (WMO-No. 1060), Volume I, shall complete the migration from WIS/GTS to WIS 2.0 in order to be included in the list of designated DCPCs maintained and published by the Secretariat. Such a centre is not required to follow the procedure set out in 2.3.3 to 2.3.6.*
+
+[.small]
+    Note: The conditions under which the migration of a DCPC is considered complete are set out in the Provisions for the Transition from the WMO Information System (WIS) 1.0 and Global Telecommunication System to WIS 2.0 (WMO-No. 1323), 6.2.
+
+2.3.2.3 A centre that is not designated as a DCPC under the Manual on the WMO Information System (WMO-No. 1060), Volume I or Volume II, shall follow the procedure set out in 2.3.3 to 2.3.6 in order to be designated as a DCPC.
 
 2.3.3 *Service offer by a potential Data Collection or Production Centre*  
 
-2.3.3.1 Required DCPC functions should be fulfilled by a centre that has been established under a WMO programme or a related international programme and/or under a regional association. *Accordingly, the relevant technical commission and/or regional association shall consider the service offers made by Members for potential DCPCs and shall endorse candidate DCPCs.*  
+2.3.3.1 Required DCPC functions should be fulfilled by a centre that has been established under a WMO programme or a related international programme and/or under a regional association. *Accordingly, the relevant technical commission and/or regional association shall consider the service offers for potential DCPCs and shall endorse candidate DCPCs.*  
 
-2.3.3.2 *The service offer of candidate DCPCs shall then be submitted to INFCOM, which shall analyse the compliance of the candidate with the required DCPC functions and specifications and formulate a recommendation.* 
+2.3.3.2 *The service offer of candidate DCPCs shall then be submitted to the President of INFCOM.* 
 
-2.3.4 *Demonstration of Data Collection or Production Centre capabilities* 
+2.3.4 *Analysis of the service offer*
 
-2.3.4.1 *The Member offering a DCPC shall be invited to demonstrate to INFCOM the ability of the proposed centre to provide WIS services in compliance with DCPC functions and responsibilities, including communication with the Global Services. Compliance shall be demonstrated, where applicable, with respect to the real-time functions of data sharing, provision of relevant, up-to-date discovery metadata, coordination functions with the associated GISC, adherence to WIS standards, and relevant data exchange policies and access rights.* 
+2.3.4.1 *The President of INFCOM shall arrange for the analysis of the compliance of the candidate with the required DCPC functions and specifications.*
 
-2.3.4.2 *After the candidate DCPC has successfully demonstrated its capabilities, INFCOM shall recommend to Congress or the Executive Council that the candidate centre be approved.* 
+2.3.4.2 *For this purpose, the President of INFCOM shall refer the service offer to the relevant standing committees of INFCOM and shall consult, where appropriate, other technical commissions and regional associations, in order to confirm that the data and products offered by the candidate centre correspond to the needs of Members and are authoritative and fit for purpose.*
 
-2.3.5 *Designated Data Collection or Production Centres* 
+2.3.4.3 *Where the confirmation referred to in 2.3.4.2 cannot be given, the President of INFCOM shall discontinue the procedure and shall inform the candidate centre, and the technical commission or regional association that endorsed it, of the reasons. A revised service offer may be submitted.*
 
-2.3.5.1 The list of DCPCs approved by Congress or the Executive Council is included in Appendix C to this Manual. Each DCPC entry includes the name of the associated GISC. 
+2.3.4.4 *The candidate centre shall proceed to the implementation of a WIS2 Node only following the confirmation referred to in 2.3.4.2.*
+
+
+2.3.5 *Implementation of a WIS2 Node* 
+
+2.3.5.1 *The candidate centre shall register a WIS2 centre identifier and follow the procedure for implementing a WIS2 Node. Compliance with the WIS2 specification is assessed by the principal GISC as described in the Guide to WIS, Volume II.* 
+ 
+2.3.5.2 *After the candidate DCPC has successfully implemented a WIS2 Node, SC-IMT shall confirm to the President of INFCOM, on the basis of the assessment referred to in 2.3.5.1, that the WIS2 Node conforms with the WIS2 technical specifications and that the required data and metadata are being shared on WIS2.* 
+
+2.3.5.3 Where SC-IMT is unable to provide the confirmation referred to in 2.3.5.2, the President of INFCOM shall discontinue the procedure and shall inform the candidate centre, and the technical commission or regional association that endorsed it, of the reasons. The candidate centre may request the resumption of the procedure once the WIS2 Node conforms with the WIS2 technical specifications.
+
+2.3.6 Designation
+
+2.3.6.1 Following the confirmations referred to in 2.3.4.2 and 2.3.5.2, the President of INFCOM shall approve the candidate centre to operate as a DCPC.
+
+2.3.7 *Designated Data Collection or Production Centres* 
+
+2.3.7.1 The Secretariat shall maintain and publish the list of designated DCPCs. Each DCPC entry includes the name of the associated GISC. 
 
 === *2.4 PROCEDURE FOR DESIGNATING A GLOBAL INFORMATION SYSTEM CENTRE* ===
 
@@ -101,12 +123,146 @@
 
 2.4.5.1 The list of GISCs approved by Congress or the Executive Council is included in Appendix C of this Manual. 
 
-=== *2.5 PERFORMANCE REVIEW OF WIS CENTRES* === 
+=== *2.5 PERFORMANCE MANAGEMENT OF GLOBAL INFORMATION SYSTEM CENTRES* === 
 
 2.5.1 *Background*  
 
-2.5.1.1 The ongoing performance of WIS relies on the continued compliance of WIS centres with agreed standards and practices. To this end, GISCs, DCPCs and NCs should have a performance review of their compliance with WIS standards and practices.  
+2.5.1.1 The effective operation of WIS depends on the sustained performance of designated GISCs in coordinating data sharing, in supporting the WIS centres in their areas of responsibility, and, where applicable, in operating Global Services. The present section provides for the regular monitoring of the performance of designated GISCs and for the publication of the results of that monitoring, so as to provide visibility of GISC performance to WMO Members, to enable the early identification of performance issues, and to inform the coordination and capacity-development activities provided in this Manual.  
 
-2.5.2 *Responsibility*  
+2.5.2 *Monitoring and reporting*
 
-2.5.2.1 Members are responsible for ensuring that their centres remain compliant with WIS standards and practices. INFCOM will oversee and support the performance review process with the aim of confirming a centre’s compliance on a regular basis.
+2.5.2.1	*SC-IMT shall define and maintain a set of performance indicators appropriate for monitoring the performance of designated GISCs, taking into account the functional requirements of a GISC set out in section 3.5 and the performance metrics collected by the Global Monitors (see sections 3.7.7 and 4.7 of this Manual).*
+
+2.5.2.2	*The WMO Secretariat shall publish openly, on a regular basis, a monitoring report presenting the performance of each designated GISC against the performance indicators defined by SC-IMT, so that the performance of all designated GISCs is publicly visible. The monitoring report shall be made available to all WMO Members and shall be reviewed by SC-IMT at its meetings.*
+
+2.5.2.3	*Where the monitoring report indicates a sustained or significant deterioration in the performance of a designated GISC, SC-IMT, with the assistance of the WMO Secretariat, shall bring the matter to the attention of the operating Member and the relevant regional association, with a view to supporting corrective and capacity-development action.*
+
+2.6 *PROCEDURE FOR THE DESIGNATION OF A WIS 2.0 GLOBAL SERVICE*
+
+2.6.1 *Background*
+
+2.6.1.1	The effective operation of WIS 2.0 depends on a set of Global Services providing standardized, reliable and accessible functions for data discovery, access and exchange across the WMO community. The categories of Global Service recognized in WIS 2.0 are the Global Broker, the Global Cache, the Global Discovery Catalogue, the Global Monitor, and other services defined in the Guide to WIS, Volume II.
+
+2.6.1.2	The aim of the procedure set out in the present section is to ensure that a candidate Global Service, before being included in WIS 2.0 operations, demonstrates full compliance with the technical specifications set out in Part IV of this Manual and in the Guide to WIS, Volume II, and that the operating Member commits to providing the service on a sustained and reliable basis.
+
+2.6.2 *Procedure*
+
+2.6.2.1	*The procedure for the designation of a Global Service shall consist of four steps:*
+    (1)	Service offer by a Member for a candidate Global Service;
+    (2)	Technical validation of the candidate Global Service;
+    (3)	Operational assessment of the candidate Global Service;
+    (4)	Designation of the Global Service by Congress or the Executive Council on the recommendation of INFCOM.
+
+2.6.3 *Service offer by a Member for a candidate Global Service*
+
+2.6.3.1	A WMO Member may apply to provide and operate a Global Service. *The service offer shall be made by the Permanent Representative of the Member to the WMO Secretary-General and shall include:*
+    (a)	The category of Global Service proposed;
+    (b)	A statement of compliance with the relevant technical specifications set out in Part IV of this Manual and in the Guide to WIS, Volume II;
+    (c)	A formal commitment by the Permanent Representative that the service shall be provided on a routine basis.
+
+2.6.3.2	The service offer shall be transmitted by the WMO Secretariat to INFCOM, which shall consider the offer in the light of the current configuration and operational needs of WIS 2.0 and shall determine whether the technical validation and operational assessment shall proceed.
+
+2.6.3.3 	In making this determination, INFCOM shall take into account the impact of the proposed Global Service on the overall performance, resilience, and operational efficiency of WIS 2.0. The assessment shall balance the benefits of increasing the number of Global Service instances against their impact, with due regard to maintaining an efficient and coherent management of WIS 2.0.
+
+2.6.4 *Technical validation*
+
+2.6.4.1	*The candidate Global Service shall undergo a technical validation, coordinated by the WMO Secretariat and conducted by the Standing Committee on Information Management and Technology (SC-IMT) of INFCOM.*
+
+2.6.4.2	*The technical validation shall verify the compliance of the candidate Global Service with the applicable WIS 2.0 technical specifications, including:*
+    (a)	Conformance with the relevant WIS-TechSpec set out in Part IV of this Manual;
+    (b)	Performance and scalability;
+    (c)	Security, authentication and access control;
+    (d)	High availability and resilience;
+    (e)	Provision of operational monitoring metrics as specified in the Guide to WIS, Volume II.
+
+2.6.4.3	*The technical validation shall be conducted in the WIS 2.0 Test Infrastructure maintained by the WMO Secretariat. The WIS 2.0 Test Infrastructure replicates the operational WIS 2.0 environment for the purposes of testing and shall not be used for operational data exchange.*
+
+2.6.5 *Operational assessment*
+
+2.6.5.1	*Following successful technical validation, the candidate Global Service shall undergo an operational assessment, coordinated by the WMO Secretariat and conducted by SC-IMT.*
+
+2.6.5.2	*The operational assessment shall be conducted over a period of not less than one month. During this period, the candidate Global Service shall be assigned an experimental status. 
+The operational assessment shall verify that the candidate Global Service:*
+    (a)	Operates in a sustained and reliable manner;
+    (b)	Meets the minimum compliance requirements and operational targets set out in the Guide to WIS, Volume II;
+    (c)	Provides the operational monitoring metrics specified in the Guide to WIS, Volume II;
+    (d)	Interoperates effectively with other designated Global Services;
+    (e)	Maintains business continuity and disaster recovery capabilities.
+
+2.6.5.3	*Upon completion of the operational assessment, SC-IMT shall review the results and shall formulate a recommendation to INFCOM.*
+
+2.6.5.3	*Upon completion of the operational assessment, SC-IMT shall review the results and shall formulate a recommendation to INFCOM.*
+
+2.6.6 *Designation*
+
+2.6.6.1	*Upon a positive recommendation by INFCOM, the candidate Global Service shall be submitted to Congress or the Executive Council for designation.*
+
+2.6.6.2	*Upon designation, the WMO Secretariat shall:*
+    (a)	Include the Global Service in the list at Appendix [C];
+    (b)	Register the Global Service in the WIS 2.0 register;
+    (c)	Notify the WIS 2.0 community.
+
+2.6.7 *Designated Global Services*
+
+2.6.7.1	The list of Global Services designated by Congress or the Executive Council is included in Appendix [C] to this Manual. Each entry includes the category of Global Service, the operating Member, and the date of designation.
+
+[.small]
+    Note: See also 3.7 (Functional requirements of Global Services), Part IV (WIS Technical Specifications), and 2.7 (Performance management of WIS 2.0 Global Services).
+
+*2.7 PERFORMANCE MANAGEMENT OF WIS 2.0 GLOBAL SERVICES*
+
+2.7.1 *Background*
+
+2.7.1.1	The continuous, reliable and high-quality operation of designated Global Services is essential to the integrity of WIS 2.0 and to the services it provides to Members and other users.
+
+2.7.1.2	The aim of the procedure set out in the present section is to provide for the regular monitoring and assessment of the performance of each designated Global Service against the service level specified in the Gude to WIS, Volume II, so as to enable early identification of performance issues and to inform any decision on suspension or revocation in accordance with sections 2.8 and 2.9.
+
+2.7.2 *Service Level*
+
+2.7.2.1	*Each designated Global Service shall meet the service level specified in the Guide to WIS, Volume II.* Compliance with the service level is assessed for each calendar month.
+
+2.7.2.2	Where a designated Global Service fails to meet the service level in three months within a rolling window of twelve consecutive months, the procedure for suspension under section 2.8 of this Manual is initiated. The three months in which the service level is not met need not be consecutive.
+
+2.7.2.3	Where a designated Global Service fails to meet the service level in six calendar months within a rolling window of twelve consecutive months, the procedure for revocation under section 2.9 of this Manual is initiated. The six months in which the service level is not met need not be consecutive.
+
+2.7.2.4	The service level, the assessment methodology, the remediation and restoration timeframes and the per-component operational criteria applicable to each category of Global Service are set out in the Guide to WIS, Volume II.
+
+2.7.3 *Monitoring and assessment*
+
+2.7.3.1	*Operational metrics for each designated Global Service shall be published by the Global Service in accordance with the Guide to WIS, Volume II. The Global Monitors shall provide dashboards and statistical summaries based on these metrics in support of the monitoring functions performed by SC-IMT and the WMO Secretariat. The WMO Secretariat shall publish the monthly service-level results of each designated Global Service, so that the performance of all designated Global Services is publicly visible.*
+
+2.7.3.2	*SC-IMT, with the assistance of the WMO Secretariat and using the dashboards and statistical summaries provided by the Global Monitors, shall periodically review the performance of designated Global Services against the service level specified in the Guide to WIS, Volume II*.
+
+2.7.3.3	*The WMO Secretariat shall regularly communicate performance results to each operating Member. Where performance indicates a risk that a Global Service may fail to meet the service level, the operating Member shall be notified with sufficient advance notice to allow corrective action before any procedure under section 2.8 and/or 2.9 is initiated.*
+
+2.7.3.3	*Where the performance of a designated Global Service indicates a sustained deterioration, SC-IMT shall, in coordination with the WMO Secretariat, initiate the procedure for the suspension of the Global Service in accordance with section 2.8.*
+
+*2.8 PROCEDURE FOR THE SUSPENSION OF A WIS 2.0 GLOBAL SERVICE*
+
+2.8.1 *Background*
+
+2.8.1.1	The aim of the procedure set out in the present section is to provide a means of ensuring stable operation of WIS 2.0 for the benefit of its users and avoiding the negative effects of sustained performance deterioration of a designated Global Service.
+
+2.8.1.2	Suspension is a temporary and reversible operational measure. It does not, of itself, affect the designation of the Global Service, which remains governed by section 2.9.
+
+2.8.2 *Notification and deadline*
+
+2.8.2.1	*Where the condition for the initiation of the suspension procedure set out in section 2.7.2.2 is met, the WMO Secretariat shall engage with the operating Member about the incidents to determine the course of the action and will notify SC-IM, and the GISCs.* 
+
+2.8.2.2	*SC-IMT shall establish a deadline by which the operating Member shall re-establish the performance of the Global Service so that it meets the service level.*
+
+2.8.3 *Suspension*
+
+2.8.3.1	*Where the deadline established by SC-IMT under section 2.8.2.2 is not met, the WMO Secretariat shall request the authorization of the President of INFCOM to suspend the Global Service. Upon receiving that authorization, the WMO Secretariat shall suspend the Global Service from WIS 2.0.*
+
+2.8.3.2	*Suspension shall consist in the temporary disconnection of the affected Global Service from WIS 2.0 operations. The Global Service shall remain designated, and the operating Member shall retain responsibility for restoring operations.*
+
+2.8.3.3	*SC-IMT, the GISCs and the WMO Members and WIS 2.0 users shall be informed of any suspension without delay.*
+
+2.8.4 *Restoration*
+
+2.8.4.1	*Following suspension under section 2.8.3, the operating Member, in coordination with SC-IMT and with the assistance of the WMO Secretariat, shall take the measures necessary to restore the Global Service to WIS 2.0 operations. The timeline for restoration shall be agreed between SC-IMT and the operating Member in accordance with the procedure set out in the Guide to WIS, Volume II.*
+
+2.8.4.2	A suspended Global Service may be restored to operations following confirmation by SC-IMT that the conditions giving rise to suspension have been resolved.
+
+2.8.4.3	A calendar month in which a suspended Global Service does not meet the service level counts towards the rolling window set out in section 2.7.2.3. Persistent failure to restore the Global Service may therefore result in the initiation of the procedure for the revocation of the designation set out in section 2.9.
