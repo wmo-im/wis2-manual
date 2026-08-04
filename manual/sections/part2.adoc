@@ -16,11 +16,12 @@
 
 2.2.2.1 *Each WMO Member shall notify WMO of the current name and location of each of its centres that is to be designated as an NC. INFCOM, with the involvement of the relevant regional associations and the assistance of the WMO Secretariat, shall ensure that each centre so designated has the support of a GISC, a DCPC or another NC.* 
 
-2.2.2.2 *Each NC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 centre and added to the list in Appendix C.* 
+
+2.2.2.3 The Secretariat shall maintain and publish the list of designated NCs. Each NC entry includes the name of the associated GISC.
 
 2.2.3 *Designated National Centres* 
 
-2.2.3.1 *The NCs designated by Members shall be included in the list of WIS centres in Appendix C to this Manual. Each NC entry shall include the name of the associated GISC.* 
+2.2.3.1 *The Secretariat shall maintain and publish the list of the NCs designated by Members. Each NC entry shall include the name of the associated GISC.* 
 
 === *2.3 PROCEDURE FOR DESIGNATING A DATA COLLECTION OR PRODUCTION CENTRE* === 
 
@@ -36,7 +37,6 @@
 *(2) Implementation of a WIS2 Node;*
 *(3) Designation as a DCPC.* 
 
-2.3.2.2 *Each DCPC shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as a WIS 2.0 DCPC centre and added to the list in Appendix C.*  
 
 2.3.3 *Service offer by a potential Data Collection or Production Centre*  
 
@@ -48,11 +48,13 @@
 
 2.3.4.1 *The Member offering a DCPC shall register a WIS2 centre identifier and follow the procedure for implementing a WIS2 Node. Compliance with the WIS2 specification is assessed by the principal GISC as described in the Guide to WIS, Volume II.* 
 
-2.3.4.2 *After the candidate DCPC has successfully demonstrated its capabilities, INFCOM shall recommend to Congress or the Executive Council that the candidate centre be approved.* 
+2.3.4.2 *After the candidate DCPC has successfully implemented a WIS2 Node and demonstrated its ability to provide the required data and metadata in accordance with WIS2 requirements, SC-IMT shall formulate a recommendation to the President of INFCOM for approval.* 
+2.3.4.3 The president of INFCOM shall ensure the coordination and consultation necessary to confirm that the data are fit for purpose and authoritative and that the centre is able to share its data on WIS 
+2.3.4.4 Following successful completion of the coordination and consultation process referred to in 2.3.4.3, the President of INFCOM will approve the candidate centre to operate as a DCPC.
 
 2.3.5 *Designated Data Collection or Production Centres* 
 
-2.3.5.1 The list of DCPCs approved by Congress or the Executive Council is included in Appendix C to this Manual. Each DCPC entry includes the name of the associated GISC. 
+2.3.5.1 The Secretariat shall maintain and publish the list of designated DCPCs. Each DCPC entry includes the name of the associated GISC. 
 
 === *2.4 PROCEDURE FOR DESIGNATING A GLOBAL INFORMATION SYSTEM CENTRE* ===
 
