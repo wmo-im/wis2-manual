@@ -36,7 +36,7 @@
 *(2) Implementation of a WIS2 Node* 
 *(3) Designation as a DCPC.* 
 
-2.3.2.2 *A DCPC designated under the Manual on the WMO Information System (WMO-No. 1060), Volume I, shall complete the migration from WIS/GTS to WIS 2.0 in order to be included in the list of designated DCPCs maintained and published by the Secretariat. Such a centre is not required to follow the procedure set out in 2.3.3 to 2.3.6.*
+2.3.2.2 *A DCPC designated under the Manual on the WMO Information System (WMO-No. 1060), Volume I, shall complete the migration from WIS 1.0/GTS to WIS 2.0 in order to be included in the list of designated DCPCs maintained and published by the Secretariat. Such a centre is not required to follow the procedure set out in 2.3.3 to 2.3.6.*
 
 [.small]
     Note: The conditions under which the migration of a DCPC is considered complete are set out in the Provisions for the Transition from the WMO Information System (WIS) 1.0 and Global Telecommunication System to WIS 2.0 (WMO-No. 1323), 6.2.
