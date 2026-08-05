@@ -277,7 +277,7 @@ The operational assessment shall verify that the candidate Global Service:*
 
 2.9.2.1	The designation of a Global Service shall be subject to revocation where:
 (a)	the conditions to initiate the revocation procedure set out in section 2.7.2.3 are met; or
-(c)	The operating Member requests the revocation of the designation.
+(b)	The operating Member requests the revocation of the designation.
 
 2.9.3 *Procedure*
 
