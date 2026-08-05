@@ -64,7 +64,7 @@
 
 2.3.5.1 *The candidate centre shall register a WIS2 centre identifier and follow the procedure for implementing a WIS2 Node. Compliance with the WIS2 specification is assessed by the principal GISC as described in the Guide to WIS, Volume II.* 
  
-2.3.5.2 *After the candidate DCPC has successfully implemented a WIS2 Node, SC-IMT shall confirm to the President of INFCOM, on the basis of the assessment referred to in 2.3.5.1, that the WIS2 Node conforms with the WIS2 technical specifications and that the required data and metadata are being shared on WIS2.* 
+2.3.5.2 *After the candidate DCPC has successfully implemented a WIS2 Node, Standing Committee on Information Management and Technology (SC-IMT) shall confirm to the President of INFCOM, on the basis of the assessment referred to in 2.3.5.1, that the WIS2 Node conforms with the WIS2 technical specifications and that the required data and metadata are being shared on WIS2.* 
 
 2.3.5.3 Where SC-IMT is unable to provide the confirmation referred to in 2.3.5.2, the President of INFCOM shall discontinue the procedure and shall inform the candidate centre, and the technical commission or regional association that endorsed it, of the reasons. The candidate centre may request the resumption of the procedure once the WIS2 Node conforms with the WIS2 technical specifications.
 
@@ -166,7 +166,7 @@
 
 2.6.4 *Technical validation*
 
-2.6.4.1	*The candidate Global Service shall undergo a technical validation, coordinated by the WMO Secretariat and conducted by the Standing Committee on Information Management and Technology (SC-IMT) of INFCOM.*
+2.6.4.1	*The candidate Global Service shall undergo a technical validation, coordinated by the WMO Secretariat and conducted by the SC-IMT of INFCOM.*
 
 2.6.4.2	*The technical validation shall verify the compliance of the candidate Global Service with the applicable WIS 2.0 technical specifications, including:*
     (a)	Conformance with the relevant WIS-TechSpec set out in Part IV of this Manual;
@@ -191,20 +191,18 @@ The operational assessment shall verify that the candidate Global Service:*
 
 2.6.5.3	*Upon completion of the operational assessment, SC-IMT shall review the results and shall formulate a recommendation to INFCOM.*
 
-2.6.5.3	*Upon completion of the operational assessment, SC-IMT shall review the results and shall formulate a recommendation to INFCOM.*
-
 2.6.6 *Designation*
 
 2.6.6.1	*Upon a positive recommendation by INFCOM, the candidate Global Service shall be submitted to Congress or the Executive Council for designation.*
 
 2.6.6.2	*Upon designation, the WMO Secretariat shall:*
-    (a)	Include the Global Service in the list at Appendix [C];
+    (a)	Include the Global Service in the list at Appendix C;
     (b)	Register the Global Service in the WIS 2.0 register;
     (c)	Notify the WIS 2.0 community.
 
 2.6.7 *Designated Global Services*
 
-2.6.7.1	The list of Global Services designated by Congress or the Executive Council is included in Appendix [C] to this Manual. Each entry includes the category of Global Service, the operating Member, and the date of designation.
+2.6.7.1	The list of Global Services designated by Congress or the Executive Council is included in Appendix C to this Manual.
 
 [.small]
     Note: See also 3.7 (Functional requirements of Global Services), Part IV (WIS Technical Specifications), and 2.7 (Performance management of WIS 2.0 Global Services).
@@ -215,7 +213,7 @@ The operational assessment shall verify that the candidate Global Service:*
 
 2.7.1.1	The continuous, reliable and high-quality operation of designated Global Services is essential to the integrity of WIS 2.0 and to the services it provides to Members and other users.
 
-2.7.1.2	The aim of the procedure set out in the present section is to provide for the regular monitoring and assessment of the performance of each designated Global Service against the service level specified in the Gude to WIS, Volume II, so as to enable early identification of performance issues and to inform any decision on suspension or revocation in accordance with sections 2.8 and 2.9.
+2.7.1.2	The aim of the procedure set out in the present section is to provide for the regular monitoring and assessment of the performance of each designated Global Service against the service level specified in the Guide to WIS, Volume II, so as to enable early identification of performance issues and to inform any decision on suspension or revocation in accordance with sections 2.8 and 2.9.
 
 2.7.2 *Service Level*
 
@@ -247,7 +245,7 @@ The operational assessment shall verify that the candidate Global Service:*
 
 2.8.2 *Notification and deadline*
 
-2.8.2.1	*Where the condition for the initiation of the suspension procedure set out in section 2.7.2.2 is met, the WMO Secretariat shall engage with the operating Member about the incidents to determine the course of the action and will notify SC-IM, and the GISCs.* 
+2.8.2.1	*Where the condition for the initiation of the suspension procedure set out in section 2.7.2.2 is met, the WMO Secretariat shall engage with the operating Member about the incidents to determine the course of the action and will notify SC-IMT, and the GISCs.* 
 
 2.8.2.2	*SC-IMT shall establish a deadline by which the operating Member shall re-establish the performance of the Global Service so that it meets the service level.*
 
@@ -266,3 +264,35 @@ The operational assessment shall verify that the candidate Global Service:*
 2.8.4.2	A suspended Global Service may be restored to operations following confirmation by SC-IMT that the conditions giving rise to suspension have been resolved.
 
 2.8.4.3	A calendar month in which a suspended Global Service does not meet the service level counts towards the rolling window set out in section 2.7.2.3. Persistent failure to restore the Global Service may therefore result in the initiation of the procedure for the revocation of the designation set out in section 2.9.
+
+=== *2.9 PROCEDURE FOR THE REVOCATION OF THE DESIGNATION OF A WIS 2.0 GLOBAL SERVICE*
+
+2.9.1 *Background*
+
+2.9.1.1	The aim of the procedure set out in the present section is to provide a formal regulatory means for the revocation of the designation of a Global Service in cases of persistent or material failure to meet the requirements of this Manual, or upon request by the operating Member.
+
+2.9.1.2	Revocation is a regulatory act that removes the status of Global Service. It is distinct from the operational suspension set out in section 2.8.
+
+2.9.2 *Grounds for revocation*
+
+2.9.2.1	The designation of a Global Service shall be subject to revocation where:
+(a)	the conditions to initiate the revocation procedure set out in section 2.7.2.3 are met; or
+(c)	The operating Member requests the revocation of the designation.
+
+2.9.3 *Procedure*
+
+2.9.3.1	SC-IMT shall review the situation, in consultation with the operating Member, and shall formulate a recommendation to INFCOM.
+
+2.9.3.2	INFCOM shall consider the recommendation and shall submit its recommendation on the revocation of the designation to Congress or the Executive Council.
+
+2.9.3.3	Upon decision by Congress or the Executive Council, the WMO Secretariat shall:
+
+(a)	Remove the Global Service from the list at Appendix [C];
+(b)	Remove the Global Service from the WIS 2.0 register;
+(c)	Notify the WMO Members and WIS 2.0 users.
+
+2.9.4 *Effects*
+
+2.9.4.1	A Global Service whose designation has been revoked shall cease to be considered a Global Service in WIS 2.0 operations.
+
+2.9.4.2	The former operating Member may submit a new service offer in accordance with section 2.6. Such an offer shall not be considered earlier than twelve months following the date of revocation.
