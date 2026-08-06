@@ -202,7 +202,7 @@ The operational assessment shall verify that the candidate Global Service:*
 
 2.6.7 *Designated Global Services*
 
-2.6.7.1	The list of Global Services designated by Congress or the Executive Council is included in Appendix C to this Manual.
+2.6.7.1	The list of Global Services designated by Congress or the Executive Council is included in Appendix C to this Manual. Each entry includes the category of Global Service, the operating Member, and the date of designation.
 
 [.small]
     Note: See also 3.7 (Functional requirements of Global Services), Part IV (WIS Technical Specifications), and 2.7 (Performance management of WIS 2.0 Global Services).
