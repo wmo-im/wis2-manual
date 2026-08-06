@@ -62,7 +62,7 @@ Note: Core data is defined in Resolution 1 (Cg-Ext(2021)).
 
 3.2.15 Additional Global Services provide value added capabilities, built atop the core Global Service components.
 
-3.2.16 Sensor Centres provide continuous measurement and assessment on Global Services.  They can provide external feedback on Global Service functionality, performance and service levels, triggering corrective action.
+3.2.16 Sensor Centres provide continuous measurement and assessment on Global Services. They can provide external feedback on Global Service functionality, performance and service levels, triggering corrective action.
 
 3.2.17 GISCs ensure the effective operation of WIS. Collectively, GISCs ensure that WIS meets the needs of all WMO programmes, activity areas, and regional associations – including optimizing the distribution of Global Service components, managing threats to the performance of WIS, and responding to incidents to restore system performance. Individually, a GISC supports data publishers and data consumers in its AoR, driving the adoption of good practices and resolving data sharing problems.
 

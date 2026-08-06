@@ -1,31 +1,86 @@
-== APPENDIX C: APPROVED WIS 2.0 CENTRES
+== APPENDIX C: APPROVED WIS 2.0 GLOBAL SERVICES AND GISCS
 
 *1. GENERAL*
 
 1.1 The WIS centres previously approved by Congress or the Executive Council, included in the list in Appendix B of the _Manual on the WMO Information System_ (WMO-No. 1060), Volume I, are candidate WIS 2.0 centres.
-
-1.2 *WIS centres shall complete the migration from WIS/GTS to WIS 2.0 in order to be designated as WIS 2.0 centres and added to the list in the present Appendix.*
 
 *2. GLOBAL INFORMATION SYSTEM CENTRES*
 
 [width="100%",cols="34%,33%,33%",options="header",]
 |===
 |WMO Member |Centre name |Region
-| | |
+|Australia |GISC Melbourne |V
+|Brazil |GISC Brasilia |III
+|China |GISC Beijing |II
+|France |GISC Toulouse |VI
+|Germany |GISC Offenbach |VI
+|India |GISC New Delhi |II
+|Iran (Islamic Republic of) |GISC Tehran |II
+|Japan |GISC Tokyo |II
+|Morocco |GISC Casablanca |I
+|Republic of Korea |GISC Seoul |II
+|Russian Federation |GISC Moscow |VI
+|Saudi Arabia |GISC Jeddah |II
+|South Africa |GISC Pretoria |I
+|United Kingdom of Great Britain and Northern Ireland |GISC Exeter |VI
+|United States of America |GISC Washington |IV
 |===
 
-*3. DATA COLLECTION OR PRODUCTION CENTRES*
+*3. DESIGNATED WIS 2.0 GLOBAL SERVICES and GLOBAL INFORMATION SYSTEM CENTRES*
 
-[width="100%",cols="20%,18%,20%,12%,20%,10%",options="header",]
+3.1 *Introduction*
+
+3.1.1	This Appendix sets out the WIS 2.0 Global Services designated by Congress or the Executive Council in accordance with section 2.6 of this Manual.
+
+3.1.2	Each entry comprises the centre identifier, and the operating Member.
+
+3.1.3	The list is updated each time a Global Service is designated under section 2.6 of this Manual or its designation is revoked under section 2.9.
+
+3.2 *Global Brokers*
+
+[cols="1,1", options="header"]
 |===
-|WMO Member or contributing organization |Centre name |Centre location (region/city) |Function |Technical commission/ + programme |GISC 
-| | | | | |
+|Centre identifier |Operating Member
+
+|br-inmet-global-broker |Instituto Nacional de Meteorologia, Brazil
+|cn-cma-global-broker |China Meteorological Administration, China
+|fr-meteofrance-global-broker |Météo-France, France
+|us-noaa-global-broker |National Oceanic and Atmospheric Administration, United States of America
 |===
 
-*4. NATIONAL CENTRES*
+3.3 *Global Caches*
 
-[width="100%",cols="22%,18%,16%,19%,12%,13%",options="header",]
+[cols="1,1", options="header"]
 |===
-|WMO Member or contributing organization |Centre name |WIS function |Centre location (region) |Principal GISC |Constituent body
-| | | | | |
+|Centre identifier |Operating Member
+
+|cn-cma-global-cache |China Meteorological Administration, China
+|data-metoffice-noaa-global-cache |Met Office, United Kingdom and National Oceanic and Atmospheric Administration, United States of America
+|de-dwd-global-cache |Deutscher Wetterdienst, Germany
+|jp-jma-global-cache |Japan Meteorological Agency, Japan
+|kr-kma-global-cache |Korea Meteorological Administration, Republic of Korea
+|sa-ncm-global-cache |National Center for Meteorology, Saudi Arabia
+|===
+
+
+3.4 *Global Discovery Catalogues*
+
+[cols="1,1", options="header"]
+|===
+|Centre identifier |Operating Member
+
+|ca-eccc-msc-global-discovery-catalogue |Meteorological Service of Canada, Canada
+|cn-cma-global-discovery-catalogue |China Meteorological Administration, China
+|de-dwd-global-discovery-catalogue |Deutscher Wetterdienst, Germany
+|===
+
+
+3.5 *Global Monitors*
+
+[cols="1,1", options="header"]
+|===
+|Centre identifier |Operating Member
+
+|cn-cma-global-monitor |China Meteorological Administration, China
+|ma-marocmeteo-global-monitor |Direction Générale de la Météorologie, Morocco
 |===
