@@ -16,7 +16,6 @@
 
 2.2.2.1 *Each WMO Member shall notify WMO of the current name and location of each of its centres that is to be designated as an NC. INFCOM, with the involvement of the relevant regional associations and the assistance of the WMO Secretariat, shall ensure that each centre so designated has the support of a GISC, a DCPC or another NC.* 
 
-2.2.2.2 *The Secretariat shall maintain and publish the list of designated NCs. Each NC entry includes the name of the associated GISC.*
 
 2.2.3 *Designated National Centres* 
 
