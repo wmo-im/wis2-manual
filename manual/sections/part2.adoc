@@ -232,7 +232,7 @@ The operational assessment shall verify that the candidate Global Service:*
 
 2.7.3.3	*The WMO Secretariat shall regularly communicate performance results to each operating Member. Where performance indicates a risk that a Global Service may fail to meet the service level, the operating Member shall be notified with sufficient advance notice to allow corrective action before any procedure under section 2.8 and/or 2.9 is initiated.*
 
-2.7.3.3	*Where the performance of a designated Global Service indicates a sustained deterioration, SC-IMT shall, in coordination with the WMO Secretariat, initiate the procedure for the suspension of the Global Service in accordance with section 2.8.*
+2.7.3.4	*Where the performance of a designated Global Service indicates a sustained deterioration, SC-IMT shall, in coordination with the WMO Secretariat, initiate the procedure for the suspension of the Global Service in accordance with section 2.8.*
 
 *2.8 PROCEDURE FOR THE SUSPENSION OF A WIS 2.0 GLOBAL SERVICE*
 
